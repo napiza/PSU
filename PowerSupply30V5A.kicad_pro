@@ -469,7 +469,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "Connectors"
+    ]
   },
   "meta": {
     "filename": "PowerSupply30V5A.kicad_pro",
@@ -618,7 +620,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "Card Power Supply",
+    "page_layout_descr_file": "Bench Power Supply",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
