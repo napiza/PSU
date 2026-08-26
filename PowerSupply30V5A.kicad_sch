@@ -5606,6 +5606,196 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MC7815BDTRKG_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 21.59 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "MC7815BDTRKG"
+				(at 21.59 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "m_LDO:NVD5117PLT4GVF01"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7800-D.PDF"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Output Current in Excess of 1.0 A; No External Components Required; Internal Thermal Overload Protection; Internal Short Circuit Current Limiting; Output Transistor Safe-Area Compensation; Output Voltage Offered in 2% and 4% Tolerance; Pb-Free Packages are Available"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.38"
+				(at 21.59 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "onsemi"
+				(at 21.59 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "MC7815BDTRKG"
+				(at 21.59 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "863-MC7815BDTRKG"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MC7815BDTRKG?qs=%252B9%2Fcbd0IE0QAayqLvnGs6g%3D%3D"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Part Number" "MC7815BDTRKG"
+				(at 21.59 -894.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mc7815bdtrkg/on-semiconductor?region=nac"
+				(at 21.59 -994.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "MC7815BDTRKG_1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 25.4 0 180)
+					(length 5.08)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MC7915BD2TR4G:MC7915BD2TR4G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6382,12 +6572,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "m_LDO:MC7815BDTRKG"
+		(symbol "m_LDO:MC7915BD2TR4G"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "IC"
-				(at 21.59 7.62 0)
+				(at 11.43 7.366 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6395,8 +6585,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "MC7815BDTRKG"
-				(at 21.59 5.08 0)
+			(property "Value" "MC7915BD2TR4G"
+				(at 4.826 4.826 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6404,18 +6594,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "m_LDO:NVD5117PLT4GVF01"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7800-D.PDF"
-				(at 21.59 -194.92 0)
+			(property "Footprint" "m_LDO:MC7915BD2TR4G"
+				(at 29.21 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6424,7 +6604,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Output Current in Excess of 1.0 A; No External Components Required; Internal Thermal Overload Protection; Internal Short Circuit Current Limiting; Output Transistor Safe-Area Compensation; Output Voltage Offered in 2% and 4% Tolerance; Pb-Free Packages are Available"
+			(property "Datasheet" "https://www.digikey.ph/en/products/detail/onsemi/MC7915BD2TR4G/5404337?msockid=3bdc366bbe0663d83c1223c0bf3662a6"
+				(at 29.21 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Linear Voltage Regulator IC Negative Fixed 1 Output 1A D2PAK-3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6433,8 +6623,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "2.38"
-				(at 21.59 -394.92 0)
+			(property "Height" "4.826"
+				(at 29.21 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6444,7 +6634,7 @@
 				)
 			)
 			(property "Manufacturer_Name" "onsemi"
-				(at 21.59 -494.92 0)
+				(at 29.21 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6453,8 +6643,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "MC7815BDTRKG"
-				(at 21.59 -594.92 0)
+			(property "Manufacturer_Part_Number" "MC7915BD2TR4G"
+				(at 29.21 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6463,8 +6653,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "863-MC7815BDTRKG"
-				(at 21.59 -694.92 0)
+			(property "Mouser Part Number" "863-MC7915BD2TR4G"
+				(at 29.21 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6473,8 +6663,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MC7815BDTRKG?qs=%252B9%2Fcbd0IE0QAayqLvnGs6g%3D%3D"
-				(at 21.59 -794.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MC7915BD2TR4G?qs=3PKVEWFFm29CRkUNA42K0A%3D%3D"
+				(at 29.21 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6483,8 +6673,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Part Number" "MC7815BDTRKG"
-				(at 21.59 -894.92 0)
+			(property "Arrow Part Number" "MC7915BD2TR4G"
+				(at 29.21 -894.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6493,8 +6683,8 @@
 					(hide yes)
 				)
 			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mc7815bdtrkg/on-semiconductor?region=nac"
-				(at 21.59 -994.92 0)
+			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mc7915bd2tr4g/on-semiconductor?utm_currency=USD&region=europe"
+				(at 29.21 -994.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -6503,7 +6693,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "MC7815BDTRKG_1_1"
+			(symbol "MC7915BD2TR4G_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -5.08)
@@ -6518,7 +6708,7 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "GND"
+					(name "IN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6526,6 +6716,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -10.16 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6544,24 +6752,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -7266,6 +7456,17 @@
 		)
 		(uuid "0afcd634-f125-44aa-8082-8ae7a3246d7b")
 	)
+	(text "This might be needed to be +-18V trafo,\n and more powerfull (that is why I was not having enough)"
+		(exclude_from_sim no)
+		(at 77.724 16.256 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 7 0 1)
+			)
+		)
+		(uuid "0b8c5a5d-0a00-4950-950f-ca9548a7678f")
+	)
 	(text "FAN+"
 		(exclude_from_sim no)
 		(at 148.59 -32.766 0)
@@ -7285,6 +7486,17 @@
 			)
 		)
 		(uuid "17c9bb17-66d0-4f37-b1f5-2d961bd63ddf")
+	)
+	(text "NEXT: Do the same with 12V (if needed) and 5V ldo, and once done, size correctly this time trafo, rectifier and connector"
+		(exclude_from_sim no)
+		(at -89.662 31.242 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 13 1)
+			)
+		)
+		(uuid "1a2408e8-d0e5-4cc1-aed4-059ffed00c53")
 	)
 	(text "need to add rectifier and filter for 30 v- i will connect transformer directly. Simulating in LTSPICE to calculate current and power of connector, rectifier. And value of filter"
 		(exclude_from_sim no)
@@ -7436,6 +7648,16 @@
 		)
 		(uuid "46987a12-323d-497a-8a2b-5f661ce0dc4b")
 	)
+	(text "I_out(max): 1A (With heatsink)"
+		(exclude_from_sim no)
+		(at 175.26 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "47513936-b23a-4d51-a2b4-adf78cac8be1")
+	)
 	(text "30 AC- From \nHigh Power\nTransformer"
 		(exclude_from_sim no)
 		(at 39.37 -190.754 90)
@@ -7496,6 +7718,16 @@
 		)
 		(uuid "6ca8b4f3-7d00-4966-8157-eba18a18dc31")
 	)
+	(text "C_out lower than 0.1uF\ncauses instabilities"
+		(exclude_from_sim no)
+		(at 213.614 47.752 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "70536d59-1ca8-469d-99a3-9b24262cc5b8")
+	)
 	(text "Change for: PHOENIX 1939633"
 		(exclude_from_sim no)
 		(at 43.18 46.99 0)
@@ -7526,6 +7758,16 @@
 		)
 		(uuid "873083a2-8654-40c9-97f3-86edec276a2d")
 	)
+	(text "I_out(max): 1A (With heatsink)"
+		(exclude_from_sim no)
+		(at 178.054 27.686 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8dbae399-7c1b-4053-8a47-6e7980cded70")
+	)
 	(text "This in another pcb, Separated? I miss potentiometer and display for voltage and current meter\n"
 		(exclude_from_sim no)
 		(at -82.296 252.984 0)
@@ -7535,6 +7777,27 @@
 			)
 		)
 		(uuid "905bf171-ca05-47cd-b20c-f09324e5192c")
+	)
+	(text "Should I choose D2PAK for both? or try to reuse what I already have"
+		(exclude_from_sim no)
+		(at 175.768 20.32 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 48 45 1)
+			)
+		)
+		(uuid "92893a7b-47b5-428d-ab3b-3b14763c4e53")
+	)
+	(text "LDO dropout voltage: 1.3V\nSo for -15v I need -18.7Vmin"
+		(exclude_from_sim no)
+		(at 174.498 87.884 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "982ae6f6-83c2-4770-959e-03b0fc3cb8c8")
 	)
 	(text "DUDAS:\nAnalogue 0 connected to GND? (ok)\n"
 		(exclude_from_sim no)
@@ -7547,7 +7810,7 @@
 		)
 		(uuid "a9262312-f153-4129-8b1c-e3ce73628588")
 	)
-	(text "1-Change components: Packaging, from Git library+ Standard components+ IMPORTANT TO TRY TO REUSE IF IT WORKS what I already have\n	1.1- Connectors need to select considering clearance-Creepage: I have six connectors\n		* 220V AC INPUT- For 15/-15V trafo\n		* 30V AC INPUT - From external trafo and directly to rectifier\n		* Output of the PSU- +- Terminals (Can be +30V/5A)\n		* Fan Supply OUTPUT- Try to test at 15V \n		* V_ref-I_ref INPUT (With 5V OUTPUT)\n		* V_out and I_out measurements OUTPUT to PSU_Monitoring"
+	(text "1-Change components: Packaging, from Git library+ Standard components+ IMPORTANT TO TRY TO REUSE IF IT WORKS what I already have\n	1.1- Connectors need to select considering clearance-Creepage: I have six connectors\n		* 220V AC INPUT- For 15/-15V trafo\n		* 30V AC INPUT - From external trafo and directly to rectifier\n		* Output of the PSU- +- Terminals (Can be +30V/5A)\n		* Fan Supply OUTPUT- Try to test at 15V \n		* V_ref-I_ref INPUT (With 5V OUTPUT)\n		* V_out and I_out measurements OUTPUT to PSU_Monitoring\n2- Power supplies: +-15V, 12V (needed), and 5V (step by step)\n	2.1- Be carefull on all the packaging"
 		(exclude_from_sim no)
 		(at -145.034 7.366 0)
 		(effects
@@ -7632,7 +7895,7 @@
 	)
 	(text "GO BACKWARDS: START FROM LDO's TO BRIDGE RECTIFIER CURRENT, AND THEN TRAFO POWER AND CONNECTOR"
 		(exclude_from_sim no)
-		(at -86.106 18.796 0)
+		(at -85.598 22.098 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7660,6 +7923,27 @@
 		)
 		(uuid "cdbe2b83-6860-4d36-b09b-9d2b8df69491")
 	)
+	(text "I believe this was not working properly cause I was asking more current than possible"
+		(exclude_from_sim no)
+		(at 82.804 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 22 0 1)
+			)
+		)
+		(uuid "d4405f36-288e-4195-bd32-49efb84c54f1")
+	)
+	(text "LDO Dropout voltage: 2V\nSo for 15V I need 18Vmin in the output"
+		(exclude_from_sim no)
+		(at 177.8 24.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d5ea4608-5929-4022-b667-bd3af85803c2")
+	)
 	(text "N\n"
 		(exclude_from_sim no)
 		(at 56.642 -78.486 0)
@@ -7682,7 +7966,7 @@
 	)
 	(text "Is it enough?\nProbably fan needs higher currents: Usually fans they are 12-24V: \nBut what happens if I can supply it at 15V? I need to test it. Probably\nI need higher current and therefore a more powerfull trafo?"
 		(exclude_from_sim no)
-		(at 167.64 17.526 0)
+		(at 170.434 3.302 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7813,7 +8097,7 @@
 	)
 	(text "All the components that I have here: I need to have them syncronised in the gitlab repository\n"
 		(exclude_from_sim no)
-		(at -93.218 17.018 0)
+		(at -93.218 19.812 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8018,6 +8302,12 @@
 		(uuid "4dbcd673-a87b-4128-bdaa-27ac7708f7c5")
 	)
 	(junction
+		(at 189.23 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e938f84-efbe-45dd-b353-65393d4a819d")
+	)
+	(junction
 		(at 270.51 -119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8142,12 +8432,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d207a49-27d4-4881-8892-c4c7ee08ce84")
-	)
-	(junction
-		(at 148.59 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f5cb72a-24fd-46f1-9311-0624f2e42830")
 	)
 	(junction
 		(at 214.63 -119.38)
@@ -8458,16 +8742,6 @@
 			(type default)
 		)
 		(uuid "07bccfa6-a0e3-48fa-b00a-1a314f52995a")
-	)
-	(wire
-		(pts
-			(xy 142.24 40.64) (xy 142.24 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a2896ea-59e6-4744-92a9-db0919a5415a")
 	)
 	(wire
 		(pts
@@ -9038,16 +9312,6 @@
 			(type default)
 		)
 		(uuid "3f47121d-b869-4b8d-846e-4355de609af5")
-	)
-	(wire
-		(pts
-			(xy 142.24 64.77) (xy 148.59 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f63ef69-19b5-4677-8d97-e2b9fe485f63")
 	)
 	(wire
 		(pts
@@ -12199,150 +12463,6 @@
 		)
 	)
 	(symbol
-		(lib_id "m_LDO:MC7815BDTRKG")
-		(at 104.14 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "06605814-ad7d-4d69-9677-aafd9f079149")
-		(property "Reference" "IC3"
-			(at 125.73 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "MC7815BDTRKG"
-			(at 125.73 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "m_LDO:NVD5117PLT4GVF01"
-			(at 125.73 177.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7800-D.PDF"
-			(at 125.73 277.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Output Current in Excess of 1.0 A; No External Components Required; Internal Thermal Overload Protection; Internal Short Circuit Current Limiting; Output Transistor Safe-Area Compensation; Output Voltage Offered in 2% and 4% Tolerance; Pb-Free Packages are Available"
-			(at 104.14 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.38"
-			(at 125.73 477.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 125.73 577.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MC7815BDTRKG"
-			(at 125.73 677.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-MC7815BDTRKG"
-			(at 125.73 777.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MC7815BDTRKG?qs=%252B9%2Fcbd0IE0QAayqLvnGs6g%3D%3D"
-			(at 125.73 877.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "MC7815BDTRKG"
-			(at 125.73 977.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mc7815bdtrkg/on-semiconductor?region=nac"
-			(at 125.73 1077.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5809c20b-4dc8-498d-b325-816ad9ebf62b")
-		)
-		(pin "3"
-			(uuid "b96097f5-b9c1-4ec7-a0e5-dc1cd7666819")
-		)
-		(pin "1"
-			(uuid "f70e918e-54a6-45e5-81dd-6a336207a7e6")
-		)
-		(instances
-			(project ""
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "IC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "76825-0004:76825-0004")
 		(at 71.12 -26.67 0)
 		(unit 1)
@@ -13659,6 +13779,150 @@
 		)
 	)
 	(symbol
+		(lib_name "MC7815BDTRKG_1")
+		(lib_id "m_LDO:MC7815BDTRKG")
+		(at 163.83 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ae3ed23-0cce-402c-99e6-749576e04bdc")
+		(property "Reference" "IC2"
+			(at 176.53 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC7815BDTRKG"
+			(at 176.53 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "m_LDO:NVD5117PLT4GVF01"
+			(at 185.42 133.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7800-D.PDF"
+			(at 185.42 233.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Output Current in Excess of 1.0 A; No External Components Required; Internal Thermal Overload Protection; Internal Short Circuit Current Limiting; Output Transistor Safe-Area Compensation; Output Voltage Offered in 2% and 4% Tolerance; Pb-Free Packages are Available"
+			(at 163.83 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.38"
+			(at 185.42 433.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 185.42 533.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MC7815BDTRKG"
+			(at 185.42 633.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-MC7815BDTRKG"
+			(at 185.42 733.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MC7815BDTRKG?qs=%252B9%2Fcbd0IE0QAayqLvnGs6g%3D%3D"
+			(at 185.42 833.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MC7815BDTRKG"
+			(at 185.42 933.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mc7815bdtrkg/on-semiconductor?region=nac"
+			(at 185.42 1033.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1788fe57-1d90-4df4-a517-4ef4d2c2c4b9")
+		)
+		(pin "1"
+			(uuid "05ed66df-7b5b-4a4d-a157-ec229482f950")
+		)
+		(pin "3"
+			(uuid "ed0400de-4279-42af-8391-899e094ab711")
+		)
+		(instances
+			(project ""
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "IC2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-15V")
 		(at 226.06 -181.61 0)
 		(unit 1)
@@ -14910,6 +15174,76 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50f4dc94-dbb4-40a2-ba6c-8b0b2a4c999c")
+		(property "Reference" "C22"
+			(at 193.04 45.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 193.04 48.2599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 190.1952 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAM.pdf"
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8ce040ef-58e1-4910-968f-6d0a58b9ef54")
+		)
+		(pin "1"
+			(uuid "96d0ad46-ce3a-470d-ad49-d25f76fe8026")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -17526,75 +17860,6 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 46.99 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "863582d2-4bc8-4d77-bfd3-f75cb59433a7")
-		(property "Reference" "C22"
-			(at 193.04 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 193.04 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 190.1952 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/AutoMLCCKAM.pdf"
-			(at 189.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 189.23 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "23d7f4c7-030f-4cf2-b8ef-b36f72c769bc")
-		)
-		(pin "1"
-			(uuid "efd0b77f-a30e-4e82-a100-91e44cc84a68")
-		)
-		(instances
-			(project "PowerSupply30V5A"
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
 		(at 201.93 -125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17790,149 +18055,6 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MC7915BD2TR4G:MC7915BD2TR4G")
-		(at 161.29 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8a309b87-7b47-4311-8082-889b4df460fe")
-		(property "Reference" "IC1"
-			(at 177.8 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC7915BD2TR4G"
-			(at 177.8 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "USER_LDO:MC7915BD2TR4G"
-			(at 190.5 159.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ph/en/products/detail/onsemi/MC7915BD2TR4G/5404337?msockid=3bdc366bbe0663d83c1223c0bf3662a6"
-			(at 190.5 259.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Linear Voltage Regulator IC Negative Fixed 1 Output 1A D2PAK-3"
-			(at 161.29 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "4.826"
-			(at 190.5 459.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 190.5 559.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MC7915BD2TR4G"
-			(at 190.5 659.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-MC7915BD2TR4G"
-			(at 190.5 759.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MC7915BD2TR4G?qs=3PKVEWFFm29CRkUNA42K0A%3D%3D"
-			(at 190.5 859.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "MC7915BD2TR4G"
-			(at 190.5 959.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mc7915bd2tr4g/on-semiconductor?utm_currency=USD&region=europe"
-			(at 190.5 1059.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fde51e5-fcb5-4ac1-aa70-dfa952460721")
-		)
-		(pin "2"
-			(uuid "66af5daa-f56a-43c5-8bdf-804d3cf9389e")
-		)
-		(pin "3"
-			(uuid "0e9b8e73-b5ae-4254-acb5-9a9ecbe68f5e")
-		)
-		(instances
-			(project "PowerSupply30V5A"
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "IC1")
 					(unit 1)
 				)
 			)
@@ -21172,7 +21294,7 @@
 		(dnp no)
 		(uuid "f4471c14-aa00-4ef4-b7ad-66ff2f5b529e")
 		(property "Reference" "C21"
-			(at 181.864 71.628 0)
+			(at 192.278 71.882 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21180,8 +21302,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 180.34 74.422 0)
+		(property "Value" "1uF"
+			(at 192.532 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22141,7 +22263,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 192.786 40.386 90)
+			(at 193.802 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22357,6 +22479,149 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "m_LDO:MC7915BD2TR4G")
+		(at 161.29 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe80c133-5ef5-47ae-ae4e-ed1d2f3bd236")
+		(property "Reference" "IC3"
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MC7915BD2TR4G"
+			(at 173.99 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "m_LDO:MC7915BD2TR4G"
+			(at 190.5 159.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.digikey.ph/en/products/detail/onsemi/MC7915BD2TR4G/5404337?msockid=3bdc366bbe0663d83c1223c0bf3662a6"
+			(at 190.5 259.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Negative Fixed 1 Output 1A D2PAK-3"
+			(at 161.29 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.826"
+			(at 190.5 459.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 190.5 559.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MC7915BD2TR4G"
+			(at 190.5 659.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-MC7915BD2TR4G"
+			(at 190.5 759.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MC7915BD2TR4G?qs=3PKVEWFFm29CRkUNA42K0A%3D%3D"
+			(at 190.5 859.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "MC7915BD2TR4G"
+			(at 190.5 959.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mc7915bd2tr4g/on-semiconductor?utm_currency=USD&region=europe"
+			(at 190.5 1059.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d950c346-a96b-4551-87d4-539441bbaefd")
+		)
+		(pin "1"
+			(uuid "572fd1b9-5b5b-4608-857a-ee51b133d276")
+		)
+		(pin "3"
+			(uuid "f0e5be3f-d443-459e-8c98-b49012d8ed26")
+		)
+		(instances
+			(project ""
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "IC3")
 					(unit 1)
 				)
 			)
