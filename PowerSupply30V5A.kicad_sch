@@ -7852,6 +7852,16 @@
 		)
 		(uuid "baa0302d-2408-4f4d-b9d7-3bb5a6dd3c35")
 	)
+	(text "Need to understand when is stored kicad_symbol, cause I cannot see it in the kicad.sym folder: What happens if I try to open somewhere else? "
+		(exclude_from_sim no)
+		(at -78.994 33.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf70c6bf-b16e-49a1-bab4-94eae29400ac")
+	)
 	(text "PSU CONTROL & MONITORING\n"
 		(exclude_from_sim no)
 		(at 82.804 -69.088 0)
