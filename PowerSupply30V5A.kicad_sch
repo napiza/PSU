@@ -11,6 +11,782 @@
 		(comment 1 "Nagore Pinillos Zamorano")
 	)
 	(lib_symbols
+		(symbol "1017503_1"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "1017503"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "m_Connectors:1017503"
+				(at -0.762 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-tdpt-25-2-sp-508-1017503?type=pdf"
+				(at -0.254 10.414 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "TDPT 2,5/ 2-SP-5,08 - Printed circuit board terminal, nominal current: 32 A, rated voltage (III/2): 400 V, nominal cross section: 2.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: TDPT 2,5/..-SP, pitch: 5.08 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, number of solder pins per potential: 2, type of packaging: p"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Phoenix Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1017503?qs=F5EMLAvA7ICurcWsoxF7Hw%3D%3D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "651-1017503"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "19.2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "1017503"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_1017491"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1017503_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 0)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "1017503_1_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -10.16) (xy 12.7 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 6.35 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 0)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -2.54)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.08) (xy 6.35 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -5.08)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.35 -7.62)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -6.7733)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -7.62) (xy 8.89 -8.4667)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -10.16) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "2025-12-27_14-32-44:39300020"
 			(pin_names
 				(offset 0.254)
@@ -7142,6 +7918,556 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "m_MOSFET:IRFP460"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -8.89 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "IRFP460"
+				(at -8.89 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "m_MOSFET:TO546P1587X531X2511-3"
+				(at 0 13.716 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mosfet, n, To-247ac"
+				(at 0.508 16.002 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MF" "Vishay"
+				(at -0.254 21.844 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "25.11mm"
+				(at 0 18.034 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PACKAGE" "TO-247 Vishay Siliconix"
+				(at 0.762 10.922 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PRICE" "None"
+				(at 0.254 -13.462 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "IPC-7351B"
+				(at 0.254 19.812 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "A"
+				(at -1.778 -18.796 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "AVAILABILITY" "Unavailable"
+				(at -1.778 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "IRFP460_0_0"
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 3.175) (xy 0.762 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 0.762 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.54) (xy 3.81 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.762) (xy 0.762 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 0.762 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.905) (xy 0.762 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 2.032 0.762) (xy 2.032 -0.762) (xy 1.016 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.3592)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 2.54) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.81 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.508) (xy 3.302 -0.254) (xy 4.318 -0.254) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -2.54) (xy 0.762 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.318 0.508) (xy 3.81 0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "m_Resistor_measurement:FCSL76R050DER"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 8.382 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "FCSL76R050DER"
+				(at 2.032 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "m_Resistor_measurement:RESC3876X70N"
+				(at 13.97 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/FCSL76R050DER.pdf"
+				(at 13.97 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Current Sense Resistors - SMD 0.05 ohm 0.5% 3W"
+				(at 0.762 -3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.7"
+				(at 13.97 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "588-FCSL76R050DER"
+				(at 13.97 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=588-FCSL76R050DER"
+				(at 13.97 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Ohmite"
+				(at 13.97 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "FCSL76R050DER"
+				(at 13.97 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "FCSL76R050DER_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "m_Resistor_measurement:Y14870R05000B9R"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8089,7 +9415,7 @@
 		)
 		(uuid "1929d4f8-719d-4f01-a8eb-90f5258e8be7")
 	)
-	(text "NEXT: Do the same with 12V (if needed- Can i use another fan?) and 5V ldo, and once done, size correctly this time trafo, rectifier and connector"
+	(text "NEXT: Power MOSFET stage"
 		(exclude_from_sim no)
 		(at -89.662 31.242 0)
 		(effects
@@ -8370,9 +9696,9 @@
 		)
 		(uuid "70536d59-1ca8-469d-99a3-9b24262cc5b8")
 	)
-	(text "P_max=5W\n05"
+	(text "P_max_operation=1.25W(50mOhms*(5A)^2)\n"
 		(exclude_from_sim no)
-		(at 121.666 168.402 0)
+		(at 122.428 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8461,6 +9787,17 @@
 		)
 		(uuid "982ae6f6-83c2-4770-959e-03b0fc3cb8c8")
 	)
+	(text "Choose one brand for resistors and capacitors, SMD, 1206, so that I can order a huge catalogue:\nchrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.vishay.com/docs/20132/rca-sre3.pdf"
+		(exclude_from_sim no)
+		(at -83.312 39.878 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 25 255 113 1)
+			)
+		)
+		(uuid "9e56917c-625b-4ef5-90d5-b4988fff993b")
+	)
 	(text "DUDAS:\nAnalogue 0 connected to GND? (ok)\n"
 		(exclude_from_sim no)
 		(at -125.984 345.44 0)
@@ -8516,7 +9853,7 @@
 	)
 	(text "Did I actually order 1mOhm resistor instead of 50mOhm?\nYes: change for: Y14870R05000B9R"
 		(exclude_from_sim no)
-		(at 104.648 162.306 0)
+		(at 101.854 158.242 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9110,7 +10447,7 @@
 		(uuid "596de06e-2275-4c57-af23-9deb30b5af74")
 	)
 	(junction
-		(at 135.89 201.93)
+		(at 170.18 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59f19907-72cf-4b6e-9308-fe292dbf0882")
@@ -9242,7 +10579,7 @@
 		(uuid "93f0cc44-ce38-42cd-a1e4-6b8b63631607")
 	)
 	(junction
-		(at 156.21 195.58)
+		(at 190.5 195.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95758bf8-a6cd-4028-9b62-daefe9d4f40b")
@@ -9260,7 +10597,7 @@
 		(uuid "984782d8-3883-423d-8fec-c7cdf15d95c4")
 	)
 	(junction
-		(at 151.13 181.61)
+		(at 185.42 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e25a357-1c01-4c71-bf4a-fe218a405c4b")
@@ -9320,12 +10657,6 @@
 		(uuid "bcbb74b7-fbcf-497a-bec8-e026476f3ebb")
 	)
 	(junction
-		(at 132.08 181.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bfd48aea-d8c0-4ef0-bd86-d1967572f9e4")
-	)
-	(junction
 		(at 55.88 -191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9362,13 +10693,13 @@
 		(uuid "cf24f402-23d1-459c-895c-acfe15a70c13")
 	)
 	(junction
-		(at 135.89 181.61)
+		(at 170.18 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d29b49a9-2c06-4411-a9e0-249eb1fa7b49")
 	)
 	(junction
-		(at 156.21 187.96)
+		(at 190.5 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d43158fd-c8eb-44be-8a26-5099a88bf30e")
@@ -9386,7 +10717,7 @@
 		(uuid "de75a291-4b7f-43fc-8142-7aa7fd349fe1")
 	)
 	(junction
-		(at 151.13 201.93)
+		(at 185.42 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "df34c3bb-323b-4bcf-8e07-996f32d8def3")
@@ -9677,7 +11008,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 158.75) (xy 142.24 160.02)
+			(xy 176.53 158.75) (xy 176.53 160.02)
 		)
 		(stroke
 			(width 0)
@@ -10047,7 +11378,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 187.96) (xy 156.21 190.5)
+			(xy 190.5 187.96) (xy 190.5 190.5)
 		)
 		(stroke
 			(width 0)
@@ -10067,7 +11398,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 181.61) (xy 151.13 181.61)
+			(xy 170.18 181.61) (xy 185.42 181.61)
 		)
 		(stroke
 			(width 0)
@@ -10147,7 +11478,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 181.61) (xy 153.67 181.61)
+			(xy 185.42 181.61) (xy 187.96 181.61)
 		)
 		(stroke
 			(width 0)
@@ -10157,7 +11488,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 187.96) (xy 135.89 181.61)
+			(xy 170.18 187.96) (xy 170.18 181.61)
 		)
 		(stroke
 			(width 0)
@@ -10307,7 +11638,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 171.45) (xy 132.08 181.61)
+			(xy 166.37 171.45) (xy 166.37 181.61)
 		)
 		(stroke
 			(width 0)
@@ -10457,7 +11788,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 199.39) (xy 151.13 201.93)
+			(xy 185.42 199.39) (xy 185.42 201.93)
 		)
 		(stroke
 			(width 0)
@@ -10527,7 +11858,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 187.96) (xy 153.67 181.61)
+			(xy 187.96 187.96) (xy 187.96 181.61)
 		)
 		(stroke
 			(width 0)
@@ -10557,7 +11888,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 195.58) (xy 135.89 201.93)
+			(xy 170.18 195.58) (xy 170.18 201.93)
 		)
 		(stroke
 			(width 0)
@@ -10667,7 +11998,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 187.96) (xy 158.75 187.96)
+			(xy 190.5 187.96) (xy 193.04 187.96)
 		)
 		(stroke
 			(width 0)
@@ -10777,7 +12108,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 190.5) (xy 156.21 190.5)
+			(xy 193.04 190.5) (xy 190.5 190.5)
 		)
 		(stroke
 			(width 0)
@@ -11347,7 +12678,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 193.04) (xy 156.21 193.04)
+			(xy 193.04 193.04) (xy 190.5 193.04)
 		)
 		(stroke
 			(width 0)
@@ -11537,7 +12868,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 195.58) (xy 153.67 201.93)
+			(xy 187.96 195.58) (xy 187.96 201.93)
 		)
 		(stroke
 			(width 0)
@@ -11677,7 +13008,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 193.04) (xy 156.21 195.58)
+			(xy 190.5 193.04) (xy 190.5 195.58)
 		)
 		(stroke
 			(width 0)
@@ -11897,7 +13228,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 195.58) (xy 156.21 195.58)
+			(xy 187.96 195.58) (xy 190.5 195.58)
 		)
 		(stroke
 			(width 0)
@@ -11947,7 +13278,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 179.07) (xy 151.13 181.61)
+			(xy 185.42 179.07) (xy 185.42 181.61)
 		)
 		(stroke
 			(width 0)
@@ -12067,23 +13398,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 181.61) (xy 135.89 181.61)
+			(xy 166.37 181.61) (xy 170.18 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bd12b728-5f34-4ada-8c37-b790e5da69e0")
-	)
-	(wire
-		(pts
-			(xy 130.81 181.61) (xy 132.08 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be59ecea-7e2a-4191-952e-234aa4f265f7")
 	)
 	(wire
 		(pts
@@ -12287,7 +13608,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 187.96) (xy 156.21 187.96)
+			(xy 187.96 187.96) (xy 190.5 187.96)
 		)
 		(stroke
 			(width 0)
@@ -12387,7 +13708,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 195.58) (xy 158.75 195.58)
+			(xy 190.5 195.58) (xy 193.04 195.58)
 		)
 		(stroke
 			(width 0)
@@ -12567,7 +13888,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 201.93) (xy 151.13 201.93)
+			(xy 170.18 201.93) (xy 185.42 201.93)
 		)
 		(stroke
 			(width 0)
@@ -12617,7 +13938,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 201.93) (xy 135.89 201.93)
+			(xy 87.63 201.93) (xy 170.18 201.93)
 		)
 		(stroke
 			(width 0)
@@ -12987,7 +14308,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 158.75) (xy 142.24 158.75)
+			(xy 179.07 158.75) (xy 176.53 158.75)
 		)
 		(stroke
 			(width 0)
@@ -13007,7 +14328,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 201.93) (xy 153.67 201.93)
+			(xy 185.42 201.93) (xy 187.96 201.93)
 		)
 		(stroke
 			(width 0)
@@ -13087,7 +14408,7 @@
 	)
 	(global_label "I_OUT_MEAS-"
 		(shape input)
-		(at 132.08 171.45 0)
+		(at 166.37 171.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13097,7 +14418,7 @@
 		)
 		(uuid "013ae465-b8f2-402e-b2ce-e7f01fdec928")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.7047 171.45 0)
+			(at 181.9947 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13505,7 +14826,7 @@
 	)
 	(global_label "PSU_V_OUT-"
 		(shape input)
-		(at 151.13 199.39 90)
+		(at 185.42 199.39 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13515,7 +14836,7 @@
 		)
 		(uuid "51f8ba28-a54b-4a3d-93b8-734cac0d4df0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 184.37 90)
+			(at 185.42 184.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13791,7 +15112,7 @@
 	)
 	(global_label "ANALOGUE_OV"
 		(shape input)
-		(at 144.78 158.75 0)
+		(at 179.07 158.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13801,7 +15122,7 @@
 		)
 		(uuid "7318d4a7-5e9e-481c-9aab-1afdcb865f00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.7677 158.75 0)
+			(at 195.0577 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13901,7 +15222,7 @@
 	)
 	(global_label "PSU_V_OUT+"
 		(shape input)
-		(at 151.13 179.07 90)
+		(at 185.42 179.07 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13911,7 +15232,7 @@
 		)
 		(uuid "b348c80e-d707-4c37-8aca-ed28f5c6a5b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.13 164.05 90)
+			(at 185.42 164.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15012,7 +16333,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 142.24 160.02 0)
+		(at 176.53 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15020,7 +16341,7 @@
 		(dnp no)
 		(uuid "1208342c-5e0d-47f8-8baa-dadd7856823c")
 		(property "Reference" "#PWR042"
-			(at 142.24 166.37 0)
+			(at 176.53 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15029,7 +16350,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 165.1 0)
+			(at 176.53 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15037,7 +16358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 160.02 0)
+			(at 176.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15046,7 +16367,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 160.02 0)
+			(at 176.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15055,7 +16376,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 160.02 0)
+			(at 176.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15211,158 +16532,6 @@
 		)
 	)
 	(symbol
-		(lib_id "IRFP460:IRFP460")
-		(at 95.25 184.15 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1807ed32-dee9-42a1-a30b-79dc3458c8ea")
-		(property "Reference" "Q2"
-			(at 95.25 175.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "IRFP460"
-			(at 95.25 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "USER_MOSFET:TO546P1587X531X2511-3"
-			(at 106.172 160.782 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 95.25 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay"
-			(at 88.392 163.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "25.11mm"
-			(at 100.838 161.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "TO-247 Vishay Siliconix"
-			(at 98.044 155.702 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PRICE" "None"
-			(at 85.852 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "IPC-7351B"
-			(at 92.964 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "A"
-			(at 84.328 165.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "AVAILABILITY" "Unavailable"
-			(at 90.678 161.798 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "DESCRIPTION" "Mosfet, n, To-247ac"
-			(at 94.488 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4d81f963-13ee-448a-9ae1-0e8b7cd2eb1d")
-		)
-		(pin "2"
-			(uuid "b67046e8-039a-4288-b99b-eefba2df2522")
-		)
-		(pin "3"
-			(uuid "fcfe83b8-d739-4fbb-b80a-d1cba9561182")
-		)
-		(instances
-			(project "PowerSupply30V5A"
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 181.61 -180.34 90)
 		(unit 1)
@@ -15426,6 +16595,121 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "1017503_1")
+		(lib_id "m_Connectors:1017503")
+		(at 193.04 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1920d762-41d2-44e1-8fc6-fdbb0de9da1c")
+		(property "Reference" "J11"
+			(at 207.01 190.4999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1017503"
+			(at 207.01 193.0399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "m_Connectors:1017503"
+			(at 192.278 182.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-tdpt-25-2-sp-508-1017503?type=pdf"
+			(at 192.786 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TDPT 2,5/ 2-SP-5,08 - Printed circuit board terminal, nominal current: 32 A, rated voltage (III/2): 400 V, nominal cross section: 2.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: TDPT 2,5/..-SP, pitch: 5.08 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, number of solder pins per potential: 2, type of packaging: p"
+			(at 193.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Phoenix Contact"
+			(at 193.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1017503?qs=F5EMLAvA7ICurcWsoxF7Hw%3D%3D"
+			(at 193.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "651-1017503"
+			(at 193.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "19.2"
+			(at 193.04 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "d1e0c1ac-ec78-4e7d-972a-16e69db2e512")
+		)
+		(pin "2"
+			(uuid "15ecbf12-6e13-4f30-844c-5471f24d24fe")
+		)
+		(pin "1"
+			(uuid "27d78fbd-bfaf-474e-890d-13a2c48b4c10")
+		)
+		(pin "4"
+			(uuid "5a22600b-5aec-42ab-8bc7-66d889cb7785")
+		)
+		(instances
+			(project ""
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -17015,7 +18299,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 135.89 191.77 0)
+		(at 170.18 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17024,7 +18308,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ee04bbc-bfb8-4b4e-a04d-d342a8d4864e")
 		(property "Reference" "C28"
-			(at 139.7 189.6109 0)
+			(at 173.99 189.6109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17033,7 +18317,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 139.7 192.1509 0)
+			(at 173.99 192.1509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17042,7 +18326,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Radial_D18.0mm_H35.5mm_P7.50mm"
-			(at 136.8552 195.58 0)
+			(at 171.1452 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17051,7 +18335,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28402/142rhs.pdf"
-			(at 135.89 191.77 0)
+			(at 170.18 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17060,7 +18344,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 135.89 191.77 0)
+			(at 170.18 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19195,6 +20479,124 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "m_Resistor_measurement:FCSL76R050DER")
+		(at 114.3 181.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6889062f-1851-4b83-8c67-ee9f1456671f")
+		(property "Reference" "R30"
+			(at 123.19 174.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FCSL76R050DER"
+			(at 123.444 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "m_Resistor_measurement:RESC3876X70N"
+			(at 128.27 277.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/FCSL76R050DER.pdf"
+			(at 128.27 377.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Resistors - SMD 0.05 ohm 0.5% 3W"
+			(at 122.682 170.434 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.7"
+			(at 128.27 577.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "588-FCSL76R050DER"
+			(at 128.27 677.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=588-FCSL76R050DER"
+			(at 128.27 777.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Ohmite"
+			(at 128.27 877.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "FCSL76R050DER"
+			(at 128.27 977.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ac521363-5412-4184-951d-3af9cd6f1b2c")
+		)
+		(pin "1"
+			(uuid "7f07f930-ae48-4bfd-98f6-dee01dd68c46")
+		)
+		(instances
+			(project ""
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -22302,209 +23704,6 @@
 		)
 	)
 	(symbol
-		(lib_id "m_Resistor_measurement:Y14870R05000B9R")
-		(at 106.68 237.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6ea61e0-e1c6-42c7-a7da-c02c7630678a")
-		(property "Reference" "R30"
-			(at 124.46 229.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "Y14870R05000B9R"
-			(at 117.348 232.664 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "m_Resistor_measurement:Y14870R05000B9R"
-			(at 140.97 332.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/Y14870R05000B9R.pdf"
-			(at 140.97 432.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Current Sense Resistors - SMD 0.05ohms 0.1% 1w"
-			(at 127.508 244.602 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.635"
-			(at 140.97 632.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "71-CSM25120R0500BST"
-			(at 140.97 732.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Precision-Group-Foil-Resistors/Y14870R05000B9R?qs=DTo5u7NUXXGIkPf68IZUqw%3D%3D"
-			(at 140.97 832.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 140.97 932.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "Y14870R05000B9R"
-			(at 140.97 1032.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "E1"
-			(uuid "a3014054-6363-41c1-972a-dcce3bc1e66d")
-		)
-		(pin "I1"
-			(uuid "71158a20-12e2-40a6-b2f0-dbbcad6fe550")
-		)
-		(pin "E2"
-			(uuid "6b3b2011-7970-4d67-8f7e-1ef444cde6fa")
-		)
-		(pin "I2"
-			(uuid "5b7045fb-869b-4198-a294-ac1915b40a2a")
-		)
-		(instances
-			(project ""
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "R30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2026-01-31_20-20-20:1017503")
-		(at 158.75 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a740e645-6fc5-40ba-94e7-ab63a0d21ec7")
-		(property "Reference" "J9"
-			(at 165.862 199.644 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1017503"
-			(at 160.274 202.438 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "USER_CONNECTOR_2:CONN_1017491"
-			(at 158.75 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "1017503"
-			(at 158.75 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "8bca03b9-d910-47b4-b20b-231719c903d5")
-		)
-		(pin "3"
-			(uuid "95b43986-dc0a-4c59-ba5d-5e72d8303c88")
-		)
-		(pin "2"
-			(uuid "df74b051-8dc3-4c6a-99c4-7f19fc3ce75c")
-		)
-		(pin "1"
-			(uuid "9f9e6dce-0795-4295-a0bf-6f92e936379d")
-		)
-		(instances
-			(project "PowerSupply30V5A"
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 214.63 -115.57 180)
 		(unit 1)
@@ -23127,6 +24326,274 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "m_MOSFET:IRFP460")
+		(at 95.25 184.15 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd8fcd7d-dcb0-429b-a553-d81a44243249")
+		(property "Reference" "Q3"
+			(at 95.25 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRFP460"
+			(at 95.25 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "m_MOSFET:TO546P1587X531X2511-3"
+			(at 81.534 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mosfet, n, To-247ac"
+			(at 79.248 183.642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay"
+			(at 73.406 184.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "25.11mm"
+			(at 77.216 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PACKAGE" "TO-247 Vishay Siliconix"
+			(at 84.328 183.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PRICE" "None"
+			(at 108.712 183.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 75.438 183.896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "A"
+			(at 114.046 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "AVAILABILITY" "Unavailable"
+			(at 110.998 185.928 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d88fe871-e6be-4e8c-bd16-ad03be58bd74")
+		)
+		(pin "2"
+			(uuid "8fea34dc-d7e2-43b8-a0ce-72eb59f1531e")
+		)
+		(pin "3"
+			(uuid "f84d0b17-abd2-4053-ba47-59c09de8d371")
+		)
+		(instances
+			(project ""
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "m_Resistor_measurement:Y14870R05000B9R")
+		(at 77.47 215.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be8e32ff-549b-473b-a195-51c6407ea4b4")
+		(property "Reference" "R29"
+			(at 96.52 205.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Y14870R05000B9R"
+			(at 96.52 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "m_Resistor_measurement:Y14870R05000B9R"
+			(at 111.76 310.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/Y14870R05000B9R.pdf"
+			(at 111.76 410.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Resistors - SMD 0.05ohms 0.1% 1w"
+			(at 96.52 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.635"
+			(at 111.76 610.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CSM25120R0500BST"
+			(at 111.76 710.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Precision-Group-Foil-Resistors/Y14870R05000B9R?qs=DTo5u7NUXXGIkPf68IZUqw%3D%3D"
+			(at 111.76 810.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 111.76 910.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "Y14870R05000B9R"
+			(at 111.76 1010.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "E2"
+			(uuid "39b52887-e07e-4f13-b8a4-fab1761e685b")
+		)
+		(pin "E1"
+			(uuid "46dada35-9bfe-4a38-8d05-a4131d474ffb")
+		)
+		(pin "I2"
+			(uuid "dcf45336-f3c7-44b3-98c8-4d1050924adc")
+		)
+		(pin "I1"
+			(uuid "fe7e427b-b5ae-4831-8325-bb1d73230a3d")
+		)
+		(instances
+			(project ""
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "R29")
 					(unit 1)
 				)
 			)
