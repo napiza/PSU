@@ -1,4 +1,4 @@
-27238569949777208
+27247512830868077
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107960,6 +107960,27 @@ Connector
 0
 4
 4
+m_Diode
+SOD3716X135N
+sod-123-ren1
+Diode
+0
+2
+2
+m_Diode_LED
+LEDC3215X130N
+CMD15-21
+LED
+0
+2
+2
+m_Diode_Zener
+SOD3716X135N
+MMSZ5233B-E3-08--
+Zener Diode
+0
+2
+2
 m_MOSFET
 TO546P1587X531X2511-3
 
@@ -107967,6 +107988,20 @@ TO546P1587X531X2511-3
 0
 3
 3
+m_OpAmp
+SOIC127P600X175-14N
+14 PINS - PLASTIC MICROPACKAGE (SO)
+Integrated Circuit
+0
+14
+14
+m_Resistor_SMD
+RESC3216X60N
+CRCW1206IF
+Resistor
+0
+2
+2
 m_Resistor_measurement
 RESC3876X70N
 FCSL76
