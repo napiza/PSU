@@ -14823,6 +14823,18 @@
 		(uuid 521a6d75-778e-4837-80b5-720cf228e141)
 	)
 	(rectangle
+		(start 36.83 222.25)
+		(end 167.64 274.32)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5d5386e8-177a-4a09-9609-f5172e8d814d)
+	)
+	(rectangle
 		(start 307.34 29.21)
 		(end 359.41 76.2)
 		(stroke
@@ -14961,6 +14973,18 @@
 		)
 		(uuid "10618460-e9f4-4ed4-bd23-8212a1bfddb5")
 	)
+	(text "Which connector?\nCan I reuse?"
+		(exclude_from_sim no)
+		(at 154.94 232.918 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 213 17 255 1)
+			)
+		)
+		(uuid "13a720f8-358f-4e33-8c27-c597aac17358")
+	)
 	(text "FAN+"
 		(exclude_from_sim no)
 		(at 148.59 -32.766 0)
@@ -15054,6 +15078,17 @@
 			)
 		)
 		(uuid "22e9ab90-dad8-4c32-bb5a-14c45c8c420d")
+	)
+	(text "For tunning"
+		(exclude_from_sim no)
+		(at 323.596 227.838 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "2336013f-63c4-4120-bed9-19f14fc4ef63")
 	)
 	(text "I_out(max): 1A (With heatsink)"
 		(exclude_from_sim no)
@@ -15341,6 +15376,16 @@
 			)
 		)
 		(uuid "63776dc7-7293-4995-b534-092544b3fc65")
+	)
+	(text "PSU CONTROL & MONITORING\n"
+		(exclude_from_sim no)
+		(at 85.344 224.282 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68b99ba5-984f-464a-a9f9-c73fc194a6ad")
 	)
 	(text "(I_max operation in diodes: 6V/10kOhm=0.6mA)\n\n"
 		(exclude_from_sim no)
@@ -15668,6 +15713,18 @@
 			)
 		)
 		(uuid "c37a5c19-53f2-41ac-b4f9-0e671a9eff50")
+	)
+	(text "This will be 0/-5V\nI need high impedance, not to disturb measurement?\nAnd also low capacitance?"
+		(exclude_from_sim no)
+		(at 64.008 231.394 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+				(color 213 17 255 1)
+			)
+		)
+		(uuid "c61fa29e-8b06-41a9-802e-19d36ee1c7cb")
 	)
 	(text "How to calculate current? \nHow to calculate power? The one I had before is 2.3 VA, the one of CernLib is 14VA. \nNeed to calculate how much current I need and oversize x2 or similar, but no more. \nSecondary of the transformer is 30V, how many AMPS? For this I need to know how much they can my IC supply. "
 		(exclude_from_sim no)
@@ -16124,6 +16181,12 @@
 		(uuid "223a44a7-4cdb-4b22-a135-ed175f92af6d")
 	)
 	(junction
+		(at 328.93 219.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "24d14354-8282-4453-a925-de502d7b5170")
+	)
+	(junction
 		(at 160.02 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16574,6 +16637,12 @@
 		(uuid "b043a052-04a6-4358-b823-e5dd73ef17b5")
 	)
 	(junction
+		(at 322.58 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b33384a5-58f4-4f77-a282-a64f7a1ce067")
+	)
+	(junction
 		(at 270.51 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16760,6 +16829,12 @@
 		(uuid "f3d6c68b-e264-45ea-8ae0-6dd44f1c5453")
 	)
 	(junction
+		(at 322.58 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f53358fb-394f-40d2-bfb8-064296526043")
+	)
+	(junction
 		(at 300.99 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16776,12 +16851,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe254f64-b43f-453d-bc8a-cc95e233073a")
-	)
-	(junction
-		(at 323.85 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe8e24ee-a423-4c52-9fcc-4ebbbe82d33e")
 	)
 	(no_connect
 		(at 59.69 -82.55)
@@ -16847,7 +16916,7 @@
 	)
 	(wire
 		(pts
-			(xy 328.93 224.79) (xy 328.93 213.36)
+			(xy 328.93 224.79) (xy 328.93 219.71)
 		)
 		(stroke
 			(width 0)
@@ -17417,6 +17486,16 @@
 	)
 	(wire
 		(pts
+			(xy 328.93 219.71) (xy 328.93 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242fcefb-6986-43ee-972f-e6d420094442")
+	)
+	(wire
+		(pts
 			(xy 92.71 -24.13) (xy 91.44 -24.13)
 		)
 		(stroke
@@ -17527,16 +17606,6 @@
 	)
 	(wire
 		(pts
-			(xy 322.58 171.45) (xy 323.85 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "286006db-606b-480f-aa68-8e7f3bb4168f")
-	)
-	(wire
-		(pts
 			(xy 322.58 156.21) (xy 323.85 156.21)
 		)
 		(stroke
@@ -17624,6 +17693,16 @@
 			(type default)
 		)
 		(uuid "2b757f9d-bf00-47d3-b928-87e2caa8cb2d")
+	)
+	(wire
+		(pts
+			(xy 322.58 162.56) (xy 325.12 162.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bbd7aa5-e723-4881-80cd-9b95fe50987f")
 	)
 	(wire
 		(pts
@@ -17734,6 +17813,16 @@
 			(type default)
 		)
 		(uuid "315bec9a-9c83-41c9-8902-55996763f144")
+	)
+	(wire
+		(pts
+			(xy 328.93 219.71) (xy 330.2 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3210b984-bea8-4edf-9735-45d1b6ba5e72")
 	)
 	(wire
 		(pts
@@ -19637,6 +19726,16 @@
 	)
 	(wire
 		(pts
+			(xy 322.58 162.56) (xy 322.58 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a87351a6-acf7-4d5d-9bcc-25f3a5ad7db6")
+	)
+	(wire
+		(pts
 			(xy 269.24 -180.34) (xy 274.32 -180.34)
 		)
 		(stroke
@@ -20377,7 +20476,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 171.45) (xy 323.85 156.21)
+			(xy 322.58 171.45) (xy 322.58 162.56)
 		)
 		(stroke
 			(width 0)
@@ -22207,6 +22306,28 @@
 			)
 		)
 	)
+	(global_label "I_MEAS"
+		(shape input)
+		(at 325.12 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9316211f-0a77-4deb-8917-fdfe56723f6b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 334.5761 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "30V_IN"
 		(shape input)
 		(at 83.82 181.61 180)
@@ -22308,6 +22429,28 @@
 		(uuid "ba317ff1-3fc9-4905-b281-9dff1f6a7d72")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 169.0091 -119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I_MEAS"
+		(shape input)
+		(at 68.58 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc430734-8d3a-4500-9818-17e40a741586")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.1239 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22427,6 +22570,28 @@
 			)
 		)
 	)
+	(global_label "V_MEAS"
+		(shape input)
+		(at 68.58 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc29fb5d-d2c7-447c-89a1-95f24e21ae08")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 58.6401 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PSU_V_OUT+"
 		(shape input)
 		(at 71.12 -26.67 180)
@@ -22462,6 +22627,28 @@
 		(uuid "eb306b2a-4155-4d3a-acf1-69490eb56abd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 108.3347 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "V_MEAS"
+		(shape input)
+		(at 330.2 219.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ec0c375f-6132-4785-8755-45d6ab34eb16")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 340.1399 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25900,6 +26087,71 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "#PWR044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 248.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e4ff95c-7cb0-4797-95c0-60baea09508f")
+		(property "Reference" "#PWR059"
+			(at 67.31 255.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 252.476 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60e974a9-870a-4e20-9a66-e0ea634478f8")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
