@@ -18487,7 +18487,7 @@
 	)
 	(rectangle
 		(start -132.08 35.56)
-		(end -62.23 44.45)
+		(end -62.23 46.99)
 		(stroke
 			(width 0)
 			(type solid)
@@ -18720,17 +18720,6 @@
 		)
 		(uuid "0b8c5a5d-0a00-4950-950f-ca9548a7678f")
 	)
-	(text "NEXT:  1uF changed , add other values by copy pasting\nCapacitor select 1206 (Correccion, no tiene sentido que todos sean iguales)\nLo que puedo encontrar es un kit ya preparado (Y comprar una vez:)\nLuego contemplar si deberia de hacer lo mismo con las resistencias\nhttps://www.mouser.co.uk/en/ProductDetail/Wurth-Elektronik/885070?qs=%252BUQ4csG8RsciqaV%252BTbV4fQ%3D%3D"
-		(exclude_from_sim no)
-		(at -101.346 28.194 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 51 255 30 1)
-			)
-		)
-		(uuid "0e72f255-6d99-4819-861b-4b194a6c3301")
-	)
 	(text "Voltage sensing"
 		(exclude_from_sim no)
 		(at 318.262 201.93 0)
@@ -18796,6 +18785,18 @@
 		)
 		(uuid "1cd33d3b-dcbd-4198-a7d2-d9938dca2f0c")
 	)
+	(text "Power of the board for each voltage rail (and LDO):"
+		(exclude_from_sim no)
+		(at 458.724 38.608 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "1e18e279-9609-4d39-8f60-d1ae4fe3f73e")
+	)
 	(text "POWER CONTROL\n"
 		(exclude_from_sim no)
 		(at 93.472 -198.374 0)
@@ -18837,9 +18838,9 @@
 		)
 		(uuid "2336013f-63c4-4120-bed9-19f14fc4ef63")
 	)
-	(text "I_out(max): 1A (With heatsink)"
+	(text "I_out(max): 1A (With heatsink)\nP_out= 5V*1A=5W\n\n"
 		(exclude_from_sim no)
-		(at 258.318 93.98 0)
+		(at 258.318 92.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18866,6 +18867,18 @@
 			)
 		)
 		(uuid "28effbae-4bed-46b0-acf3-290cef5e6680")
+	)
+	(text "+15V: (xx W)"
+		(exclude_from_sim no)
+		(at 441.96 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "2d52e842-4e39-499c-ba01-ad4fc7f298c4")
 	)
 	(text "Current sensing"
 		(exclude_from_sim no)
@@ -18931,7 +18944,18 @@
 		)
 		(uuid "398f9938-9de3-4023-8de6-1edaa520516a")
 	)
-	(text "NEXT(X2): Capacitor library+ Electrical check +testpoints"
+	(text "* Voltage presence indicator: 20mA\n* For current and voltage reference: 1.25W\n 	> Scenario with potentiometer: Need to measure: For the moment I remember 50mOhm = 5V^2/50mOhm=1.25W\n	> Scenario with MCU: I will not need this reference, voltage will be given by MCU. \n* P_tot_5V= (5V*20e-3)+1.25W= 1.35W"
+		(exclude_from_sim no)
+		(at 436.118 69.342 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3a3cdd45-a48e-4414-a485-9eac118b021a")
+	)
+	(text "NEXT(X2): Electrical check +testpoints"
 		(exclude_from_sim no)
 		(at -101.092 42.926 0)
 		(effects
@@ -19067,9 +19091,21 @@
 		)
 		(uuid "4f5ec8e4-92c8-4d36-819a-92fb6a40d4e1")
 	)
+	(text "+12V: (20.27W)"
+		(exclude_from_sim no)
+		(at 440.944 42.164 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "50bc2871-ac7c-4c74-96bb-371aabf3f15d")
+	)
 	(text "LDO dropout voltage: 2V\nSo for 5v I need 7.5Vmin"
 		(exclude_from_sim no)
-		(at 257.556 90.678 0)
+		(at 257.556 87.122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19338,7 +19374,7 @@
 	)
 	(text "Una vez terminado: Hacer check electrico del esquematico+ actualizar numeros"
 		(exclude_from_sim no)
-		(at -103.378 58.166 0)
+		(at -100.076 48.768 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19356,17 +19392,6 @@
 			)
 		)
 		(uuid "982ae6f6-83c2-4770-959e-03b0fc3cb8c8")
-	)
-	(text "Choose one brand for resistors and capacitors, SMD, 1206, so that I can order a huge catalogue:\nchrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.vishay.com/docs/20132/rca-sre3.pdf"
-		(exclude_from_sim no)
-		(at -93.218 70.866 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 25 255 113 1)
-			)
-		)
-		(uuid "9e56917c-625b-4ef5-90d5-b4988fff993b")
 	)
 	(text "DUDAS:\nAnalogue 0 connected to GND? (ok)\n"
 		(exclude_from_sim no)
@@ -19580,17 +19605,6 @@
 		)
 		(uuid "cdbe2b83-6860-4d36-b09b-9d2b8df69491")
 	)
-	(text "All capacitors library are missing: I need to replace both electrolitic and ceramic ones\n"
-		(exclude_from_sim no)
-		(at -100.076 47.498 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 12 12 1)
-			)
-		)
-		(uuid "ce109ba2-6855-4b85-9390-50df7ff7f853")
-	)
 	(text "THINGS I WAS DOING WRONG IN V1:"
 		(exclude_from_sim no)
 		(at -237.744 6.096 0)
@@ -19698,6 +19712,18 @@
 		)
 		(uuid "e16aee44-2880-4080-9b97-ec9d7e557dd2")
 	)
+	(text "-15V: (xx W)"
+		(exclude_from_sim no)
+		(at 441.96 84.836 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "e3690e5e-9409-4125-a513-501bc993da41")
+	)
 	(text "change opamp by proper opamp schematic\n"
 		(exclude_from_sim no)
 		(at -101.854 335.28 0)
@@ -19729,6 +19755,18 @@
 			)
 		)
 		(uuid "e4fcd362-8f31-4f59-a2a6-f5241711da4c")
+	)
+	(text "* Fan: Need to calculate @home. For the moment lets say 1A\n* Voltage presence indicator: 20mA\n* Mosfet Gate driver: Imax-=0.5A\n	> When MOSFET fully closed (Current dissipated in 20Ω): 6V/20Ω=0.3A\n	> When MOSFET fully opened (Current dissipated in 10Ω+ Diode voltage drop): (6V-1V)/10Ω=0.5A\n* LDO 5V: P_LDO= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 2V*1A+12V*3.2mA= 2.0384W\n* P_tot_12V= [12V * (1+20e-3+0.5)]+2.0384=20.27W"
+		(exclude_from_sim no)
+		(at 435.61 51.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "e6e03bd7-d370-4ba3-94bb-f61c911eb62d")
 	)
 	(text "FAN+"
 		(exclude_from_sim no)
@@ -19821,6 +19859,18 @@
 			)
 		)
 		(uuid "f908ef11-c0d2-451e-b3b8-4450d0b3cfd4")
+	)
+	(text "+5V: (1.35W)"
+		(exclude_from_sim no)
+		(at 440.944 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "f91e1693-1f25-43e2-b068-d8f1ab622c0b")
 	)
 	(text "CURRENT CONTROL"
 		(exclude_from_sim no)
@@ -20874,16 +20924,6 @@
 			(type default)
 		)
 		(uuid "06331ad6-4e68-4d2b-927a-194c465ee3fa")
-	)
-	(polyline
-		(pts
-			(xy 36.83 213.36) (xy 114.3 213.36)
-		)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(uuid "077d6e37-e66d-4fd6-afd8-d677f5864005")
 	)
 	(wire
 		(pts
