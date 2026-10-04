@@ -13990,6 +13990,194 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "m_BridgeRectifier:KBJB1506_T0_00301"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BR"
+				(at 19.05 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KBJB1506_T0_00301"
+				(at 19.05 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "m_BridgeRectifier:KBJB1506_T0_00301"
+				(at 19.05 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/KBJB1506.pdf?fbclid=IwZXh0bgNhZW0CMTEAAR4OZ1Fo33rf7qdomQ3aAz3Y4ejb0yMDtPrprgTzLzOFng4Hasfgi1CcWfysow_aem_eSJzpmnXgLvNSM2pT6vx4g"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bridge Rectifiers Glass Passivated Low Profile Bridge Rectifier 600V, 15A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "12"
+				(at 19.05 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "241-KBJB1506T00301"
+				(at 19.05 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/KBJB1506_T0_00301?qs=VVKQmw408U971kSeRhdwTA%3D%3D"
+				(at 19.05 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "PANJIT"
+				(at 19.05 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "KBJB1506_T0_00301"
+				(at 19.05 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "KBJB1506_T0_00301_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 17.78 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "~_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "~_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "m_Capacitor_ceramic_SMD:0805_100nF_50V_10%"
 			(pin_names
 				(hide yes)
@@ -18883,6 +19071,18 @@
 		(uuid 243c4bfb-3e19-4bc5-82ce-fcb823309515)
 	)
 	(rectangle
+		(start 159.004 -2.54)
+		(end 258.064 5.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 27ed7843-e9c9-4657-9ad7-a6cfadd01faf)
+	)
+	(rectangle
 		(start 167.64 171.45)
 		(end 193.04 198.12)
 		(stroke
@@ -18941,19 +19141,6 @@
 			(type none)
 		)
 		(uuid 46ca060e-d5e6-49ff-8d5b-57a598e4311c)
-	)
-	(rectangle
-		(start 63.5 60.96)
-		(end 87.63 83.82)
-		(stroke
-			(width 0)
-			(type solid)
-			(color 255 20 21 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 521a6d75-778e-4837-80b5-720cf228e141)
 	)
 	(rectangle
 		(start 22.86 147.32)
@@ -19114,6 +19301,17 @@
 			)
 		)
 		(uuid "0b8c5a5d-0a00-4950-950f-ca9548a7678f")
+	)
+	(text "Dont connect without heatsink"
+		(exclude_from_sim no)
+		(at 99.568 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 43 2 1)
+			)
+		)
+		(uuid "0bb299f3-7239-4f0a-8b15-f8faaac82f89")
 	)
 	(text "Voltage sensing"
 		(exclude_from_sim no)
@@ -19477,6 +19675,17 @@
 		)
 		(uuid "47513936-b23a-4d51-a2b4-adf78cac8be1")
 	)
+	(text "How can I know which is the voltage in the output, \nknowing the AC voltage?"
+		(exclude_from_sim no)
+		(at 114.3 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 45 39 1)
+			)
+		)
+		(uuid "4ac91957-e619-4499-bf7a-847aefccc518")
+	)
 	(text "30 AC- From \nHigh Power\nTransformer"
 		(exclude_from_sim no)
 		(at 39.37 -190.754 90)
@@ -19651,6 +19860,17 @@
 			)
 		)
 		(uuid "6ca8b4f3-7d00-4966-8157-eba18a18dc31")
+	)
+	(text "NEXT:\n+Finish calculating current/power of LDO\n+Choose bridge rectifier+ transformer following from this"
+		(exclude_from_sim no)
+		(at -111.506 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 5 19 1)
+			)
+		)
+		(uuid "6ee22cca-66bc-45c3-a082-a3a9ae6164fd")
 	)
 	(text "FAN-\n"
 		(exclude_from_sim no)
@@ -19855,6 +20075,18 @@
 		)
 		(uuid "a95708a5-4c69-4fc6-b7b0-b8519ddca4b1")
 	)
+	(text "Power of the PSU rail:\n"
+		(exclude_from_sim no)
+		(at 446.024 120.142 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "aad6637a-277d-4861-885d-e84e07b39258")
+	)
 	(text "1-Change components: Packaging, from Git library+ Standard components+ IMPORTANT TO TRY TO REUSE IF IT WORKS what I already have\n	1.1- Connectors need to select considering clearance-Creepage: I have six connectors\n		* 220V AC INPUT- For 15/-15V trafo\n		* 30V AC INPUT - From external trafo and directly to rectifier\n		* Output of the PSU- +- Terminals (Can be +30V/5A)\n		* Fan Supply OUTPUT- Try to test at 15V \n		* V_ref-I_ref INPUT (With 5V OUTPUT)\n		* V_out and I_out measurements OUTPUT to PSU_Monitoring\n2- Power supplies: +-15V, 12V (needed), and 5V (step by step)\n	2.1- Be carefull on all the packaging\n3- Need to check manufacturing rules\n	3.1- Check testpoint and vias minimum size"
 		(exclude_from_sim no)
 		(at -145.034 4.572 0)
@@ -20014,6 +20246,17 @@
 		)
 		(uuid "c7899f33-91c6-4d11-8855-39087f41cf19")
 	)
+	(text "Write down properties of the trnasformer here"
+		(exclude_from_sim no)
+		(at 14.478 77.978 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 29 56 1)
+			)
+		)
+		(uuid "c793f2b7-978c-4235-a6cd-e19b5d93e123")
+	)
 	(text "GO BACKWARDS: START FROM LDO's TO BRIDGE RECTIFIER CURRENT, AND THEN TRAFO POWER AND CONNECTOR"
 		(exclude_from_sim no)
 		(at -85.598 22.098 0)
@@ -20119,6 +20362,17 @@
 			)
 		)
 		(uuid "dddc33e6-fdf7-4e23-9e45-f8c0a09f7ed0")
+	)
+	(text "+30V*5A=150W"
+		(exclude_from_sim no)
+		(at 444.754 123.698 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "de2c0779-6052-4984-a2b5-44db7359a926")
 	)
 	(text "holes\n"
 		(exclude_from_sim no)
@@ -20228,6 +20482,16 @@
 		)
 		(uuid "e4fcd362-8f31-4f59-a2a6-f5241711da4c")
 	)
+	(text "P_out=150W\nWith heat sink:15A \nWIthout heatsin:3.2A!! "
+		(exclude_from_sim no)
+		(at 98.552 69.088 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e68196ed-b7aa-4535-92b1-cb7ab649384c")
+	)
 	(text "* Fan: Need to calculate @home. For the moment lets say 1A\n* Voltage presence indicator: 20mA\n* Mosfet Gate driver: Imax-=0.5A\n	> When MOSFET fully closed (Current dissipated in 20Ω): 6V/20Ω=0.3A\n	> When MOSFET fully opened (Current dissipated in 10Ω+ Diode voltage drop): (6V-1V)/10Ω=0.5A\n* LDO 5V: P_int_LDO_5V+ P_out_5V= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 7*1A+12V*3.2mA= 7.0384W+1.35W\n* P_out_12V= [12V * (1+20e-3+0.5)]+8.3884= 26.6284W\n"
 		(exclude_from_sim no)
 		(at 438.15 70.104 0)
@@ -20259,6 +20523,18 @@
 			)
 		)
 		(uuid "ecf84aa5-d05c-42be-b8bf-e3a0ef51eda7")
+	)
+	(text "Regulable Lab Power Supply Unit (PSU): 30V/5A"
+		(exclude_from_sim no)
+		(at 208.28 1.27 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "edbca7e1-3e59-4d2a-9f7a-bf668e69542d")
 	)
 	(text "ALREADY DONE\n"
 		(exclude_from_sim no)
@@ -32543,6 +32819,133 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "m_BridgeRectifier:KBJB1506_T0_00301")
+		(at 64.77 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3fac292a-9f33-4e09-8bce-1f9a48430a7c")
+		(property "Reference" "BR5"
+			(at 73.914 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "KBJB1506_T0_00301"
+			(at 66.294 79.502 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "m_BridgeRectifier:KBJB1506_T0_00301"
+			(at 83.82 163.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/KBJB1506.pdf?fbclid=IwZXh0bgNhZW0CMTEAAR4OZ1Fo33rf7qdomQ3aAz3Y4ejb0yMDtPrprgTzLzOFng4Hasfgi1CcWfysow_aem_eSJzpmnXgLvNSM2pT6vx4g"
+			(at 83.82 263.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bridge Rectifiers Glass Passivated Low Profile Bridge Rectifier 600V, 15A"
+			(at 64.77 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "12"
+			(at 83.82 463.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "241-KBJB1506T00301"
+			(at 83.82 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/KBJB1506_T0_00301?qs=VVKQmw408U971kSeRhdwTA%3D%3D"
+			(at 83.82 663.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "PANJIT"
+			(at 83.82 763.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KBJB1506_T0_00301"
+			(at 83.82 863.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49660e77-d858-4810-bc05-368c1c41a700")
+		)
+		(pin "4"
+			(uuid "76f0e322-ec9a-4afa-93b4-06e4bf46daf9")
+		)
+		(pin "3"
+			(uuid "37fad5b0-5c90-4ad7-91d4-e848d4d38179")
+		)
+		(pin "2"
+			(uuid "d12cc04b-5ffb-4697-93e7-9b2fb3e0153b")
+		)
+		(instances
+			(project ""
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "BR5")
 					(unit 1)
 				)
 			)
@@ -45921,133 +46324,6 @@
 			(project ""
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "KBJB1506_T0_00301:KBJB1506_T0_00301")
-		(at 64.77 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1ada226-e510-4731-a6bf-e006a672cc1b")
-		(property "Reference" "BR4"
-			(at 73.406 64.516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "KBJB1506_T0_00301"
-			(at 64.008 80.264 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "USER_BRIDGE_RECTIFIER_2:KBJB1506_T0_00301"
-			(at 83.82 163.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/KBJB1506.pdf?fbclid=IwZXh0bgNhZW0CMTEAAR4OZ1Fo33rf7qdomQ3aAz3Y4ejb0yMDtPrprgTzLzOFng4Hasfgi1CcWfysow_aem_eSJzpmnXgLvNSM2pT6vx4g"
-			(at 83.82 263.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bridge Rectifiers Glass Passivated Low Profile Bridge Rectifier 600V, 15A"
-			(at 64.77 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "12"
-			(at 83.82 463.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "241-KBJB1506T00301"
-			(at 83.82 563.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/KBJB1506_T0_00301?qs=VVKQmw408U971kSeRhdwTA%3D%3D"
-			(at 83.82 663.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "PANJIT"
-			(at 83.82 763.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "KBJB1506_T0_00301"
-			(at 83.82 863.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "bd60b063-7b49-4ca3-a497-9c1685ee2cb4")
-		)
-		(pin "1"
-			(uuid "404eb628-a655-4a4f-a906-a16256935b85")
-		)
-		(pin "2"
-			(uuid "ec61455e-1832-4950-a7fa-086c3ef0738b")
-		)
-		(pin "4"
-			(uuid "f3b8025d-44d5-4926-9020-b6d49a3cc12f")
-		)
-		(instances
-			(project "PowerSupply30V5A"
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "BR4")
 					(unit 1)
 				)
 			)
