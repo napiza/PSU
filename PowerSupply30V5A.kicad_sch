@@ -587,6 +587,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0805_100nF_50V_10%_4"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "100nF_50V"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.94"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-885070"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "885070"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0805_100nF_50V_10%_4_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 1.778) (xy 5.588 -1.778)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 1.778) (xy 7.112 -1.778)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0805_1μF_25V_20%_1"
 			(pin_names
 				(hide yes)
@@ -1652,6 +1844,198 @@
 				)
 			)
 			(symbol "0805_1μF_25V_20%_6_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 1.778) (xy 5.588 -1.778)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 1.778) (xy 7.112 -1.778)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0805_1μF_25V_20%_7"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1μF_25V"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.94"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-885070"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "885070"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0805_1μF_25V_20%_7_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -18679,6 +19063,17 @@
 		)
 		(uuid "00829fae-7c39-4676-b2ef-bafa890f2b23")
 	)
+	(text "Y aqui cambiar P_out_12V una vez haya medido"
+		(exclude_from_sim no)
+		(at 588.518 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 51 72 1)
+			)
+		)
+		(uuid "0491934b-f729-45a0-9f48-58386d387697")
+	)
 	(text "If=200mA\nVf=1V"
 		(exclude_from_sim no)
 		(at 341.376 115.57 0)
@@ -18870,7 +19265,7 @@
 	)
 	(text "+15V: (xx W)"
 		(exclude_from_sim no)
-		(at 441.96 77.724 0)
+		(at 442.722 81.534 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18934,6 +19329,17 @@
 		)
 		(uuid "35d053b3-3fa5-47c6-aad4-b0bad53ca177")
 	)
+	(text "I_out_-15V=111mA"
+		(exclude_from_sim no)
+		(at 448.056 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 62 255 75 1)
+			)
+		)
+		(uuid "394cea30-8c1c-414e-8871-4dca6a6e52f5")
+	)
 	(text "footprint for all capas and resistors AND DATASHEET\n\n"
 		(exclude_from_sim no)
 		(at -96.52 321.31 0)
@@ -18944,9 +19350,9 @@
 		)
 		(uuid "398f9938-9de3-4023-8de6-1edaa520516a")
 	)
-	(text "* Voltage presence indicator: 20mA\n* For current and voltage reference: 1.25W\n 	> Scenario with potentiometer: Need to measure: For the moment I remember 50mOhm = 5V^2/50mOhm=1.25W\n	> Scenario with MCU: I will not need this reference, voltage will be given by MCU. \n* P_tot_5V= (5V*20e-3)+1.25W= 1.35W"
+	(text "* Voltage presence indicator: 20mA\n* For current and voltage reference: 1.25W\n 	> Scenario with potentiometer: Need to measure: For the moment I remember 50mOhm = 5V^2/50mOhm=1.25W\n	> Scenario with MCU: I will not need this reference, voltage will be given by MCU. \n* P_out_5V= (5V*20e-3)+1.25W= 1.35W"
 		(exclude_from_sim no)
-		(at 436.118 69.342 0)
+		(at 437.134 50.038 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19093,7 +19499,7 @@
 	)
 	(text "+12V: (20.27W)"
 		(exclude_from_sim no)
-		(at 440.944 42.164 0)
+		(at 443.484 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19205,6 +19611,17 @@
 		)
 		(uuid "63776dc7-7293-4995-b534-092544b3fc65")
 	)
+	(text "* Voltage presence indicator: 20mA\n* Quad op-amp buffer: 680mW Pmax when output @+15V\n* Quad op-amp voltage and current PI:680mW Pmax when output @+15V\n* LDO 12V: P_int_LDO_12V+P_out_12V= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 3V*1A+18V*3.5mA= 3.063W\n* P_tot_15V"
+		(exclude_from_sim no)
+		(at 436.88 88.646 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66559330-4f01-4302-b20d-f046dcbb39f3")
+	)
 	(text "PSU CONTROL & MONITORING \n(Sending signals to PSU Monitoring PCB)\n"
 		(exclude_from_sim no)
 		(at 72.136 150.622 0)
@@ -19267,6 +19684,17 @@
 		)
 		(uuid "71f05902-9adf-403c-afc2-fc9ea85c9bad")
 	)
+	(text "Claro, el opamp es 1A solo, asique tengo que medir esto. Si es 1A, tengo que cambiar LDO\nAqui estoy dando 2A en el op-amp! no funciona"
+		(exclude_from_sim no)
+		(at 546.862 77.724 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 1 15 1)
+			)
+		)
+		(uuid "72b337dc-7b57-4ed9-a3c9-ad2bb2de357a")
+	)
 	(text "P_max_operation=1.25W(50mOhms*(5A)^2)\n"
 		(exclude_from_sim no)
 		(at 73.406 97.79 0)
@@ -19327,6 +19755,17 @@
 			)
 		)
 		(uuid "873083a2-8654-40c9-97f3-86edec276a2d")
+	)
+	(text "I_out_15V=xxA"
+		(exclude_from_sim no)
+		(at 446.024 95.504 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 43 48 1)
+			)
+		)
+		(uuid "8744a38c-d171-493c-92c2-183bb32bcdcf")
 	)
 	(text "I_out(max): 1A (With heatsink)"
 		(exclude_from_sim no)
@@ -19406,7 +19845,7 @@
 	)
 	(text "Voltage buffer for the references.\nI need low output impedance from the voltage sources\n"
 		(exclude_from_sim no)
-		(at 103.632 184.15 90)
+		(at 101.6 198.882 90)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -19618,6 +20057,17 @@
 		)
 		(uuid "d09c8d5e-da53-4974-b85c-8e9edfc518ab")
 	)
+	(text "* Voltage presence indicator: 20mA\n* Quad op-amp buffer: 680mW Pmax when output @-15V\n* Quad op-amp voltage and current PI:680mW Pmax when output @-15V\n* P_tot_15V= (15V*20mA) + (2*680mW) = 1.66W\n"
+		(exclude_from_sim no)
+		(at 436.626 108.966 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d2800979-dd36-45a4-980c-0043ec4378bf")
+	)
 	(text "I believe this was not working properly cause I was asking more current than possible"
 		(exclude_from_sim no)
 		(at 82.804 52.07 0)
@@ -19648,6 +20098,17 @@
 			)
 		)
 		(uuid "d5ea4608-5929-4022-b667-bd3af85803c2")
+	)
+	(text "I_out_5V=330mA"
+		(exclude_from_sim no)
+		(at 448.056 56.642 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 62 255 75 1)
+			)
+		)
+		(uuid "db201ce4-e708-4dd3-8856-b78c2986f494")
 	)
 	(text "N\n"
 		(exclude_from_sim no)
@@ -19712,9 +20173,20 @@
 		)
 		(uuid "e16aee44-2880-4080-9b97-ec9d7e557dd2")
 	)
+	(text "I_out_12V=2A"
+		(exclude_from_sim no)
+		(at 447.04 78.232 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 43 48 1)
+			)
+		)
+		(uuid "e2bf022e-02f1-4a09-a119-b9e71e503891")
+	)
 	(text "-15V: (xx W)"
 		(exclude_from_sim no)
-		(at 441.96 84.836 0)
+		(at 443.992 100.076 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19756,9 +20228,9 @@
 		)
 		(uuid "e4fcd362-8f31-4f59-a2a6-f5241711da4c")
 	)
-	(text "* Fan: Need to calculate @home. For the moment lets say 1A\n* Voltage presence indicator: 20mA\n* Mosfet Gate driver: Imax-=0.5A\n	> When MOSFET fully closed (Current dissipated in 20Ω): 6V/20Ω=0.3A\n	> When MOSFET fully opened (Current dissipated in 10Ω+ Diode voltage drop): (6V-1V)/10Ω=0.5A\n* LDO 5V: P_LDO= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 2V*1A+12V*3.2mA= 2.0384W\n* P_tot_12V= [12V * (1+20e-3+0.5)]+2.0384=20.27W"
+	(text "* Fan: Need to calculate @home. For the moment lets say 1A\n* Voltage presence indicator: 20mA\n* Mosfet Gate driver: Imax-=0.5A\n	> When MOSFET fully closed (Current dissipated in 20Ω): 6V/20Ω=0.3A\n	> When MOSFET fully opened (Current dissipated in 10Ω+ Diode voltage drop): (6V-1V)/10Ω=0.5A\n* LDO 5V: P_int_LDO_5V+ P_out_5V= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 7*1A+12V*3.2mA= 7.0384W+1.35W\n* P_out_12V= [12V * (1+20e-3+0.5)]+8.3884= 26.6284W\n"
 		(exclude_from_sim no)
-		(at 435.61 51.308 0)
+		(at 438.15 70.104 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19862,7 +20334,7 @@
 	)
 	(text "+5V: (1.35W)"
 		(exclude_from_sim no)
-		(at 440.944 62.23 0)
+		(at 441.96 42.926 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20268,6 +20740,12 @@
 		(uuid "4f2bc782-7d7a-498a-8d20-63d75f13faf7")
 	)
 	(junction
+		(at 104.14 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fed1637-520d-47e7-86bc-320fb3b536d8")
+	)
+	(junction
 		(at 101.6 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20356,6 +20834,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e3119af-a798-4f53-b4ad-20aa4432ded3")
+	)
+	(junction
+		(at 104.14 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70dc1078-505e-4dcd-9971-8b47b806945b")
 	)
 	(junction
 		(at 55.88 -189.23)
@@ -22277,6 +22761,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 158.75) (xy 104.14 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51ec17af-1a36-4585-af88-eefd68f692ae")
+	)
+	(wire
+		(pts
 			(xy 60.96 252.73) (xy 58.42 252.73)
 		)
 		(stroke
@@ -23277,6 +23771,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 168.91) (xy 104.14 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "823c97d3-66af-49ec-ab0e-4992e396f72e")
+	)
+	(wire
+		(pts
 			(xy 58.42 209.55) (xy 76.2 209.55)
 		)
 		(stroke
@@ -23494,6 +23998,16 @@
 			(type default)
 		)
 		(uuid "935813f3-f9e9-45e3-b4c6-b1382ce6cbad")
+	)
+	(wire
+		(pts
+			(xy 96.52 168.91) (xy 104.14 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93df6013-5f62-49e7-a9f4-bf4b9e599974")
 	)
 	(wire
 		(pts
@@ -24097,6 +24611,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 160.02) (xy 111.76 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b31afe51-cafe-4f64-9605-a011f0209b03")
+	)
+	(wire
+		(pts
 			(xy 54.61 -130.81) (xy 64.77 -130.81)
 		)
 		(stroke
@@ -24244,6 +24768,16 @@
 			(type default)
 		)
 		(uuid "b7eabbd9-3bfe-478f-bfaa-beb0499b769a")
+	)
+	(wire
+		(pts
+			(xy 111.76 160.02) (xy 111.76 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ebe61f-3963-4dab-93ff-467bc07b4181")
 	)
 	(wire
 		(pts
@@ -24777,6 +25311,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 160.02) (xy 104.14 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5992714-f630-420e-ac39-c3e4c60137f6")
+	)
+	(wire
+		(pts
 			(xy 55.88 -189.23) (xy 68.58 -189.23)
 		)
 		(stroke
@@ -24894,6 +25438,16 @@
 			(type default)
 		)
 		(uuid "de032b0b-ff3c-423c-9c9d-9a8085afd8a5")
+	)
+	(wire
+		(pts
+			(xy 96.52 160.02) (xy 96.52 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de08b047-6bdc-4e27-8ec3-a4a2c9fcdf15")
 	)
 	(wire
 		(pts
@@ -25094,6 +25648,16 @@
 			(type default)
 		)
 		(uuid "ec31fc9e-5c43-431e-9c6c-e48efff0b7f2")
+	)
+	(wire
+		(pts
+			(xy 104.14 168.91) (xy 111.76 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecb5adf9-afd6-4fcb-81a8-d6f960f7ffce")
 	)
 	(wire
 		(pts
@@ -29802,6 +30366,128 @@
 		)
 	)
 	(symbol
+		(lib_name "0805_1μF_25V_20%_7")
+		(lib_id "m_Capacitor_ceramic_SMD:0805_1μF_25V_20%")
+		(at 111.76 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "219f0c4b-835d-4c1d-8084-b35c2d717d96")
+		(property "Reference" "C38"
+			(at 116.586 161.798 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "1μF_25V"
+			(at 120.904 163.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+			(at 207.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+			(at 307.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+			(at 111.76 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 507.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-885070"
+			(at 607.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 707.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 807.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885070"
+			(at 907.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "e05310e6-211b-4d18-9e5d-b65c1f3c8576")
+		)
+		(pin ""
+			(uuid "69d96305-03ca-4302-a0c1-a823001af059")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "0805_1μF_25V_20%_6")
 		(lib_id "m_Capacitor_ceramic_SMD:0805_1μF_25V_20%")
 		(at 271.78 41.91 90)
@@ -33104,6 +33790,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+15V")
+		(at 104.14 158.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50bf6b12-b6ba-49a4-9202-cdabc2c056e7")
+		(property "Reference" "#PWR067"
+			(at 104.14 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 104.14 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 104.14 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3d44d3e-f1f2-4c71-ac59-c1ba41dd4626")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "#PWR067")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 130.81 -35.56 0)
 		(unit 1)
@@ -34552,6 +35304,71 @@
 			(project ""
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "631903f6-41b6-4e18-b654-e5bb7e11aaef")
+		(property "Reference" "#PWR068"
+			(at 104.14 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14ff8894-a8c2-4a74-9a1d-810b6d3d61b3")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -43900,6 +44717,128 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "C31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "0805_100nF_50V_10%_4")
+		(lib_id "m_Capacitor_ceramic_SMD:0805_100nF_50V_10%")
+		(at 96.52 171.45 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e64507bb-b4b4-4a52-9b50-9346c8de4f82")
+		(property "Reference" "C35"
+			(at 90.678 164.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "100nF_50V"
+			(at 94.234 167.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+			(at 192.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+			(at 292.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+			(at 96.52 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 492.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-885070"
+			(at 592.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 692.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 792.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885070"
+			(at 892.71 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "1632b8cc-c42f-4637-bb23-9698381ff94c")
+		)
+		(pin ""
+			(uuid "0a5b8022-8e92-4566-af28-c277812fe418")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "C35")
 					(unit 1)
 				)
 			)
