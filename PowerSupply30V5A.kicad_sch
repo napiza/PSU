@@ -19271,6 +19271,18 @@
 		)
 		(uuid "068317f8-cf89-4fcd-a79a-55dc998ffc6d")
 	)
+	(text "learn to derive pk, rms , avg"
+		(exclude_from_sim no)
+		(at -121.92 66.548 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "0a144ad5-697b-413c-8156-91d6f67e6338")
+	)
 	(text "missing connector ac power: calcular corriente de cable y cambiar?\n\n"
 		(exclude_from_sim no)
 		(at -95.504 258.318 0)
