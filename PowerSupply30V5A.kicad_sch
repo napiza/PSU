@@ -19250,17 +19250,6 @@
 		)
 		(uuid "00829fae-7c39-4676-b2ef-bafa890f2b23")
 	)
-	(text "Y aqui cambiar P_out_12V una vez haya medido"
-		(exclude_from_sim no)
-		(at 588.518 90.424 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 51 72 1)
-			)
-		)
-		(uuid "0491934b-f729-45a0-9f48-58386d387697")
-	)
 	(text "If=200mA\nVf=1V"
 		(exclude_from_sim no)
 		(at 341.376 115.57 0)
@@ -19473,7 +19462,7 @@
 		)
 		(uuid "28effbae-4bed-46b0-acf3-290cef5e6680")
 	)
-	(text "+15V: (xx W)"
+	(text "+15V: (23W)"
 		(exclude_from_sim no)
 		(at 442.722 81.534 0)
 		(effects
@@ -19718,7 +19707,7 @@
 		)
 		(uuid "4f5ec8e4-92c8-4d36-819a-92fb6a40d4e1")
 	)
-	(text "+12V: (20.27W)"
+	(text "+12V: (18W)"
 		(exclude_from_sim no)
 		(at 443.484 60.96 0)
 		(effects
@@ -19832,7 +19821,7 @@
 		)
 		(uuid "63776dc7-7293-4995-b534-092544b3fc65")
 	)
-	(text "* Voltage presence indicator: 20mA\n* Quad op-amp buffer: 680mW Pmax when output @+15V\n* Quad op-amp voltage and current PI:680mW Pmax when output @+15V\n* LDO 12V: P_int_LDO_12V+P_out_12V= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 3V*1A+18V*3.5mA= 3.063W\n* P_tot_15V"
+	(text "* Voltage presence indicator: 20mA\n* Quad op-amp buffer: 680mW Pmax when output @+15V\n* Quad op-amp voltage and current PI:680mW Pmax when output @+15V\n* LDO 12V: P_int_LDO_12V+P_out_12V= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 3V*1A+18V*3.5mA= 3.063W+18W\n* P_tot_15V:21,0514W+15*20e-3+(2*680e-3)=22,7114"
 		(exclude_from_sim no)
 		(at 436.88 88.646 0)
 		(effects
@@ -19873,7 +19862,7 @@
 		)
 		(uuid "6ca8b4f3-7d00-4966-8157-eba18a18dc31")
 	)
-	(text "NEXT:\n+Finish calculating current/power of LDO\n+Choose bridge rectifier+ transformer following from this"
+	(text "NEXT:\n+Need to change two LDO: Higher power\n+Choose bridge rectifier+ transformer following from this"
 		(exclude_from_sim no)
 		(at -111.506 59.69 0)
 		(effects
@@ -19915,17 +19904,6 @@
 			)
 		)
 		(uuid "71f05902-9adf-403c-afc2-fc9ea85c9bad")
-	)
-	(text "Claro, el opamp es 1A solo, asique tengo que medir esto. Si es 1A, tengo que cambiar LDO\nAqui estoy dando 2A en el op-amp! no funciona"
-		(exclude_from_sim no)
-		(at 546.862 77.724 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 255 1 15 1)
-			)
-		)
-		(uuid "72b337dc-7b57-4ed9-a3c9-ad2bb2de357a")
 	)
 	(text "P_max_operation=1.25W(50mOhms*(5A)^2)\n"
 		(exclude_from_sim no)
@@ -19988,9 +19966,9 @@
 		)
 		(uuid "873083a2-8654-40c9-97f3-86edec276a2d")
 	)
-	(text "I_out_15V=xxA"
+	(text "I_out_15V=1.54A"
 		(exclude_from_sim no)
-		(at 446.024 95.504 0)
+		(at 447.802 94.996 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20064,6 +20042,17 @@
 		)
 		(uuid "982ae6f6-83c2-4770-959e-03b0fc3cb8c8")
 	)
+	(text "Total power of second bridge rectifier: \nP_tot=1.5+18+23+20=44.5==45W"
+		(exclude_from_sim no)
+		(at 437.642 120.396 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a79d6b0b-4089-46e4-bff1-fcfefcf96b35")
+	)
 	(text "DUDAS:\nAnalogue 0 connected to GND? (ok)\n"
 		(exclude_from_sim no)
 		(at -125.984 345.44 0)
@@ -20089,7 +20078,7 @@
 	)
 	(text "Power of the PSU rail:\n"
 		(exclude_from_sim no)
-		(at 446.024 120.142 0)
+		(at 448.564 126.492 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20375,14 +20364,15 @@
 		)
 		(uuid "dddc33e6-fdf7-4e23-9e45-f8c0a09f7ed0")
 	)
-	(text "+30V*5A=150W"
+	(text "+30V*5A=150W\nPower of first bridge rectifier"
 		(exclude_from_sim no)
-		(at 444.754 123.698 0)
+		(at 437.388 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
+			(justify left)
 		)
 		(uuid "de2c0779-6052-4984-a2b5-44db7359a926")
 	)
@@ -20450,9 +20440,9 @@
 		)
 		(uuid "e2bf022e-02f1-4a09-a119-b9e71e503891")
 	)
-	(text "-15V: (xx W)"
+	(text "-15V: (2W)"
 		(exclude_from_sim no)
-		(at 443.992 100.076 0)
+		(at 442.468 102.362 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20504,7 +20494,7 @@
 		)
 		(uuid "e68196ed-b7aa-4535-92b1-cb7ab649384c")
 	)
-	(text "* Fan: Need to calculate @home. For the moment lets say 1A\n* Voltage presence indicator: 20mA\n* Mosfet Gate driver: Imax-=0.5A\n	> When MOSFET fully closed (Current dissipated in 20Ω): 6V/20Ω=0.3A\n	> When MOSFET fully opened (Current dissipated in 10Ω+ Diode voltage drop): (6V-1V)/10Ω=0.5A\n* LDO 5V: P_int_LDO_5V+ P_out_5V= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 7*1A+12V*3.2mA= 7.0384W+1.35W\n* P_out_12V= [12V * (1+20e-3+0.5)]+8.3884= 26.6284W\n"
+	(text "* Fan: 0.28A\n* Voltage presence indicator: 20mA\n* Mosfet Gate driver: Imax-=0.5A\n	> When MOSFET fully closed (Current dissipated in 20Ω): 6V/20Ω=0.3A\n	> When MOSFET fully opened (Current dissipated in 10Ω+ Diode voltage drop): (6V-1V)/10Ω=0.5A\n* LDO 5V: P_int_LDO_5V+ P_out_5V= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 7*1A+12V*3.2mA= 7.0384W+1.35W\n* P_out_12V= [12V * (0.28+20e-3+0.5)]+8.3884= 18W\n"
 		(exclude_from_sim no)
 		(at 438.15 70.104 0)
 		(effects
@@ -20620,7 +20610,7 @@
 		)
 		(uuid "f908ef11-c0d2-451e-b3b8-4450d0b3cfd4")
 	)
-	(text "+5V: (1.35W)"
+	(text "+5V: (1.5W)"
 		(exclude_from_sim no)
 		(at 441.96 42.926 0)
 		(effects
