@@ -15398,6 +15398,463 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "m_LDO:BDJ2FD0WHFP-TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BDJ2FD0WHFP-TR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "m_LDO:BDJ2FD0WHFPTR"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfd0xxxx-e.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 2A HRP-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.135"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "755-BDJ2FD0WHFP-TR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BDJ2FD0WHFP-TR?qs=%252BEew9%252B0nqrCV4Fx2tfdbDA%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ROHM Semiconductor"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BDJ2FD0WHFP-TR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "12V-2A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BDJ2FD0WHFP-TR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "CTL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "N.C._"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "FIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "m_LDO:BDJ5FD0WHFP-TR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "IC"
+				(at 24.13 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "BDJ5FD0WHFP-TR"
+				(at 24.13 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "m_LDO:BDJ5FD0WHFPTR"
+				(at 24.13 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfd0xxxx-e.pdf"
+				(at 24.13 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "LDO Voltage Regulator, Fixed, 2.5 to 32 V in, 0.4 V Dropout, 15 V/2 A out, HRP-5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "2.135"
+				(at 24.13 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "755-BDJ5FD0WHFP-TR"
+				(at 24.13 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BDJ5FD0WHFP-TR?qs=%252BEew9%252B0nqrCr4hqNSLCenw%3D%3D"
+				(at 24.13 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ROHM Semiconductor"
+				(at 24.13 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "BDJ5FD0WHFP-TR"
+				(at 24.13 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "BDJ5FD0WHFP-TR_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 22.86 -12.7)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "CTL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "N.C."
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
+					(length 5.08)
+					(name "FIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "m_LDO:MC7812BDTRKG"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -19821,7 +20278,7 @@
 		)
 		(uuid "63776dc7-7293-4995-b534-092544b3fc65")
 	)
-	(text "* Voltage presence indicator: 20mA\n* Quad op-amp buffer: 680mW Pmax when output @+15V\n* Quad op-amp voltage and current PI:680mW Pmax when output @+15V\n* LDO 12V: P_int_LDO_12V+P_out_12V= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 3V*1A+18V*3.5mA= 3.063W+18W\n* P_tot_15V:21,0514W+15*20e-3+(2*680e-3)=22,7114"
+	(text "* Voltage presence indicator: 20mA\n* Quad op-amp buffer: 680mW Pmax when output @+15V\n* Quad op-amp voltage and current PI:680mW Pmax when output @+15V\n* LDO 12V: P_int_LDO_12V+P_out_12V= V_in*Iq (Quiescent current)+(V_in-V_out)*I_out= 15V*0.5mA+3V*1.5A= 4.5W+18W\n* P_tot_15V:21,0514W+15*20e-3+(2*680e-3)=22,5"
 		(exclude_from_sim no)
 		(at 436.88 88.646 0)
 		(effects
@@ -19862,7 +20319,7 @@
 		)
 		(uuid "6ca8b4f3-7d00-4966-8157-eba18a18dc31")
 	)
-	(text "NEXT:\n+Need to change two LDO: Higher power\n+Choose bridge rectifier+ transformer following from this"
+	(text "NEXT:\n+Need to change two LDO: Higher power, HIGHER CURRENT\n+Choose bridge rectifier+ transformer following from this"
 		(exclude_from_sim no)
 		(at -111.506 59.69 0)
 		(effects
@@ -19936,6 +20393,17 @@
 		)
 		(uuid "7fb81891-c61e-4dbc-947d-b380816e61b5")
 	)
+	(text "The voltage regulation was not okey because too much power, it was turning down the LDO´s"
+		(exclude_from_sim no)
+		(at -209.042 19.812 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 5 20 1)
+			)
+		)
+		(uuid "81bb8beb-bb06-479a-bd1c-8e624113c393")
+	)
 	(text "clearance distance rules for HV\n"
 		(exclude_from_sim no)
 		(at -100.33 359.41 0)
@@ -19966,13 +20434,13 @@
 		)
 		(uuid "873083a2-8654-40c9-97f3-86edec276a2d")
 	)
-	(text "I_out_15V=1.54A"
+	(text "I_out_15V=1.5A"
 		(exclude_from_sim no)
 		(at 447.802 94.996 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 43 48 1)
+				(color 62 255 75 1)
 			)
 		)
 		(uuid "8744a38c-d171-493c-92c2-183bb32bcdcf")
@@ -20042,7 +20510,7 @@
 		)
 		(uuid "982ae6f6-83c2-4770-959e-03b0fc3cb8c8")
 	)
-	(text "Total power of second bridge rectifier: \nP_tot=1.5+18+23+20=44.5==45W"
+	(text "Total power of second bridge rectifier: \nP_tot=1.5+18+23+2=44.5==45W"
 		(exclude_from_sim no)
 		(at 437.642 120.396 0)
 		(effects
@@ -20429,13 +20897,13 @@
 		)
 		(uuid "e16aee44-2880-4080-9b97-ec9d7e557dd2")
 	)
-	(text "I_out_12V=2A"
+	(text "I_out_12V=1.5A"
 		(exclude_from_sim no)
 		(at 447.04 78.232 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 255 43 48 1)
+				(color 62 255 75 1)
 			)
 		)
 		(uuid "e2bf022e-02f1-4a09-a119-b9e71e503891")
@@ -20494,7 +20962,7 @@
 		)
 		(uuid "e68196ed-b7aa-4535-92b1-cb7ab649384c")
 	)
-	(text "* Fan: 0.28A\n* Voltage presence indicator: 20mA\n* Mosfet Gate driver: Imax-=0.5A\n	> When MOSFET fully closed (Current dissipated in 20Ω): 6V/20Ω=0.3A\n	> When MOSFET fully opened (Current dissipated in 10Ω+ Diode voltage drop): (6V-1V)/10Ω=0.5A\n* LDO 5V: P_int_LDO_5V+ P_out_5V= (V_in-V_out)*I_out + V_in*Iq (Quiescent current)= 7*1A+12V*3.2mA= 7.0384W+1.35W\n* P_out_12V= [12V * (0.28+20e-3+0.5)]+8.3884= 18W\n"
+	(text "* Fan: 0.28A\n* Voltage presence indicator: 20mA\n* Mosfet Gate driver: Imax-=0.5A\n	> When MOSFET fully closed (Current dissipated in 20Ω): 6V/20Ω=0.3A\n	> When MOSFET fully opened (Current dissipated in 10Ω+ Diode voltage drop): (6V-1V)/10Ω=0.5A\n* LDO 5V: P_int_LDO_5V+ P_out_5V= V_in*Iq (Quiescent current)+ (V_in-V_out)*I_out= 12V*3.2mA+ 7*1A= 7.0384W+1.35W\n* P_out_12V= [12V * (0.28+20e-3+0.5)]+8.3884= 18W\n"
 		(exclude_from_sim no)
 		(at 438.15 70.104 0)
 		(effects
@@ -37659,6 +38127,138 @@
 		)
 	)
 	(symbol
+		(lib_id "m_LDO:BDJ5FD0WHFP-TR")
+		(at 212.09 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e3f211f-e85e-44bb-a324-c8facbe87f19")
+		(property "Reference" "IC12"
+			(at 226.06 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BDJ5FD0WHFP-TR"
+			(at 226.06 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "m_LDO:BDJ5FD0WHFPTR"
+			(at 236.22 225.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfd0xxxx-e.pdf"
+			(at 236.22 325.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "LDO Voltage Regulator, Fixed, 2.5 to 32 V in, 0.4 V Dropout, 15 V/2 A out, HRP-5"
+			(at 212.09 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.135"
+			(at 236.22 525.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-BDJ5FD0WHFP-TR"
+			(at 236.22 625.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BDJ5FD0WHFP-TR?qs=%252BEew9%252B0nqrCr4hqNSLCenw%3D%3D"
+			(at 236.22 725.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 236.22 825.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BDJ5FD0WHFP-TR"
+			(at 236.22 925.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "808db261-61c7-42b6-86c4-77b02b3cb0ce")
+		)
+		(pin "5"
+			(uuid "05c17fac-81bc-4c16-b128-8cc8c8d5b7c0")
+		)
+		(pin "6"
+			(uuid "3a2eb1ca-7b6b-4e76-8dff-739670b4a7f3")
+		)
+		(pin "1"
+			(uuid "92647d4a-fb11-4e7c-b240-78411029ad82")
+		)
+		(pin "4"
+			(uuid "ac524138-8195-457f-a796-f65b45f25b7c")
+		)
+		(pin "3"
+			(uuid "fe95d606-e0a7-4891-9c0b-e3911a7a43db")
+		)
+		(instances
+			(project ""
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "IC12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 292.1 -81.28 0)
 		(unit 1)
@@ -45364,6 +45964,138 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "m_LDO:BDJ2FD0WHFP-TR")
+		(at 172.72 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6a62ee7-6f07-4440-a4c0-e6ed67dffb2e")
+		(property "Reference" "IC11"
+			(at 186.69 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BDJ2FD0WHFP-TR"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "m_LDO:BDJ2FD0WHFPTR"
+			(at 196.85 227 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfd0xxxx-e.pdf"
+			(at 196.85 327 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 2A HRP-5"
+			(at 172.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.135"
+			(at 196.85 527 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "755-BDJ2FD0WHFP-TR"
+			(at 196.85 627 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BDJ2FD0WHFP-TR?qs=%252BEew9%252B0nqrCV4Fx2tfdbDA%3D%3D"
+			(at 196.85 727 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ROHM Semiconductor"
+			(at 196.85 827 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BDJ2FD0WHFP-TR"
+			(at 196.85 927 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5ee2ca48-30b8-45c4-80cd-b4cfc35c83d6")
+		)
+		(pin "3"
+			(uuid "7cdb4eb1-ddeb-4bc0-b1cc-7f463dcc9a5f")
+		)
+		(pin "4"
+			(uuid "e6a060c0-f8c2-433d-a85b-a07324e82695")
+		)
+		(pin "1"
+			(uuid "5a7cb8ec-5037-4fad-a932-0ff6d2dafffa")
+		)
+		(pin "5"
+			(uuid "3f00b530-f623-41de-ae80-d7160d4c6804")
+		)
+		(pin "6"
+			(uuid "90401f16-c0d4-425c-959b-4c915b428f6f")
+		)
+		(instances
+			(project ""
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "IC11")
 					(unit 1)
 				)
 			)
