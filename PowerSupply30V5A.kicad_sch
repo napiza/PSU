@@ -2123,6 +2123,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "0805_1μF_25V_20%_8"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1μF_25V"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.94"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-885070"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "885070"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0805_1μF_25V_20%_8_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 1.778) (xy 5.588 -1.778)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 1.778) (xy 7.112 -1.778)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "0805_330nF_25V_10%_1"
 			(pin_names
 				(hide yes)
@@ -2507,198 +2699,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "0805_330nF_25V_10%_3"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "330nF_25V"
-				(at 8.89 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
-				(at 8.89 -96.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "0.94"
-				(at 8.89 -396.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "710-885070"
-				(at 8.89 -496.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 8.89 -596.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "Wurth Elektronik"
-				(at 8.89 -696.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "885070"
-				(at 8.89 -796.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "0805_330nF_25V_10%_3_1_1"
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 5.588 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.588 1.778) (xy 5.588 -1.778)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 1.778) (xy 7.112 -1.778)
-					)
-					(stroke
-						(width 0.381)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.112 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "0805_4.7nF_50V_5%_1"
 			(pin_names
 				(hide yes)
@@ -2804,6 +2804,198 @@
 				)
 			)
 			(symbol "0805_4.7nF_50V_5%_1_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 1.778) (xy 5.588 -1.778)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 1.778) (xy 7.112 -1.778)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "0805_4.7uF_25V_20%_1"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "4.7uF_25V"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.94"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-885070"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "885070"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0805_4.7uF_25V_20%_1_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -13024,196 +13216,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MC7815BDTRKG_1"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "IC"
-				(at 21.59 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "MC7815BDTRKG"
-				(at 21.59 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "m_LDO:NVD5117PLT4GVF01"
-				(at 21.59 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7800-D.PDF"
-				(at 21.59 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Output Current in Excess of 1.0 A; No External Components Required; Internal Thermal Overload Protection; Internal Short Circuit Current Limiting; Output Transistor Safe-Area Compensation; Output Voltage Offered in 2% and 4% Tolerance; Pb-Free Packages are Available"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "2.38"
-				(at 21.59 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "onsemi"
-				(at 21.59 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "MC7815BDTRKG"
-				(at 21.59 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "863-MC7815BDTRKG"
-				(at 21.59 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MC7815BDTRKG?qs=%252B9%2Fcbd0IE0QAayqLvnGs6g%3D%3D"
-				(at 21.59 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Part Number" "MC7815BDTRKG"
-				(at 21.59 -894.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mc7815bdtrkg/on-semiconductor?region=nac"
-				(at 21.59 -994.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "MC7815BDTRKG_1_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 20.32 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "IN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 12.7 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "OUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "MC7915BD2TR4G:MC7915BD2TR4G"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -14754,6 +14756,198 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "m_Capacitor_ceramic_SMD:0805_4.7uF_25V_20%"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "4.7uF_25V"
+				(at 8.89 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+				(at 8.89 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+				(at 8.89 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "0.94"
+				(at 8.89 -396.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-885070"
+				(at 8.89 -496.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 8.89 -596.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "Wurth Elektronik"
+				(at 8.89 -696.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "885070"
+				(at 8.89 -796.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "0805_4.7uF_25V_20%_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 1.778) (xy 5.588 -1.778)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 1.778) (xy 7.112 -1.778)
+					)
+					(stroke
+						(width 0.381)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "m_Connectors:1755752"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -15402,22 +15596,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
+			(property "Reference" "IC11"
+				(at 13.97 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "BDJ2FD0WHFP-TR"
-				(at 24.13 5.08 0)
+				(at 13.97 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "m_LDO:BDJ2FD0WHFPTR"
@@ -15523,24 +15715,6 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "CTL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
 					(name "VCC"
 						(effects
 							(font
@@ -15557,7 +15731,25 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 0 -6.35 0)
+					(length 5.08)
+					(name "CTL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -17.78 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -15575,7 +15767,25 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at 16.51 -17.78 90)
+					(length 5.08)
+					(name "FIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
 					(length 5.08)
 					(name "VO"
 						(effects
@@ -15593,7 +15803,7 @@
 					)
 				)
 				(pin passive line
-					(at 0 -10.16 0)
+					(at 27.94 -8.89 180)
 					(length 5.08)
 					(name "N.C._"
 						(effects
@@ -15610,24 +15820,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "FIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
@@ -15635,22 +15827,20 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "IC"
-				(at 24.13 7.62 0)
+			(property "Reference" "IC12"
+				(at 13.97 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Value" "BDJ5FD0WHFP-TR"
-				(at 24.13 5.08 0)
+				(at 13.97 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 				)
 			)
 			(property "Footprint" "m_LDO:BDJ5FD0WHFPTR"
@@ -15747,24 +15937,6 @@
 				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "CTL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
 					(name "VCC"
 						(effects
 							(font
@@ -15781,7 +15953,25 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 0)
+					(at 0 -6.35 0)
+					(length 5.08)
+					(name "CTL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 11.43 -17.78 90)
 					(length 5.08)
 					(name "GND"
 						(effects
@@ -15799,7 +15989,25 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 0)
+					(at 16.51 -17.78 90)
+					(length 5.08)
+					(name "FIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 27.94 0 180)
 					(length 5.08)
 					(name "VO"
 						(effects
@@ -15816,8 +16024,8 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 0 -10.16 0)
+				(pin bidirectional line
+					(at 27.94 -8.89 180)
 					(length 5.08)
 					(name "N.C."
 						(effects
@@ -15827,24 +16035,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 27.94 0 180)
-					(length 5.08)
-					(name "FIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -19848,6 +20038,16 @@
 		)
 		(uuid "1e18e279-9609-4d39-8f60-d1ae4fe3f73e")
 	)
+	(text "I_out(max): 2A "
+		(exclude_from_sim no)
+		(at 259.334 55.372 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ed1d4ec-355c-4a16-82d3-bb79beb57af6")
+	)
 	(text "POWER CONTROL\n"
 		(exclude_from_sim no)
 		(at 93.472 -198.374 0)
@@ -20208,7 +20408,7 @@
 	)
 	(text "I_out(max): 1A (With heatsink)"
 		(exclude_from_sim no)
-		(at 256.032 54.356 0)
+		(at 300.482 3.048 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20246,6 +20446,16 @@
 			)
 		)
 		(uuid "5d545854-d9ba-45d1-82a6-3285c3b80549")
+	)
+	(text "Follow datasheet for this"
+		(exclude_from_sim no)
+		(at 301.752 23.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ed632ed-d661-4338-a7e2-afa5f67b30e3")
 	)
 	(text "This instead of sending measurement raw from the output, I can send the one from the opamp, that is already between 0/-5V"
 		(exclude_from_sim no)
@@ -20319,7 +20529,7 @@
 		)
 		(uuid "6ca8b4f3-7d00-4966-8157-eba18a18dc31")
 	)
-	(text "NEXT:\n+Need to change two LDO: Higher power, HIGHER CURRENT\n+Choose bridge rectifier+ transformer following from this"
+	(text "NEXT:\n+Choose bridge rectifier+ transformer following change of LDO"
 		(exclude_from_sim no)
 		(at -111.506 59.69 0)
 		(effects
@@ -20342,7 +20552,7 @@
 	)
 	(text "C_out lower than 0.1uF\ncauses instabilities"
 		(exclude_from_sim no)
-		(at 213.614 47.752 0)
+		(at 209.296 84.328 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20447,7 +20657,7 @@
 	)
 	(text "I_out(max): 1A (With heatsink)"
 		(exclude_from_sim no)
-		(at 178.054 27.686 0)
+		(at 181.102 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20500,6 +20710,16 @@
 		)
 		(uuid "93e1f333-d4f4-445e-9bf6-025633c1ca2c")
 	)
+	(text "DEBERÍA DE TENER SIMETRICO 15-15V ? De todos modos voy a tener diferentes corrientes. \nAsi que no veo porque debería de afectar diferente componente. Por ahora dejar así"
+		(exclude_from_sim no)
+		(at -98.298 72.898 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94808c5e-af4b-4e74-a585-354f19cbc97e")
+	)
 	(text "LDO dropout voltage: 1.3V\nSo for -15v I need -18.7Vmin"
 		(exclude_from_sim no)
 		(at 174.498 87.884 0)
@@ -20510,7 +20730,17 @@
 		)
 		(uuid "982ae6f6-83c2-4770-959e-03b0fc3cb8c8")
 	)
-	(text "Total power of second bridge rectifier: \nP_tot=1.5+18+23+2=44.5==45W"
+	(text "LDO dropout voltage: 0.4V\nSo for 12v I need 12.6Vmin"
+		(exclude_from_sim no)
+		(at 258.572 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f6f92e9-cea4-44a0-bdbb-b4781c6ec40b")
+	)
+	(text "Total power of second bridge rectifier: \nP_tot=1.5+18+23+2=44.5==45W\nREMEMBER THAT TO SUPPLY ALL THE LDO´S, i might need \nmore than 30V, probably +36V would be approapiate"
 		(exclude_from_sim no)
 		(at 437.642 120.396 0)
 		(effects
@@ -20801,9 +21031,9 @@
 		)
 		(uuid "d49cd5be-f446-479c-b88a-3fab272d7c4e")
 	)
-	(text "LDO Dropout voltage: 2V\nSo for 15V I need 18Vmin in the output"
+	(text "LDO Dropout voltage: 0.4V\nSo for 15V I need 15.6Vmin in the output"
 		(exclude_from_sim no)
-		(at 177.8 24.892 0)
+		(at 181.102 24.892 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21028,7 +21258,7 @@
 	)
 	(text "LDO dropout voltage: 2V\nSo for 12v I need 14.5Vmin"
 		(exclude_from_sim no)
-		(at 255.27 51.054 0)
+		(at 299.72 -0.254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21264,13 +21494,19 @@
 		(uuid "13f5ba6d-7116-4a7f-88c9-5f3da7cfa5f2")
 	)
 	(junction
+		(at 166.37 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "171d37f0-3288-4b35-803e-7dc8d49d2d18")
+	)
+	(junction
 		(at 92.71 -80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17f37ea4-9807-4818-b49f-e5f8584e499f")
 	)
 	(junction
-		(at 238.76 27.94)
+		(at 284.48 -25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18a81529-16da-45d4-80a8-2d195c8ee645")
@@ -21292,6 +21528,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1ce66710-b22e-4140-9f0e-4cbd3c50c4f3")
+	)
+	(junction
+		(at 240.03 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "202c8cec-f300-42f0-b1a6-e32d1bc7c8c3")
 	)
 	(junction
 		(at 189.23 -67.31)
@@ -21366,7 +21608,7 @@
 		(uuid "2bf6ca19-406e-4496-b094-f5deff1f3f9f")
 	)
 	(junction
-		(at 255.27 41.91)
+		(at 300.99 -11.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c9aceb8-23a7-4fb9-8d45-1c34ab8e9acb")
@@ -21390,12 +21632,6 @@
 		(uuid "2fcac244-8cde-4515-928f-92995875d4ad")
 	)
 	(junction
-		(at 176.53 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32ba4264-1b9a-4da9-8393-91fa8abcfd37")
-	)
-	(junction
 		(at 342.9 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21408,22 +21644,28 @@
 		(uuid "37cc2d2f-84f4-4401-8423-2887dfbd641d")
 	)
 	(junction
-		(at 191.77 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "37d7f743-a815-40d6-8012-c6d535defe30")
-	)
-	(junction
 		(at 269.24 -180.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a80a89c-3929-45ad-acbf-18ae753d780f")
 	)
 	(junction
+		(at 259.08 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ac08db0-d8d1-42d6-9e93-9c69e8bb460d")
+	)
+	(junction
 		(at 273.05 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3deac8a6-649e-4ec1-9606-efca0d1fbe93")
+	)
+	(junction
+		(at 170.18 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e71f4a6-6662-4fd9-9a29-2789081ecf7b")
 	)
 	(junction
 		(at 292.1 -81.28)
@@ -21450,6 +21692,12 @@
 		(uuid "41857d9e-c987-495f-9119-9d7e2faeedbd")
 	)
 	(junction
+		(at 207.01 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41f565df-b222-46bb-aae4-5fda34c00f95")
+	)
+	(junction
 		(at 195.58 -119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21462,6 +21710,12 @@
 		(uuid "4398ad30-1375-4340-8919-569befb8c947")
 	)
 	(junction
+		(at 184.15 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "441eaac7-e286-48e7-976b-770420fb1c30")
+	)
+	(junction
 		(at 342.9 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21472,12 +21726,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dbcd673-a87b-4128-bdaa-27ac7708f7c5")
-	)
-	(junction
-		(at 189.23 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4e938f84-efbe-45dd-b353-65393d4a819d")
 	)
 	(junction
 		(at 270.51 -119.38)
@@ -21534,12 +21782,6 @@
 		(uuid "5d71e78f-7bef-496d-9d80-27a09add494d")
 	)
 	(junction
-		(at 161.29 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fe86743-2ea4-44d0-bc42-64a94ae6a760")
-	)
-	(junction
 		(at 241.3 -154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21594,7 +21836,7 @@
 		(uuid "7327ec74-9c13-4126-bc5b-278253282669")
 	)
 	(junction
-		(at 274.32 27.94)
+		(at 320.04 -25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77148e37-6b5a-4ee9-901a-0ccde708b230")
@@ -21708,6 +21950,12 @@
 		(uuid "95b1bb46-2ee5-41e4-8ba3-263f0e0935d1")
 	)
 	(junction
+		(at 201.93 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97e4bf28-8520-461d-8ea2-8c3612d4b658")
+	)
+	(junction
 		(at 223.52 -67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -21720,7 +21968,7 @@
 		(uuid "996ad86a-4754-4279-9ef7-510858ace893")
 	)
 	(junction
-		(at 271.78 27.94)
+		(at 317.5 -25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ee1908c-ff40-4e66-a2cc-affe77b08295")
@@ -21924,10 +22172,22 @@
 		(uuid "e53432e1-63d0-4a07-9752-f97df40652bb")
 	)
 	(junction
+		(at 278.13 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5c58305-6c6b-48a5-bc9d-ee22841df25c")
+	)
+	(junction
 		(at 261.62 -81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8cff60f-c285-4091-86c6-fe6c94361c9e")
+	)
+	(junction
+		(at 245.11 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e934770e-f15e-4f29-9312-42a30cb78b27")
 	)
 	(junction
 		(at 335.28 153.67)
@@ -21940,6 +22200,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb16d315-455d-4475-a121-49cddd4c3ea5")
+	)
+	(junction
+		(at 275.59 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb65cf95-f33e-43b7-b541-57d0dc31378d")
 	)
 	(junction
 		(at 58.42 -52.07)
@@ -22114,6 +22380,16 @@
 			(type default)
 		)
 		(uuid "02dbbaba-2388-41fa-9edc-76c5fe14c5cd")
+	)
+	(wire
+		(pts
+			(xy 170.18 38.1) (xy 170.18 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047eba64-de26-44e1-86f3-7fc1f61d1ea2")
 	)
 	(wire
 		(pts
@@ -22397,7 +22673,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 41.91) (xy 238.76 39.37)
+			(xy 284.48 -11.43) (xy 284.48 -13.97)
 		)
 		(stroke
 			(width 0)
@@ -22487,7 +22763,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 39.37) (xy 271.78 41.91)
+			(xy 317.5 -13.97) (xy 317.5 -11.43)
 		)
 		(stroke
 			(width 0)
@@ -22567,6 +22843,26 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 55.88) (xy 186.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e3f6a51-ec8e-453d-ba40-fc7ae81a7120")
+	)
+	(wire
+		(pts
+			(xy 259.08 45.72) (xy 261.62 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e419a68-f8f7-4dd7-846e-68485e4b1ca3")
+	)
+	(wire
+		(pts
 			(xy 50.8 -82.55) (xy 53.34 -82.55)
 		)
 		(stroke
@@ -22597,7 +22893,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 38.1) (xy 161.29 38.1)
+			(xy 148.59 38.1) (xy 166.37 38.1)
 		)
 		(stroke
 			(width 0)
@@ -22664,6 +22960,16 @@
 			(type default)
 		)
 		(uuid "230325d6-68f1-4b3f-86e7-2b692cee8c04")
+	)
+	(wire
+		(pts
+			(xy 240.03 27.94) (xy 245.11 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237f06d4-49a8-476a-bdf7-d83e8d2c8d08")
 	)
 	(wire
 		(pts
@@ -22827,7 +23133,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 41.91) (xy 271.78 41.91)
+			(xy 300.99 -11.43) (xy 317.5 -11.43)
 		)
 		(stroke
 			(width 0)
@@ -23057,7 +23363,7 @@
 	)
 	(wire
 		(pts
-			(xy 236.22 27.94) (xy 238.76 27.94)
+			(xy 281.94 -25.4) (xy 284.48 -25.4)
 		)
 		(stroke
 			(width 0)
@@ -23107,7 +23413,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 38.1) (xy 255.27 41.91)
+			(xy 300.99 -15.24) (xy 300.99 -11.43)
 		)
 		(stroke
 			(width 0)
@@ -23317,16 +23623,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 48.26) (xy 176.53 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "438b96cb-e9d0-43f3-b7cd-e8cfe90e87ba")
-	)
-	(wire
-		(pts
 			(xy 326.39 68.58) (xy 331.47 68.58)
 		)
 		(stroke
@@ -23334,16 +23630,6 @@
 			(type default)
 		)
 		(uuid "44471be1-a26b-42f7-bf32-59e87b2c4e1d")
-	)
-	(wire
-		(pts
-			(xy 161.29 52.07) (xy 176.53 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44c8574d-94c2-48c2-91ca-e5f6d8637a54")
 	)
 	(wire
 		(pts
@@ -23427,13 +23713,23 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 41.91) (xy 255.27 41.91)
+			(xy 284.48 -11.43) (xy 300.99 -11.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c2ab353-84b1-4b9f-9437-3dee75e21f7f")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 184.15 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cf89a66-cc74-4518-a4bd-b4249ea37590")
 	)
 	(wire
 		(pts
@@ -23487,7 +23783,17 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 27.94) (xy 238.76 31.75)
+			(xy 240.03 35.56) (xy 240.03 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50e00f95-9fbe-4c41-af85-1a083aed676c")
+	)
+	(wire
+		(pts
+			(xy 284.48 -25.4) (xy 284.48 -21.59)
 		)
 		(stroke
 			(width 0)
@@ -23767,7 +24073,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 38.1) (xy 191.77 38.1)
+			(xy 198.12 38.1) (xy 207.01 38.1)
 		)
 		(stroke
 			(width 0)
@@ -23827,7 +24133,17 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 27.94) (xy 238.76 27.94)
+			(xy 256.54 45.72) (xy 259.08 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61376cef-6de2-44d8-b0c2-780e4080fae7")
+	)
+	(wire
+		(pts
+			(xy 288.29 -25.4) (xy 284.48 -25.4)
 		)
 		(stroke
 			(width 0)
@@ -23844,16 +24160,6 @@
 			(type default)
 		)
 		(uuid "61c204fb-668e-4c4f-814b-bcb7e69f6010")
-	)
-	(wire
-		(pts
-			(xy 161.29 38.1) (xy 161.29 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62b5b374-4e9f-4896-b8e8-9afadf84ba52")
 	)
 	(wire
 		(pts
@@ -24267,16 +24573,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 38.1) (xy 189.23 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76ad3d34-3be1-48e2-ae22-44bd6091f18c")
-	)
-	(wire
-		(pts
 			(xy 200.66 -102.87) (xy 208.28 -102.87)
 		)
 		(stroke
@@ -24467,6 +24763,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 45.72) (xy 207.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "816d7e48-7c04-4518-8ae4-01e879ea46b0")
+	)
+	(wire
+		(pts
 			(xy 148.59 -54.61) (xy 160.02 -54.61)
 		)
 		(stroke
@@ -24534,6 +24840,26 @@
 			(type default)
 		)
 		(uuid "82f926c2-9b50-4c43-983c-f95c50c29174")
+	)
+	(wire
+		(pts
+			(xy 201.93 46.99) (xy 207.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c7758a-285c-4bbf-ba78-0823f6f0b7c1")
+	)
+	(wire
+		(pts
+			(xy 278.13 35.56) (xy 278.13 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85dfc11d-2b2e-4283-a0b8-62f25fcbe0a6")
 	)
 	(wire
 		(pts
@@ -24857,13 +25183,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 50.8) (xy 161.29 52.07)
+			(xy 166.37 38.1) (xy 170.18 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9a2ee804-bc9e-4cb6-b634-c23ffe26a2df")
+		(uuid "9a4e334c-8183-40ab-99f7-992d17b3d68c")
 	)
 	(wire
 		(pts
@@ -24887,7 +25213,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 27.94) (xy 271.78 27.94)
+			(xy 320.04 -25.4) (xy 317.5 -25.4)
 		)
 		(stroke
 			(width 0)
@@ -24897,7 +25223,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 27.94) (xy 271.78 31.75)
+			(xy 317.5 -25.4) (xy 317.5 -21.59)
 		)
 		(stroke
 			(width 0)
@@ -25087,16 +25413,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 50.8) (xy 189.23 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d7dae6-7a9f-4a01-a5c8-52e0e0e1781a")
-	)
-	(wire
-		(pts
 			(xy 36.83 134.62) (xy 91.44 134.62)
 		)
 		(stroke
@@ -25187,7 +25503,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 27.94) (xy 271.78 27.94)
+			(xy 313.69 -25.4) (xy 317.5 -25.4)
 		)
 		(stroke
 			(width 0)
@@ -25757,6 +26073,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 45.72) (xy 166.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7cb5fc7-c4b2-48d7-b2a9-15a79c5ac433")
+	)
+	(wire
+		(pts
 			(xy 173.99 -40.64) (xy 187.96 -40.64)
 		)
 		(stroke
@@ -26047,6 +26373,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 27.94) (xy 278.13 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d48ed348-8936-4ef3-a4e7-a387f4ef7714")
+	)
+	(wire
+		(pts
 			(xy 270.51 -111.76) (xy 273.05 -111.76)
 		)
 		(stroke
@@ -26294,16 +26630,6 @@
 			(type default)
 		)
 		(uuid "e3cd303b-4cbb-4b8d-ba50-c732d19e0896")
-	)
-	(wire
-		(pts
-			(xy 176.53 52.07) (xy 189.23 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e49731ef-b361-4102-887b-66f41a96682d")
 	)
 	(wire
 		(pts
@@ -26837,6 +27163,16 @@
 	)
 	(wire
 		(pts
+			(xy 275.59 36.83) (xy 278.13 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb18c1f1-842a-4545-9ea4-fcf71eab357e")
+	)
+	(wire
+		(pts
 			(xy 120.65 96.52) (xy 118.11 96.52)
 		)
 		(stroke
@@ -26947,6 +27283,16 @@
 	)
 	(wire
 		(pts
+			(xy 198.12 46.99) (xy 201.93 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe70968b-bcef-4e53-bd2a-ea9e7ad68f62")
+	)
+	(wire
+		(pts
 			(xy 265.43 -124.46) (xy 267.97 -124.46)
 		)
 		(stroke
@@ -26957,13 +27303,23 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 38.1) (xy 163.83 38.1)
+			(xy 245.11 27.94) (xy 245.11 34.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ff8785ad-2029-4466-88f5-6f44a15ffcde")
+		(uuid "ff57bfd8-9e88-47c4-83c8-122e3a0d3ef7")
+	)
+	(wire
+		(pts
+			(xy 273.05 36.83) (xy 275.59 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff86bc1a-a389-4355-841e-8606973b46f5")
 	)
 	(wire
 		(pts
@@ -28653,7 +29009,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 274.32 27.94 270)
+		(at 320.04 -25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28661,7 +29017,7 @@
 		(dnp no)
 		(uuid "053511c7-3477-45a0-8cb3-a1731a293176")
 		(property "Reference" "TP14"
-			(at 278.638 27.94 90)
+			(at 324.358 -25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28670,7 +29026,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 275.336 30.226 90)
+			(at 321.056 -23.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28679,7 +29035,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
-			(at 274.32 33.02 0)
+			(at 320.04 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28688,7 +29044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 33.02 0)
+			(at 320.04 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28697,7 +29053,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 274.32 27.94 0)
+			(at 320.04 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29524,6 +29880,128 @@
 		)
 	)
 	(symbol
+		(lib_name "0805_1μF_25V_20%_8")
+		(lib_id "m_Capacitor_ceramic_SMD:0805_1μF_25V_20%")
+		(at 240.03 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0ed808bd-7c0f-46fc-9a5f-3ce97d540606")
+		(property "Reference" "C39"
+			(at 232.41 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "1μF_25V"
+			(at 235.204 33.274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+			(at 336.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+			(at 436.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+			(at 240.03 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 636.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-885070"
+			(at 736.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 836.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 936.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885070"
+			(at 1036.22 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "3c439711-b191-441a-93a1-4957d5d31d4c")
+		)
+		(pin ""
+			(uuid "806000a6-f8de-480d-8b7c-2186b4a54660")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "C39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 289.56 -72.39 0)
 		(unit 1)
@@ -29840,128 +30318,6 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "#PWR042")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "0805_1μF_25V_20%_4")
-		(lib_id "m_Capacitor_ceramic_SMD:0805_1μF_25V_20%")
-		(at 189.23 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "12fa40b7-845c-467b-b357-f3dea4bfd81d")
-		(property "Reference" "C37"
-			(at 197.104 47.498 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "1μF_25V"
-			(at 199.898 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
-			(at 285.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
-			(at 385.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
-			(at 189.23 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at 585.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-885070"
-			(at 685.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 785.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 885.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "885070"
-			(at 985.42 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "c759cce9-a685-4b0d-98ab-a38da126ce28")
-		)
-		(pin ""
-			(uuid "0a54b617-43d6-47a5-abcc-beaea06ae3df")
-		)
-		(instances
-			(project "PowerSupply30V5A"
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -31236,7 +31592,7 @@
 	(symbol
 		(lib_name "0805_1μF_25V_20%_6")
 		(lib_id "m_Capacitor_ceramic_SMD:0805_1μF_25V_20%")
-		(at 271.78 41.91 90)
+		(at 317.5 -11.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31244,7 +31600,7 @@
 		(dnp no)
 		(uuid "21f05772-5346-47e3-aa76-de63dc83d872")
 		(property "Reference" "C24"
-			(at 279.908 35.306 90)
+			(at 325.628 -18.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31253,7 +31609,7 @@
 			)
 		)
 		(property "Value" "1μF_25V"
-			(at 282.702 37.338 90)
+			(at 328.422 -16.002 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31262,7 +31618,7 @@
 			)
 		)
 		(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
-			(at 367.97 33.02 0)
+			(at 413.69 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31272,7 +31628,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
-			(at 467.97 33.02 0)
+			(at 513.69 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31282,7 +31638,7 @@
 			)
 		)
 		(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
-			(at 271.78 41.91 0)
+			(at 317.5 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31291,7 +31647,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at 667.97 33.02 0)
+			(at 713.69 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31301,7 +31657,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885070"
-			(at 767.97 33.02 0)
+			(at 813.69 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31311,7 +31667,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 867.97 33.02 0)
+			(at 913.69 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31321,7 +31677,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 967.97 33.02 0)
+			(at 1013.69 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31331,7 +31687,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885070"
-			(at 1067.97 33.02 0)
+			(at 1113.69 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31940,150 +32296,6 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "MC7815BDTRKG_1")
-		(lib_id "m_LDO:MC7815BDTRKG")
-		(at 163.83 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ae3ed23-0cce-402c-99e6-749576e04bdc")
-		(property "Reference" "IC2"
-			(at 176.53 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MC7815BDTRKG"
-			(at 176.53 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "m_LDO:NVD5117PLT4GVF01"
-			(at 185.42 133.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7800-D.PDF"
-			(at 185.42 233.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Output Current in Excess of 1.0 A; No External Components Required; Internal Thermal Overload Protection; Internal Short Circuit Current Limiting; Output Transistor Safe-Area Compensation; Output Voltage Offered in 2% and 4% Tolerance; Pb-Free Packages are Available"
-			(at 163.83 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "2.38"
-			(at 185.42 433.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 185.42 533.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MC7815BDTRKG"
-			(at 185.42 633.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "863-MC7815BDTRKG"
-			(at 185.42 733.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MC7815BDTRKG?qs=%252B9%2Fcbd0IE0QAayqLvnGs6g%3D%3D"
-			(at 185.42 833.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "MC7815BDTRKG"
-			(at 185.42 933.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mc7815bdtrkg/on-semiconductor?region=nac"
-			(at 185.42 1033.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1788fe57-1d90-4df4-a517-4ef4d2c2c4b9")
-		)
-		(pin "1"
-			(uuid "05ed66df-7b5b-4a4d-a157-ec229482f950")
-		)
-		(pin "3"
-			(uuid "ed0400de-4279-42af-8391-899e094ab711")
-		)
-		(instances
-			(project ""
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -33692,6 +33904,71 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4449349b-5112-43f1-a85c-6f5adf9736a8")
+		(property "Reference" "#PWR075"
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3eae54aa-d905-4adc-8d25-79f93924f448")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -36249,7 +36526,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 236.22 27.94 0)
+		(at 281.94 -25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36258,7 +36535,7 @@
 		(fields_autoplaced yes)
 		(uuid "63b029ab-5d36-4c36-9c1d-6fcee8424865")
 		(property "Reference" "#PWR039"
-			(at 236.22 31.75 0)
+			(at 281.94 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36267,7 +36544,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 236.22 22.86 0)
+			(at 281.94 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36275,7 +36552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 236.22 27.94 0)
+			(at 281.94 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36284,7 +36561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 236.22 27.94 0)
+			(at 281.94 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36293,7 +36570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 236.22 27.94 0)
+			(at 281.94 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36500,7 +36777,7 @@
 	(symbol
 		(lib_name "0805_330nF_25V_10%_1")
 		(lib_id "m_Capacitor_ceramic_SMD:0805_330nF_25V_10%")
-		(at 238.76 41.91 90)
+		(at 284.48 -11.43 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36508,7 +36785,7 @@
 		(dnp no)
 		(uuid "656e0e54-ce66-4e4f-84ae-2039fc718f4d")
 		(property "Reference" "C23"
-			(at 232.664 35.56 90)
+			(at 278.384 -17.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36517,7 +36794,7 @@
 			)
 		)
 		(property "Value" "330nF_25V"
-			(at 235.966 37.846 90)
+			(at 281.686 -15.494 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36526,7 +36803,7 @@
 			)
 		)
 		(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
-			(at 334.95 33.02 0)
+			(at 380.67 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36536,7 +36813,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
-			(at 434.95 33.02 0)
+			(at 480.67 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36546,7 +36823,7 @@
 			)
 		)
 		(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
-			(at 238.76 41.91 0)
+			(at 284.48 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36555,7 +36832,7 @@
 			)
 		)
 		(property "Height" "0.94"
-			(at 634.95 33.02 0)
+			(at 680.67 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36565,7 +36842,7 @@
 			)
 		)
 		(property "Mouser Part Number" "710-885070"
-			(at 734.95 33.02 0)
+			(at 780.67 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36575,7 +36852,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 834.95 33.02 0)
+			(at 880.67 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36585,7 +36862,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 934.95 33.02 0)
+			(at 980.67 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36595,7 +36872,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "885070"
-			(at 1034.95 33.02 0)
+			(at 1080.67 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36614,6 +36891,72 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 278.13 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65a8539a-1974-4b77-9ae3-7456efce5a5d")
+		(property "Reference" "#PWR071"
+			(at 278.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 278.13 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 278.13 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "659efa81-38be-413e-8b72-7c2f3c86c515")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -36745,6 +37088,128 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "0805_1μF_25V_20%_4")
+		(lib_id "m_Capacitor_ceramic_SMD:0805_1μF_25V_20%")
+		(at 166.37 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6825d3c1-5080-4daa-b579-7be7d27139a3")
+		(property "Reference" "C20"
+			(at 161.544 41.402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Value" "1μF_25V"
+			(at 163.576 43.434 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+			(at 262.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+			(at 362.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+			(at 166.37 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 562.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-885070"
+			(at 662.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 762.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 862.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885070"
+			(at 962.56 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "90a3a551-2a60-4bb4-a31c-5f640b94b399")
+		)
+		(pin ""
+			(uuid "0fc499a4-d6dc-42f1-87ab-99b2c0ac667b")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -36945,6 +37410,71 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 240.03 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "702044fa-fa7b-4e45-8418-4f6a4ce1a883")
+		(property "Reference" "#PWR073"
+			(at 240.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 240.03 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 240.03 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4c2a45da-a412-45e1-85fa-0c0afcb945cb")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -37710,7 +38240,7 @@
 	)
 	(symbol
 		(lib_id "power:+15V")
-		(at 191.77 38.1 0)
+		(at 207.01 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37719,7 +38249,7 @@
 		(fields_autoplaced yes)
 		(uuid "77311bba-d519-4427-856a-b059910ba525")
 		(property "Reference" "#PWR035"
-			(at 191.77 41.91 0)
+			(at 207.01 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37728,7 +38258,7 @@
 			)
 		)
 		(property "Value" "+15V"
-			(at 191.77 33.02 0)
+			(at 207.01 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37736,7 +38266,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 38.1 0)
+			(at 207.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37745,7 +38275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 38.1 0)
+			(at 207.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37754,7 +38284,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(at 191.77 38.1 0)
+			(at 207.01 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38128,7 +38658,7 @@
 	)
 	(symbol
 		(lib_id "m_LDO:BDJ5FD0WHFP-TR")
-		(at 212.09 130.81 0)
+		(at 170.18 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38137,7 +38667,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e3f211f-e85e-44bb-a324-c8facbe87f19")
 		(property "Reference" "IC12"
-			(at 226.06 123.19 0)
+			(at 184.15 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38145,7 +38675,7 @@
 			)
 		)
 		(property "Value" "BDJ5FD0WHFP-TR"
-			(at 226.06 125.73 0)
+			(at 184.15 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38153,7 +38683,7 @@
 			)
 		)
 		(property "Footprint" "m_LDO:BDJ5FD0WHFPTR"
-			(at 236.22 225.73 0)
+			(at 194.31 133.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38163,7 +38693,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfd0xxxx-e.pdf"
-			(at 236.22 325.73 0)
+			(at 194.31 233.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38173,7 +38703,7 @@
 			)
 		)
 		(property "Description" "LDO Voltage Regulator, Fixed, 2.5 to 32 V in, 0.4 V Dropout, 15 V/2 A out, HRP-5"
-			(at 212.09 130.81 0)
+			(at 170.18 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38182,7 +38712,7 @@
 			)
 		)
 		(property "Height" "2.135"
-			(at 236.22 525.73 0)
+			(at 194.31 433.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38192,7 +38722,7 @@
 			)
 		)
 		(property "Mouser Part Number" "755-BDJ5FD0WHFP-TR"
-			(at 236.22 625.73 0)
+			(at 194.31 533.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38202,7 +38732,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BDJ5FD0WHFP-TR?qs=%252BEew9%252B0nqrCr4hqNSLCenw%3D%3D"
-			(at 236.22 725.73 0)
+			(at 194.31 633.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38212,7 +38742,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 236.22 825.73 0)
+			(at 194.31 733.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38222,7 +38752,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BDJ5FD0WHFP-TR"
-			(at 236.22 925.73 0)
+			(at 194.31 833.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38332,10 +38862,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8065e04c-f67a-45c5-9f27-1b71160c6123")
 		(property "Reference" "C17"
-			(at 152.4 39.7509 0)
+			(at 140.208 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38344,7 +38873,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 152.4 42.2909 0)
+			(at 138.176 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38822,6 +39351,71 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 259.08 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8608dd4d-9eb9-4e12-be7f-a1c1b92ee648")
+		(property "Reference" "#PWR070"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 259.08 49.276 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 259.08 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da338fd8-e239-4756-84e3-4237b264c85a")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -39923,16 +40517,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 52.07 0)
+		(lib_id "power:+15V")
+		(at 240.03 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "9212792f-6d07-43d9-9221-ae37664a1669")
-		(property "Reference" "#PWR033"
-			(at 176.53 58.42 0)
+		(fields_autoplaced yes)
+		(uuid "931a0f52-7513-42d4-a605-9215310bd438")
+		(property "Reference" "#PWR069"
+			(at 240.03 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39940,8 +40535,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 176.53 56.134 0)
+		(property "Value" "+15V"
+			(at 240.03 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39949,7 +40544,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 52.07 0)
+			(at 240.03 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39958,7 +40553,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 52.07 0)
+			(at 240.03 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39966,8 +40561,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 176.53 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 240.03 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39976,12 +40571,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e364d39d-edc8-4515-a34e-6360cc341fda")
+			(uuid "36e42c54-a56b-4221-90ee-04272c6a5cfb")
 		)
 		(instances
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "#PWR033")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -40295,6 +40890,71 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 166.37 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "948c0d2d-01e1-4f3b-b2ad-ee34bc664235")
+		(property "Reference" "#PWR033"
+			(at 166.37 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.37 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 166.37 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea405597-06db-4b6c-9c5e-df81a4ae3b60")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -42145,7 +42805,7 @@
 	)
 	(symbol
 		(lib_id "m_LDO:MC7812BDTRKG")
-		(at 242.57 27.94 0)
+		(at 288.29 -25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42153,7 +42813,7 @@
 		(dnp no)
 		(uuid "b1c4092b-8cec-468b-9437-70a1c4ccac16")
 		(property "Reference" "IC9"
-			(at 254 21.082 0)
+			(at 299.72 -32.258 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42162,7 +42822,7 @@
 			)
 		)
 		(property "Value" "MC7812BDTRKG"
-			(at 247.65 23.114 0)
+			(at 293.37 -30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42171,7 +42831,7 @@
 			)
 		)
 		(property "Footprint" "m_LDO:MC7812BDTRKG"
-			(at 271.78 122.86 0)
+			(at 317.5 69.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42181,7 +42841,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/MC7800-D.PDF"
-			(at 271.78 222.86 0)
+			(at 317.5 169.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42191,7 +42851,7 @@
 			)
 		)
 		(property "Description" "Output Current in Excess of 1.0 A; No External Components Required; Internal Thermal Overload Protection; Internal Short Circuit Current Limiting; Output Transistor Safe-Area Compensation; Output Voltage Offered in 2% and 4% Tolerance; Pb-Free Packages are Available"
-			(at 241.554 14.986 0)
+			(at 287.274 -38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42200,7 +42860,7 @@
 			)
 		)
 		(property "Height" "2.38"
-			(at 271.78 422.86 0)
+			(at 317.5 369.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42210,7 +42870,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "onsemi"
-			(at 271.78 522.86 0)
+			(at 317.5 469.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42220,7 +42880,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MC7812BDTRKG"
-			(at 271.78 622.86 0)
+			(at 317.5 569.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42230,7 +42890,7 @@
 			)
 		)
 		(property "Mouser Part Number" "863-MC7812BDTRKG"
-			(at 271.78 722.86 0)
+			(at 317.5 669.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42240,7 +42900,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/onsemi/MC7812BDTRKG?qs=%252B9%2Fcbd0IE0T4zeRK7L249A%3D%3D"
-			(at 271.78 822.86 0)
+			(at 317.5 769.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42250,7 +42910,7 @@
 			)
 		)
 		(property "Arrow Part Number" "MC7812BDTRKG"
-			(at 271.78 922.86 0)
+			(at 317.5 869.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42260,7 +42920,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/mc7812bdtrkg/on-semiconductor?utm_currency=USD&region=europe"
-			(at 271.78 1022.86 0)
+			(at 317.5 969.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42282,128 +42942,6 @@
 			(project ""
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "IC9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "0805_330nF_25V_10%_3")
-		(lib_id "m_Capacitor_ceramic_SMD:0805_330nF_25V_10%")
-		(at 161.29 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b3b82db0-c5c6-4f7d-b0ed-30ec76abd3c4")
-		(property "Reference" "C20"
-			(at 155.194 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Value" "330nF_25V"
-			(at 158.496 49.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
-			(at 257.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
-			(at 357.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
-			(at 161.29 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.94"
-			(at 557.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "710-885070"
-			(at 657.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 757.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Wurth Elektronik"
-			(at 857.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "885070"
-			(at 957.48 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin ""
-			(uuid "cfea77df-e4af-43bf-9d87-f5cdf0f320be")
-		)
-		(pin ""
-			(uuid "ea952b11-353e-41a8-859a-43c1e1df5677")
-		)
-		(instances
-			(project "PowerSupply30V5A"
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -42531,7 +43069,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 274.32 27.94 0)
+		(at 320.04 -25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42540,7 +43078,7 @@
 		(fields_autoplaced yes)
 		(uuid "b73db61c-3fc7-4920-addc-6999bb236a50")
 		(property "Reference" "#PWR041"
-			(at 274.32 31.75 0)
+			(at 320.04 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42549,7 +43087,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 274.32 22.86 0)
+			(at 320.04 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42557,7 +43095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 27.94 0)
+			(at 320.04 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42566,7 +43104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 274.32 27.94 0)
+			(at 320.04 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42575,7 +43113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 274.32 27.94 0)
+			(at 320.04 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42590,6 +43128,129 @@
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "0805_4.7uF_25V_20%_1")
+		(lib_id "m_Capacitor_ceramic_SMD:0805_4.7uF_25V_20%")
+		(at 207.01 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8230a65-8ba1-4ef3-b946-fa502c0c8c50")
+		(property "Reference" "C37"
+			(at 210.82 40.6399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF_25V"
+			(at 210.82 43.1799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+			(at 303.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+			(at 403.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+			(at 207.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 603.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-885070"
+			(at 703.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 803.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 903.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885070"
+			(at 1003.2 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "8bf24ebc-4752-4b83-af09-57aae94d85b7")
+		)
+		(pin ""
+			(uuid "dc096eff-44a2-4ff1-8804-d187909f757c")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -44364,6 +45025,128 @@
 		)
 	)
 	(symbol
+		(lib_id "m_Capacitor_ceramic_SMD:0805_4.7uF_25V_20%")
+		(at 278.13 38.1 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d44ec593-469e-45e4-ba9f-0b7839768a5b")
+		(property "Reference" "C40"
+			(at 281.94 30.4799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "4.7uF_25V"
+			(at 281.94 33.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "m_Capacitor_ceramic_SMD:CAPC2012X94N"
+			(at 374.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/885070.pdf"
+			(at 474.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Capacitor Kits WE-WCAP-CSGP Dsgn Kit 0805"
+			(at 278.13 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.94"
+			(at 674.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "710-885070"
+			(at 774.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 874.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Wurth Elektronik"
+			(at 974.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "885070"
+			(at 1074.32 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin ""
+			(uuid "6a3670f1-4b10-4106-a514-5dda993f16b2")
+		)
+		(pin ""
+			(uuid "7ef86708-4f03-4dbe-8ea5-ed3271bf55fe")
+		)
+		(instances
+			(project ""
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "C40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2026-01-31_20-20-20:1017503")
 		(at 50.8 -85.09 0)
 		(mirror y)
@@ -45971,7 +46754,7 @@
 	)
 	(symbol
 		(lib_id "m_LDO:BDJ2FD0WHFP-TR")
-		(at 172.72 132.08 0)
+		(at 245.11 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45980,7 +46763,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6a62ee7-6f07-4440-a4c0-e6ed67dffb2e")
 		(property "Reference" "IC11"
-			(at 186.69 124.46 0)
+			(at 259.08 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45988,7 +46771,7 @@
 			)
 		)
 		(property "Value" "BDJ2FD0WHFP-TR"
-			(at 186.69 127 0)
+			(at 259.08 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45996,7 +46779,7 @@
 			)
 		)
 		(property "Footprint" "m_LDO:BDJ2FD0WHFPTR"
-			(at 196.85 227 0)
+			(at 269.24 122.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46006,7 +46789,7 @@
 			)
 		)
 		(property "Datasheet" "https://fscdn.rohm.com/en/products/databook/datasheet/ic/power/linear_regulator/bdxxfd0xxxx-e.pdf"
-			(at 196.85 327 0)
+			(at 269.24 222.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46016,7 +46799,7 @@
 			)
 		)
 		(property "Description" "Linear Voltage Regulator IC Positive Fixed 1 Output 2A HRP-5"
-			(at 172.72 132.08 0)
+			(at 245.11 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46025,7 +46808,7 @@
 			)
 		)
 		(property "Height" "2.135"
-			(at 196.85 527 0)
+			(at 269.24 422.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46035,7 +46818,7 @@
 			)
 		)
 		(property "Mouser Part Number" "755-BDJ2FD0WHFP-TR"
-			(at 196.85 627 0)
+			(at 269.24 522.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46045,7 +46828,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/BDJ2FD0WHFP-TR?qs=%252BEew9%252B0nqrCV4Fx2tfdbDA%3D%3D"
-			(at 196.85 727 0)
+			(at 269.24 622.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46055,7 +46838,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ROHM Semiconductor"
-			(at 196.85 827 0)
+			(at 269.24 722.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46065,7 +46848,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BDJ2FD0WHFP-TR"
-			(at 196.85 927 0)
+			(at 269.24 822.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47327,7 +48110,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 255.27 41.91 0)
+		(at 300.99 -11.43 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47335,7 +48118,7 @@
 		(dnp no)
 		(uuid "f35f8b7f-7f33-48ac-b2d1-f10c0ce09642")
 		(property "Reference" "#PWR040"
-			(at 255.27 48.26 0)
+			(at 300.99 -5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47344,7 +48127,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 255.27 46.99 0)
+			(at 300.99 -6.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47352,7 +48135,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 255.27 41.91 0)
+			(at 300.99 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47361,7 +48144,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 255.27 41.91 0)
+			(at 300.99 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47370,7 +48153,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 255.27 41.91 0)
+			(at 300.99 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47778,6 +48561,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 275.59 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4d9f138-bdcb-4781-b9c4-befc59132d8a")
+		(property "Reference" "#PWR072"
+			(at 275.59 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 275.59 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 275.59 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd35256b-d0f0-4198-9788-c8c3adcf657b")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 201.93 -109.22 90)
 		(unit 1)
@@ -47920,10 +48768,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f52f0128-9884-4d9d-97d2-308cd493d94e")
 		(property "Reference" "C18"
-			(at 152.4 61.3409 0)
+			(at 140.716 61.976 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47932,7 +48779,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 152.4 63.8809 0)
+			(at 137.922 64.008 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48765,34 +49612,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 191.77 38.1 270)
+		(lib_id "power:GND")
+		(at 184.15 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fc014b4d-b866-4632-990b-37608c22953b")
-		(property "Reference" "TP12"
-			(at 196.088 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 193.802 40.386 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_Pin:Pin_D0.7mm_L6.5mm_W1.8mm_FlatFork"
-			(at 191.77 43.18 0)
+		(uuid "fae958d0-db5f-45d1-b6e7-c1e487ea7b5c")
+		(property "Reference" "#PWR074"
+			(at 184.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48800,8 +49629,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 191.77 43.18 0)
+		(property "Value" "GND"
+			(at 184.15 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 184.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48809,8 +49646,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 191.77 38.1 0)
+		(property "Datasheet" ""
+			(at 184.15 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 184.15 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48819,12 +49665,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "cd880eef-9d5d-49d0-8c99-4bbdd76db9f5")
+			(uuid "da738c0e-6ea6-4f6a-9a65-2e03b146c45f")
 		)
 		(instances
 			(project "PowerSupply30V5A"
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "TP12")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
