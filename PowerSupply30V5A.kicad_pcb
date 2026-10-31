@@ -20534,5 +20534,18 @@
 			)
 		)
 	)
+	(gr_text "L1:Signal+ Main rail\nL2:Analogue0V\nL3:Analogue0V?\nL4:Power plane"
+		(at 43.77 170.1 0)
+		(layer "F.Cu")
+		(uuid "c49ded4f-2dc7-442a-99a5-2dc43de166e1")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(embedded_fonts no)
 )
