@@ -1,4 +1,4 @@
-27267209193776262
+27270807155629154
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107974,6 +107974,13 @@ Bridge Rectifier
 0
 4
 4
+m_Capacitor_ceramic_SMD
+CAPC2012X94N
+0805-2022
+Capacitor
+0
+2
+2
 m_Connectors
 1017503
 1017503
@@ -107981,6 +107988,13 @@ Connector
 0
 4
 4
+m_Connectors
+1755736
+1755736
+Connector
+0
+2
+2
 m_Connectors
 1755752
 1755752
