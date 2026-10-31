@@ -1,4 +1,4 @@
-27260037767132323
+27267209193776262
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107953,6 +107953,27 @@ Varistor VF
 0
 2
 2
+m_BridgeRectifier
+KBJB1506_T0_00301
+KBJB_2025
+Bridge Rectifier
+0
+4
+4
+m_BridgeRectifier
+P34_SO-DIL-ABS
+SMD diode bridge ABS (Diotec), see https://diotec.com/tl_files/diotec/files/pdf/datasheets/abs2.pdf
+SO DIL ABS MBLS
+0
+4
+4
+m_BridgeRectifier
+SOP250P700X270-4N
+TO269AA
+Bridge Rectifier
+0
+4
+4
 m_Connectors
 1017503
 1017503
@@ -108065,3 +108086,10 @@ Resistor
 0
 4
 4
+m_Transformer
+14A5628
+14A-56-28-1
+Transformer
+0
+12
+12
