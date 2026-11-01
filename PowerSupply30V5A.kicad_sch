@@ -14492,7 +14492,7 @@
 		)
 		(uuid "71f05902-9adf-403c-afc2-fc9ea85c9bad")
 	)
-	(text "Rectifier:\nV_rrm=40*2*1.5(V_dc*diode will see twice voltage when +-,\n				   * safety factor)\nI_F=1.1A*1.5"
+	(text "Rectifier:\nV_rrm=40*2*1.5(V_dc*diode will see twice voltage when +-,\n				   * safety factor)\nI_F=0.7A*1.5=1.05A"
 		(exclude_from_sim no)
 		(at -214.63 196.596 0)
 		(effects
@@ -14503,7 +14503,7 @@
 		)
 		(uuid "7293ac2f-ca0a-406a-a67b-3d4c3e4b9f03")
 	)
-	(text "Trasnformer:\nV_peak=40V (The one seen in the DC load)\nV_RMS =40V/sqrt(2)\nI_RMS=1.1A*1.5 (safety margin)\nP_trafo=60VA"
+	(text "Trasnformer:\nV_peak=40V (The one seen in the DC load)\nV_RMS =40V/sqrt(2)\nI_RMS=0.7A*1.5=1.05A (safety margin)\nP_trafo=45VA"
 		(exclude_from_sim no)
 		(at -245.11 196.596 0)
 		(effects
@@ -14598,7 +14598,7 @@
 		)
 		(uuid "982ae6f6-83c2-4770-959e-03b0fc3cb8c8")
 	)
-	(text "P_load=45W\nV_load_DC=40V (With margin)\nI_load_DC=1.1A"
+	(text "P_load=25W\nV_load_DC=40V (With margin)\nI_load_DC=0.7A"
 		(exclude_from_sim no)
 		(at -175.514 196.342 0)
 		(effects
@@ -14619,7 +14619,7 @@
 		)
 		(uuid "9f6f92e9-cea4-44a0-bdbb-b4781c6ec40b")
 	)
-	(text "Total power of second bridge rectifier: \nP_tot=1.5+18+23+2=44.5==45W\nREMEMBER THAT TO SUPPLY ALL THE LDO´S, i might need \nmore than 30V, probably +36V would be approapiate\n\n40V and 44W-->1.1A"
+	(text "Total power of second bridge rectifier: \nP_tot=2+23W=25W\n\n40V and 25W-->0.7A"
 		(exclude_from_sim no)
 		(at -248.666 165.354 0)
 		(effects
