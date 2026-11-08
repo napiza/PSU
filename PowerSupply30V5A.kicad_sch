@@ -15235,12 +15235,13 @@
 		)
 		(uuid "875eeef3-e843-4504-b847-f59454fcebb2")
 	)
-	(text "Questions +-15V is not centered at 6V, check IN SIMULATION AGAIN"
+	(text "Questions +-15V is not centered at 6V, check IN SIMULATION AGAIN\nAlso, parallel capacitor with opamp has an impact (understand an put proper value)"
 		(exclude_from_sim no)
-		(at -94.742 49.53 0)
+		(at -95.25 51.562 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 0 0 1)
 			)
 		)
 		(uuid "8996a5f4-207e-4c64-8c0c-8e6a4a2486e6")
