@@ -1,4 +1,4 @@
-27270807155629154
+27274396697889796
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108024,6 +108024,13 @@ Zener Diode
 2
 2
 m_LDO
+14A5624
+76.2 x 63.5 x 46.5mm
+Transformer
+0
+8
+8
+m_LDO
 BDJ2FD0WHFPTR
 HRP5_2025-1
 Integrated Circuit
@@ -108065,6 +108072,13 @@ Integrated Circuit
 0
 3
 3
+m_LDO
+SOP65P490X110-13N
+MSE Package 12-Lead Plastic MSOP, Exposed Die Pad
+Integrated Circuit
+0
+13
+13
 m_MOSFET
 TO546P1587X531X2511-3
 

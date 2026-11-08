@@ -14072,7 +14072,7 @@
 	)
 	(rectangle
 		(start 284.48 92.71)
-		(end 322.58 119.38)
+		(end 313.69 119.38)
 		(stroke
 			(width 0)
 			(type default)
@@ -14132,7 +14132,7 @@
 	)
 	(rectangle
 		(start 22.86 184.15)
-		(end 143.51 237.49)
+		(end 148.59 237.49)
 		(stroke
 			(width 0)
 			(type default)
@@ -14177,6 +14177,17 @@
 		)
 		(uuid "00829fae-7c39-4676-b2ef-bafa890f2b23")
 	)
+	(text "31.94V-(0.27Ohm*5A)=30.59V\n        (mosfet Vds drop)\ndV_max allowed=0.5V, otherwise, output cannot go to 30V\nC_in=5V/(100Hz*0.5)=100mF\n"
+		(exclude_from_sim no)
+		(at 34.544 233.934 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "0212adaa-45bc-433e-977b-1072304d8331")
+	)
 	(text "If=200mA\nVf=1V"
 		(exclude_from_sim no)
 		(at 121.666 172.72 0)
@@ -14187,9 +14198,21 @@
 		)
 		(uuid "068317f8-cf89-4fcd-a79a-55dc998ffc6d")
 	)
+	(text "*Warning:P dissipated not allower for 15V and 12V LDO\n In order to dissipate this heat, 4 layers"
+		(exclude_from_sim no)
+		(at 438.404 110.744 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+				(color 255 0 0 1)
+			)
+			(justify left)
+		)
+		(uuid "0a4e5817-5f0b-4390-a7dc-d37511180451")
+	)
 	(text "Dont connect without heatsink"
 		(exclude_from_sim no)
-		(at 68.58 147.32 0)
+		(at 68.58 148.082 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -14197,6 +14220,26 @@
 			)
 		)
 		(uuid "0bb299f3-7239-4f0a-8b15-f8faaac82f89")
+	)
+	(text "I_fan=0.28A"
+		(exclude_from_sim no)
+		(at 307.594 117.348 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "0c5a177b-ea44-426a-bc71-b22a1091a837")
+	)
+	(text "Rated voltage (II/2)=630V (VRMS)"
+		(exclude_from_sim no)
+		(at 34.798 83.312 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "0e17e966-1dbb-4a37-b4fc-2311fdef917d")
 	)
 	(text "Voltage sensing"
 		(exclude_from_sim no)
@@ -14209,6 +14252,27 @@
 			)
 		)
 		(uuid "10618460-e9f4-4ed4-bd23-8212a1bfddb5")
+	)
+	(text "V(rms)=28VAC-CT-(after rect. peak)\nI(rms)=2A>>0.6A*1.8 (margin for capa peak)=1.1A \n65VA"
+		(exclude_from_sim no)
+		(at 69.088 94.488 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "11922efb-2bac-45a3-89c5-fe8a170e824c")
+	)
+	(text "*Warning: In order to dissipate this heat, 4 layers"
+		(exclude_from_sim no)
+		(at 464.058 83.058 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "12747acc-0564-4b59-bbca-c316e4a95d6e")
 	)
 	(text "VOLTAGE CONTROL"
 		(exclude_from_sim no)
@@ -14236,7 +14300,7 @@
 	)
 	(text "Power of the board for each voltage rail (and LDO):"
 		(exclude_from_sim no)
-		(at -227.584 82.042 0)
+		(at 458.724 13.462 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14245,6 +14309,16 @@
 			)
 		)
 		(uuid "1e18e279-9609-4d39-8f60-d1ae4fe3f73e")
+	)
+	(text "C=I_in/(f_rippe*dV)\ndV_max (to account for V drop)=1V\nC=12000uF"
+		(exclude_from_sim no)
+		(at 117.094 57.404 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "1fdee072-70ce-4be8-aa52-1275a957e79b")
 	)
 	(text "0/5V"
 		(exclude_from_sim no)
@@ -14277,15 +14351,16 @@
 		)
 		(uuid "2665c178-f157-47aa-b2dd-de30a273e537")
 	)
-	(text "+15V: (23W)"
+	(text "+15V: "
 		(exclude_from_sim no)
-		(at -243.586 124.968 0)
+		(at 437.388 67.056 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
+			(justify left)
 		)
 		(uuid "2d52e842-4e39-499c-ba01-ad4fc7f298c4")
 	)
@@ -14301,6 +14376,16 @@
 		)
 		(uuid "2ef0e7c8-ec24-4319-869a-cee28d60d8ef")
 	)
+	(text "RdsOn=0.27Ohm\nPd_max=280W >> 0.27*5^2"
+		(exclude_from_sim no)
+		(at 62.484 199.644 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "30bc3163-2a83-4e09-ae4a-fe52213f8da3")
+	)
 	(text "(I send the 5V to work with potentiometer\nbefore designing the PSU Montiring PCB)"
 		(exclude_from_sim no)
 		(at 306.324 143.002 0)
@@ -14313,20 +14398,9 @@
 		)
 		(uuid "3274e379-24fe-4e20-94eb-0435c166acb6")
 	)
-	(text "I_out_-15V=111mA"
+	(text "* Voltage presence indicator: 20mA\n* For current and voltage reference: 1.25W\n 	> Scenario with potentiometer: Need to measure: For the moment I remember 50mOhm = 5V^2/50mOhm=1.25W\n	> Scenario with MCU: I will not need this reference, voltage will be given by MCU. \n* I_out=20mA+(1.25W/5V)=0.27A\n* P_out_5V=(12V-5V)*0.27A+12V*8mA=2W"
 		(exclude_from_sim no)
-		(at -238.252 157.734 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 62 255 75 1)
-			)
-		)
-		(uuid "394cea30-8c1c-414e-8871-4dca6a6e52f5")
-	)
-	(text "* Voltage presence indicator: 20mA\n* For current and voltage reference: 1.25W\n 	> Scenario with potentiometer: Need to measure: For the moment I remember 50mOhm = 5V^2/50mOhm=1.25W\n	> Scenario with MCU: I will not need this reference, voltage will be given by MCU. \n* P_out_5V= (5V*20e-3)+1.25W= 1.35W"
-		(exclude_from_sim no)
-		(at -249.174 93.472 0)
+		(at 436.118 36.576 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14383,21 +14457,34 @@
 		)
 		(uuid "4f5ec8e4-92c8-4d36-819a-92fb6a40d4e1")
 	)
-	(text "+12V: (18W)"
+	(text "+12V: "
 		(exclude_from_sim no)
-		(at -242.824 104.394 0)
+		(at 437.388 46.482 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
+			(justify left)
 		)
 		(uuid "50bc2871-ac7c-4c74-96bb-371aabf3f15d")
 	)
-	(text "LDO dropout voltage: 2V\n"
+	(text "-where Ib= quiescent current\n-where Iout= Is the current of the load, so for\n LDO connected in series, also current of previous\n"
 		(exclude_from_sim no)
-		(at 218.186 116.332 0)
+		(at 439.928 21.336 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+			(justify left)
+		)
+		(uuid "5458e208-64f6-46a6-816e-38e1395c8f22")
+	)
+	(text "LDO dropout voltage: 2V\nI_out=0.27A"
+		(exclude_from_sim no)
+		(at 218.948 116.332 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14417,7 +14504,7 @@
 	)
 	(text "Gain=20\nIN:(0/0.25V[5A*50mOhm])\nOUT:(0/-5V)"
 		(exclude_from_sim no)
-		(at 209.296 151.384 0)
+		(at 209.804 149.606 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -14426,9 +14513,20 @@
 		)
 		(uuid "5d545854-d9ba-45d1-82a6-3285c3b80549")
 	)
-	(text "* Voltage presence indicator: 20mA\n* Quad op-amp buffer: 680mW Pmax when output @+15V\n* Quad op-amp voltage and current PI:680mW Pmax when output @+15V\n* LDO 12V: P_int_LDO_12V+P_out_12V= V_in*Iq (Quiescent current)+(V_in-V_out)*I_out= 15V*0.5mA+3V*1.5A= 4.5W+18W\n* P_tot_15V:21,0514W+15*20e-3+(2*680e-3)=22,5"
+	(text "Vin_min=28V+(0.27Ohm+50mOhm)*5A=29.6V\nVin_max=24*sqrt(2)-2V=31.94V\ndV_max=2.34V\nCin=22000uF=2*12000uF, already used in schema"
 		(exclude_from_sim no)
-		(at -249.428 132.08 0)
+		(at 71.12 234.442 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 0 0 72 1)
+			)
+		)
+		(uuid "65e60a21-e763-47dc-a66c-d1015f197a52")
+	)
+	(text "* Voltage presence indicator: 20mA\n* Quad op-amp buffer: 680mW Pmax when output @+15V\n* Quad op-amp voltage and current PI:680mW Pmax when output @+15V\n* I_out=20mA+2*(680mW/15V)=0.12A+I(prev)=1.19A\n* V_in_ldo=14*sqrt(2)-2.1V [from rms to peak- v drop in both diodes]\n* P_out_15V=(17.69V-15V)*1.19A+(17.69V*1mA)=3.16W"
+		(exclude_from_sim no)
+		(at 437.642 75.184 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14436,17 +14534,6 @@
 			(justify left)
 		)
 		(uuid "66559330-4f01-4302-b20d-f046dcbb39f3")
-	)
-	(text "CALCULATIONS SMALL TRANFORMER"
-		(exclude_from_sim no)
-		(at -205.994 188.214 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 0 255 0 1)
-			)
-		)
-		(uuid "68653efb-9408-4851-8d6e-9ba284d3016e")
 	)
 	(text "PSU CONTROL & MONITORING \n(Sending signals to PSU Monitoring PCB)\n"
 		(exclude_from_sim no)
@@ -14470,6 +14557,28 @@
 		)
 		(uuid "69fedfb6-961e-473f-94b6-25c220af7008")
 	)
+	(text "Quiero calcular analiticamente todo, y escribir analiticamente todo. \n"
+		(exclude_from_sim no)
+		(at -96.266 32.512 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 132 0 1)
+			)
+		)
+		(uuid "6aa66e58-7b1a-4ce2-a4eb-246e07343ac8")
+	)
+	(text "P_in=17.69V*1.17A+17.69*0.12A=22.82W\nP_out=P_out[15v]+P_out[-15v]=19.35W\nP_dissipated=3.47W=22.82W-19.35W=\n                    =P_diss[15v]+P_diss[-15v]=3.16W+0.46W\nI_in=22.82W/(28*sqrt(2)-2.1)=0.6A DC\nI_trafo(rms)=I dc *1.8 (margin for capa peak= 1.1A"
+		(exclude_from_sim no)
+		(at 97.79 110.49 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left)
+		)
+		(uuid "6f1f6088-20ee-4ffd-b999-7966e8b9e9cc")
+	)
 	(text "FAN-\n"
 		(exclude_from_sim no)
 		(at 307.848 108.458 0)
@@ -14492,31 +14601,9 @@
 		)
 		(uuid "71f05902-9adf-403c-afc2-fc9ea85c9bad")
 	)
-	(text "Rectifier:\nV_rrm=40*2*1.5(V_dc*diode will see twice voltage when +-,\n				   * safety factor)\nI_F=0.7A*1.5=1.05A"
-		(exclude_from_sim no)
-		(at -214.63 196.596 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "7293ac2f-ca0a-406a-a67b-3d4c3e4b9f03")
-	)
-	(text "Trasnformer:\nV_peak=40V (The one seen in the DC load)\nV_RMS =40V/sqrt(2)\nI_RMS=0.7A*1.5=1.05A (safety margin)\nP_trafo=45VA"
-		(exclude_from_sim no)
-		(at -245.11 196.596 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-			(justify left)
-		)
-		(uuid "77412e3d-e89a-436f-8492-014286163839")
-	)
 	(text "P_max_operation=1.25W(50mOhms*(5A)^2)\n"
 		(exclude_from_sim no)
-		(at 74.676 193.04 0)
+		(at 89.916 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14546,9 +14633,19 @@
 		)
 		(uuid "81bb8beb-bb06-479a-bd1c-8e624113c393")
 	)
-	(text "L\n"
+	(text "V_in=24*sqrt(2)-\n2*1V(diode voltage drop)= \n31.94V\n"
 		(exclude_from_sim no)
-		(at 45.974 160.528 0)
+		(at 52.07 153.67 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "83749e59-9cbf-4264-bacb-fe9d45a36b7e")
+	)
+	(text "24VAC"
+		(exclude_from_sim no)
+		(at 34.29 162.814 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14556,16 +14653,27 @@
 		)
 		(uuid "843006c8-677f-40cb-a1f2-606be939687a")
 	)
-	(text "I_out_15V=1.5A"
+	(text "Questions +-15V is not centered at 6V, check IN SIMULATION AGAIN"
 		(exclude_from_sim no)
-		(at -238.506 138.43 0)
+		(at -94.742 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
-				(color 62 255 75 1)
 			)
 		)
-		(uuid "8744a38c-d171-493c-92c2-183bb32bcdcf")
+		(uuid "8996a5f4-207e-4c64-8c0c-8e6a4a2486e6")
+	)
+	(text "P_LDO=(Vin-Vout)*Iout+(Vin)*Ib(max)"
+		(exclude_from_sim no)
+		(at 451.866 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "8d397c0d-b50a-4da7-840e-1f0d1b04a69a")
 	)
 	(text "Una vez terminado: Hacer check electrico del esquematico+ actualizar numeros"
 		(exclude_from_sim no)
@@ -14588,28 +14696,27 @@
 		)
 		(uuid "94808c5e-af4b-4e74-a585-354f19cbc97e")
 	)
-	(text "LDO dropout voltage: 1.3V\n"
+	(text "--> Now limited output to 28V-->"
 		(exclude_from_sim no)
-		(at 156.718 110.744 0)
+		(at 54.102 234.188 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.508 0.508)
 			)
 		)
-		(uuid "982ae6f6-83c2-4770-959e-03b0fc3cb8c8")
+		(uuid "97422416-94ee-4218-99ca-4abfdf43b64e")
 	)
-	(text "P_load=25W\nV_load_DC=40V (With margin)\nI_load_DC=0.7A"
+	(text "Rated voltage (II/2)=630V (VRMS)"
 		(exclude_from_sim no)
-		(at -175.514 196.342 0)
+		(at 36.068 169.672 0)
 		(effects
 			(font
 				(size 0.762 0.762)
 			)
-			(justify left)
 		)
-		(uuid "9d547fad-21af-4a38-86cf-bffe12f4c400")
+		(uuid "996f7089-f07a-43af-8656-03e04083ecef")
 	)
-	(text "LDO dropout voltage: 0.4V\n"
+	(text "LDO dropout voltage: 0.4V\nI_out=1.05A (0.78A[12v]+0.27A[5v]\n"
 		(exclude_from_sim no)
 		(at 217.17 51.054 0)
 		(effects
@@ -14619,18 +14726,37 @@
 		)
 		(uuid "9f6f92e9-cea4-44a0-bdbb-b4781c6ec40b")
 	)
-	(text "Total power of second bridge rectifier: \nP_tot=2+23W=25W\n\n40V and 25W-->0.7A"
+	(text "If=15A>> 5A*1.8=9A\nVrrm=600V>>12V*sqrt(2)*2 *1.5(margin)=50V\n"
 		(exclude_from_sim no)
-		(at -248.666 165.354 0)
+		(at 67.564 173.736 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "a29b8b88-66ac-48fc-aae3-4803742455cc")
+	)
+	(text "P_in=30V*5A=150W"
+		(exclude_from_sim no)
+		(at 47.752 202.946 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+		)
+		(uuid "a6749da0-2dff-4fb8-aa44-01955bfce523")
+	)
+	(text "LDO Dropout voltage: 1.3V\nI_out=0.12A\nP_out=15V*0.12A=1.8W"
+		(exclude_from_sim no)
+		(at 159.004 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
 		)
-		(uuid "a79d6b0b-4089-46e4-bff1-fcfefcf96b35")
+		(uuid "a68b6990-7f50-45d6-a06f-3517f34f1664")
 	)
-	(text "Voltage buffer for the references.\nI need low output impedance from the voltage sources\n"
+	(text "Voltage buffer for the references.\nI need low output impedance from the voltage sources,\nnot to add extra impedance and add voltage divider\n"
 		(exclude_from_sim no)
 		(at 363.22 181.102 90)
 		(effects
@@ -14644,7 +14770,7 @@
 	)
 	(text "Power of the PSU rail:\n"
 		(exclude_from_sim no)
-		(at -236.982 176.276 0)
+		(at 451.104 118.364 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14676,7 +14802,7 @@
 		)
 		(uuid "ae0436fd-4dfa-42fa-b191-33e623b3418d")
 	)
-	(text "Voltage buffer for the measurements.\nI need high input impedance from the voltage measurement\n"
+	(text "Voltage buffer for the measurements.\nI need high input impedance from the voltage measurement,\nnot to change meas\n"
 		(exclude_from_sim no)
 		(at 298.45 218.694 90)
 		(effects
@@ -14688,6 +14814,17 @@
 		)
 		(uuid "af254955-60b6-4816-a5df-9983a9a2abe5")
 	)
+	(text "Limmited output voltage. \nTo reach 30V, i will need too large input capa, or \na bigger trafo. Both too expensive, wanna minimise \ncost."
+		(exclude_from_sim no)
+		(at 252.984 31.242 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+				(color 132 0 0 1)
+			)
+		)
+		(uuid "b48b813f-f901-4eb0-88c1-83bc7f277152")
+	)
 	(text "For current measurement: Did I actually order 1mOhm resistor instead of 50mOhm?\n"
 		(exclude_from_sim no)
 		(at -213.868 8.89 0)
@@ -14698,6 +14835,16 @@
 			)
 		)
 		(uuid "b7574469-2b3e-4bd4-8a8e-8123a2ff9960")
+	)
+	(text "C=I_in/(f_rippe*dV)\ndV_max (to account for V drop)=0.5V\nC=2500uF\nBut in order not to have voltage imbalance betweeen both series \ncapas, 12000uF also, like this dv=0.1V"
+		(exclude_from_sim no)
+		(at 118.11 93.98 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "b8c7135f-2ee6-4c10-987b-830c48c639df")
 	)
 	(text "Why I don´t use same power rectifier? One has +-15Vac(So 30V)- But is true it has less current\nThe other one is also +30Vac, but requires much more power. Need to calculate this"
 		(exclude_from_sim no)
@@ -14711,6 +14858,27 @@
 		)
 		(uuid "bc9f5183-7493-4999-90a5-12d8e4a2628c")
 	)
+	(text "*Warning: In order to dissipate this heat, 4 layers"
+		(exclude_from_sim no)
+		(at 463.042 64.262 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "be7a5d09-31fb-4aea-9018-3f0434add003")
+	)
+	(text "if (bridge)=2A>> (0.6A of the circuit*1.8 (margin)=1.08A)\nV_drop=2.1V\nVrrm (bridge)=200V \nVrrm (circuit)=28*sqrt(2)*2=100V\nVrrm (bridge)>> Vrrm (circuit)"
+		(exclude_from_sim no)
+		(at 87.122 55.372 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "bf167364-19e7-421c-bdf5-7d5a0d9bd911")
+	)
 	(text "Gain=0.167\nIN:(0/30)\nOUT:(0/-5V)"
 		(exclude_from_sim no)
 		(at 209.55 210.058 0)
@@ -14722,7 +14890,17 @@
 		)
 		(uuid "c125d247-d974-4698-a28c-ad46af211a60")
 	)
-	(text "220 AC- \nDirectly \nfrom mains"
+	(text "C_out is for load transient and high frequency noise\nrejection. Feedback loop should reject ripple (to be check with\nloop stability). "
+		(exclude_from_sim no)
+		(at 105.41 233.426 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "c230f2fd-13d3-45c0-9c92-6c071ad011cf")
+	)
+	(text "230 AC- \nDirectly \nfrom mains"
 		(exclude_from_sim no)
 		(at 26.162 77.47 90)
 		(effects
@@ -14755,9 +14933,9 @@
 		)
 		(uuid "d09c8d5e-da53-4974-b85c-8e9edfc518ab")
 	)
-	(text "* Voltage presence indicator: 20mA\n* Quad op-amp buffer: 680mW Pmax when output @-15V\n* Quad op-amp voltage and current PI:680mW Pmax when output @-15V\n* P_tot_15V= (15V*20mA) + (2*680mW) = 1.66W\n"
+	(text "* Voltage presence indicator: 20mA\n* Quad op-amp buffer: 680mW Pmax when output @-15V\n* Quad op-amp voltage and current PI:680mW Pmax when output @-15V\n* I_out=20mA+2*(680mW/15)=0.12A\n* P_out_-15V=(17.69V-15V)*0.12A+(17.69V*8mA)=0.46W\n"
 		(exclude_from_sim no)
-		(at -249.682 152.4 0)
+		(at 437.896 94.488 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14777,19 +14955,9 @@
 		)
 		(uuid "d4405f36-288e-4195-bd32-49efb84c54f1")
 	)
-	(text "N\n"
+	(text "LDO Dropout voltage: 0.4V\nI_out=1.17A(0.12A[15v]+1.05A[prev.])\nP_out=15*1.17A=17.55W"
 		(exclude_from_sim no)
-		(at 46.228 163.068 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d49cd5be-f446-479c-b88a-3fab272d7c4e")
-	)
-	(text "LDO Dropout voltage: 0.4V\n"
-		(exclude_from_sim no)
-		(at 156.718 50.546 0)
+		(at 156.718 49.022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14797,31 +14965,21 @@
 		)
 		(uuid "d5ea4608-5929-4022-b667-bd3af85803c2")
 	)
-	(text "I_out_5V=330mA"
+	(text "They all respect:\n*I_out can be provided by LDO\n*V_drop is respected, always minimum voltage, also input capacitors designed \n for accounting for ripple.\n"
 		(exclude_from_sim no)
-		(at -238.252 100.076 0)
+		(at 438.912 105.41 0)
 		(effects
 			(font
-				(size 1.27 1.27)
-				(color 62 255 75 1)
+				(size 1.016 1.016)
+				(color 0 194 0 1)
 			)
+			(justify left)
 		)
-		(uuid "db201ce4-e708-4dd3-8856-b78c2986f494")
-	)
-	(text "How to calculate input capacitance needed?"
-		(exclude_from_sim no)
-		(at 117.094 52.07 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-				(color 255 0 0 1)
-			)
-		)
-		(uuid "dcb43653-92ab-4ad0-9413-e1b51c64e900")
+		(uuid "dc8e6ec6-9e56-4350-ba5c-f1fdcebc566e")
 	)
 	(text "+30V*5A=150W\nPower of first bridge rectifier"
 		(exclude_from_sim no)
-		(at -248.158 180.594 0)
+		(at 439.928 122.682 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14863,20 +15021,9 @@
 		)
 		(uuid "e16aee44-2880-4080-9b97-ec9d7e557dd2")
 	)
-	(text "I_out_12V=1.5A"
+	(text "-15V: "
 		(exclude_from_sim no)
-		(at -239.268 121.666 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(color 62 255 75 1)
-			)
-		)
-		(uuid "e2bf022e-02f1-4a09-a119-b9e71e503891")
-	)
-	(text "-15V: (2W)"
-		(exclude_from_sim no)
-		(at -243.84 145.796 0)
+		(at 441.706 87.884 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14898,19 +15045,20 @@
 		)
 		(uuid "e4af78c9-a10e-44b6-a80d-1113f2ffd730")
 	)
-	(text "P_out=150W\nWith heat sink:15A \nWIthout heatsin:3.2A!! "
+	(text "With heat sink:15A \nWIthout heatsin:3.2A!! "
 		(exclude_from_sim no)
-		(at 68.326 150.622 0)
+		(at 68.326 150.876 0)
 		(effects
 			(font
 				(size 0.762 0.762)
+				(color 255 0 0 1)
 			)
 		)
 		(uuid "e68196ed-b7aa-4535-92b1-cb7ab649384c")
 	)
-	(text "* Fan: 0.28A\n* Voltage presence indicator: 20mA\n* Mosfet Gate driver: Imax-=0.5A\n	> When MOSFET fully closed (Current dissipated in 20Ω): 6V/20Ω=0.3A\n	> When MOSFET fully opened (Current dissipated in 10Ω+ Diode voltage drop): (6V-1V)/10Ω=0.5A\n* LDO 5V: P_int_LDO_5V+ P_out_5V= V_in*Iq (Quiescent current)+ (V_in-V_out)*I_out= 12V*3.2mA+ 7*1A= 7.0384W+1.35W\n* P_out_12V= [12V * (0.28+20e-3+0.5)]+8.3884= 18W\n"
+	(text "* Fan: 0.28A\n* Voltage presence indicator: 20mA\n* Mosfet Gate driver: Imax-=0.5A\n	> When MOSFET fully closed (Current dissipated in 20Ω): 6V/20Ω=0.3A\n	> When MOSFET fully opened (Current dissipated in 10Ω+ Diode voltage drop): (6V-1V)/10Ω=0.5A\n* I_out=0.28A+20mA+0.5A=0.8A+I(prev)=1.07A\n* P_out_12V=(15V-12V)*1.07A+(15V*1mA)=3.16W\n"
 		(exclude_from_sim no)
-		(at -248.158 113.538 0)
+		(at 437.388 55.626 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14930,7 +15078,7 @@
 		)
 		(uuid "ebb59122-a5eb-44ae-9344-904e7ded63e1")
 	)
-	(text "Regulable Lab Power Supply Unit (PSU): 30V/5A"
+	(text "Regulable Lab Power Supply Unit (PSU): 28V/5A"
 		(exclude_from_sim no)
 		(at 214.63 24.13 0)
 		(effects
@@ -14953,9 +15101,9 @@
 		)
 		(uuid "f908ef11-c0d2-451e-b3b8-4450d0b3cfd4")
 	)
-	(text "+5V: (1.5W)"
+	(text "+5V: "
 		(exclude_from_sim no)
-		(at -244.348 86.36 0)
+		(at 438.912 28.448 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14990,12 +15138,6 @@
 		(uuid "04964b34-dbd1-437a-8f1f-22b9e3cd0312")
 	)
 	(junction
-		(at 38.1 209.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d906e76-3d52-452c-ba81-b13edd013c98")
-	)
-	(junction
 		(at 156.21 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15014,7 +15156,7 @@
 		(uuid "202c8cec-f300-42f0-b1a6-e32d1bc7c8c3")
 	)
 	(junction
-		(at 87.63 209.55)
+		(at 102.87 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21a72494-6886-4664-9441-43272992e5cf")
@@ -15074,7 +15216,7 @@
 		(uuid "3ac08db0-d8d1-42d6-9e93-9c69e8bb460d")
 	)
 	(junction
-		(at 92.71 209.55)
+		(at 107.95 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41857d9e-c987-495f-9119-9d7e2faeedbd")
@@ -15092,6 +15234,12 @@
 		(uuid "47c2b0b8-84ed-4384-95e2-776d2fbbf71e")
 	)
 	(junction
+		(at 46.99 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b5b61f8-2e06-4ff4-bc7f-8d2e67ebd50c")
+	)
+	(junction
 		(at 229.87 226.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15104,7 +15252,7 @@
 		(uuid "4fed1637-520d-47e7-86bc-320fb3b536d8")
 	)
 	(junction
-		(at 102.87 209.55)
+		(at 118.11 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5416c4fb-96ab-4bd3-910e-2dbc58c87088")
@@ -15134,7 +15282,7 @@
 		(uuid "7a31b85a-f711-42d9-9fde-fbbfa261c3a4")
 	)
 	(junction
-		(at 104.14 229.87)
+		(at 119.38 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a4a2050-f0b1-4a0a-b247-ae1d2efd5ea9")
@@ -15176,7 +15324,7 @@
 		(uuid "9502e74d-08f8-43a2-9c6e-69f76d552c7f")
 	)
 	(junction
-		(at 115.57 223.52)
+		(at 130.81 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95758bf8-a6cd-4028-9b62-daefe9d4f40b")
@@ -15200,13 +15348,19 @@
 		(uuid "9f2b5d15-3b50-4a59-b382-6120f154b275")
 	)
 	(junction
-		(at 62.23 209.55)
+		(at 39.37 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a02d3d50-2ec2-47b0-b441-8f8b4bb26e04")
+	)
+	(junction
+		(at 77.47 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a17872f0-8a51-409b-8de0-ded6355e3575")
 	)
 	(junction
-		(at 92.71 229.87)
+		(at 107.95 228.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8135b19-29bd-42b4-89c8-ae5a57728ad3")
@@ -15260,6 +15414,12 @@
 		(uuid "bf53a1b2-ef45-4822-8ff7-aab9b367d4be")
 	)
 	(junction
+		(at 39.37 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2faa0b2-fcf9-4392-a716-af768a09a250")
+	)
+	(junction
 		(at 307.34 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15290,7 +15450,7 @@
 		(uuid "d3f2502c-43a0-417d-8d11-f3c3a583eabf")
 	)
 	(junction
-		(at 115.57 215.9)
+		(at 130.81 214.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d43158fd-c8eb-44be-8a26-5099a88bf30e")
@@ -15308,16 +15468,16 @@
 		(uuid "d69da4d4-2b2c-4115-bc3c-874cc1529462")
 	)
 	(junction
-		(at 38.1 229.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db444b97-1fa9-4c18-a0e4-cccd46e34b3e")
-	)
-	(junction
 		(at 173.99 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de9c45eb-9fc1-4c5e-98da-970dd755a985")
+	)
+	(junction
+		(at 46.99 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e53c0a76-1ecd-47c0-8316-9e344f747652")
 	)
 	(junction
 		(at 237.49 63.5)
@@ -15499,7 +15659,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 191.77) (xy 119.38 193.04)
+			(xy 134.62 190.5) (xy 134.62 191.77)
 		)
 		(stroke
 			(width 0)
@@ -15579,16 +15739,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 166.37) (xy 57.15 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18dd4a80-515b-4c13-9244-851c32a45968")
-	)
-	(wire
-		(pts
 			(xy 190.5 214.63) (xy 194.31 214.63)
 		)
 		(stroke
@@ -15609,7 +15759,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 214.63) (xy 49.53 215.9)
+			(xy 64.77 213.36) (xy 64.77 214.63)
 		)
 		(stroke
 			(width 0)
@@ -15719,7 +15869,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 209.55) (xy 102.87 209.55)
+			(xy 107.95 208.28) (xy 118.11 208.28)
 		)
 		(stroke
 			(width 0)
@@ -15729,7 +15879,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 209.55) (xy 66.04 209.55)
+			(xy 77.47 208.28) (xy 81.28 208.28)
 		)
 		(stroke
 			(width 0)
@@ -15739,7 +15889,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 215.9) (xy 115.57 218.44)
+			(xy 130.81 214.63) (xy 130.81 217.17)
 		)
 		(stroke
 			(width 0)
@@ -15879,7 +16029,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 217.17) (xy 62.23 217.17)
+			(xy 80.01 215.9) (xy 77.47 215.9)
 		)
 		(stroke
 			(width 0)
@@ -15889,7 +16039,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 209.55) (xy 92.71 215.9)
+			(xy 107.95 208.28) (xy 107.95 214.63)
 		)
 		(stroke
 			(width 0)
@@ -15949,6 +16099,26 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 208.28) (xy 57.15 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373371aa-fab3-40ce-87d7-9c60a4ee8692")
+	)
+	(wire
+		(pts
+			(xy 39.37 208.28) (xy 46.99 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f87ed2-18f9-4e79-80ae-0beb297c131e")
+	)
+	(wire
+		(pts
 			(xy 229.87 214.63) (xy 229.87 217.17)
 		)
 		(stroke
@@ -15989,7 +16159,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 229.87) (xy 113.03 229.87)
+			(xy 119.38 228.6) (xy 128.27 228.6)
 		)
 		(stroke
 			(width 0)
@@ -16089,16 +16259,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 209.55) (xy 41.91 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49089641-1699-4dad-ac0e-6dba0fc8b240")
-	)
-	(wire
-		(pts
 			(xy 242.57 176.53) (xy 246.38 176.53)
 		)
 		(stroke
@@ -16139,7 +16299,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 215.9) (xy 113.03 209.55)
+			(xy 128.27 214.63) (xy 128.27 208.28)
 		)
 		(stroke
 			(width 0)
@@ -16159,7 +16319,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 223.52) (xy 92.71 229.87)
+			(xy 107.95 222.25) (xy 107.95 228.6)
 		)
 		(stroke
 			(width 0)
@@ -16219,7 +16379,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 209.55) (xy 62.23 217.17)
+			(xy 77.47 208.28) (xy 77.47 215.9)
 		)
 		(stroke
 			(width 0)
@@ -16269,7 +16429,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 215.9) (xy 118.11 215.9)
+			(xy 130.81 214.63) (xy 133.35 214.63)
 		)
 		(stroke
 			(width 0)
@@ -16289,7 +16449,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 163.83) (xy 57.15 163.83)
+			(xy 45.72 163.83) (xy 59.69 163.83)
 		)
 		(stroke
 			(width 0)
@@ -16339,7 +16499,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 200.66) (xy 87.63 209.55)
+			(xy 102.87 199.39) (xy 102.87 208.28)
 		)
 		(stroke
 			(width 0)
@@ -16389,7 +16549,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 218.44) (xy 115.57 218.44)
+			(xy 133.35 217.17) (xy 130.81 217.17)
 		)
 		(stroke
 			(width 0)
@@ -16399,7 +16559,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 233.68) (xy 104.14 229.87)
+			(xy 119.38 232.41) (xy 119.38 228.6)
 		)
 		(stroke
 			(width 0)
@@ -16509,7 +16669,17 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 161.29) (xy 57.15 161.29)
+			(xy 39.37 214.63) (xy 39.37 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fcc8c18-e3b9-44ee-b46a-8432283958cb")
+	)
+	(wire
+		(pts
+			(xy 45.72 161.29) (xy 59.69 161.29)
 		)
 		(stroke
 			(width 0)
@@ -16519,7 +16689,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 200.66) (xy 64.77 200.66)
+			(xy 46.99 222.25) (xy 46.99 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70e19600-72e9-4ad9-af63-36ae5f679bfb")
+	)
+	(wire
+		(pts
+			(xy 77.47 199.39) (xy 80.01 199.39)
 		)
 		(stroke
 			(width 0)
@@ -16569,7 +16749,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 209.55) (xy 62.23 209.55)
+			(xy 67.31 208.28) (xy 77.47 208.28)
 		)
 		(stroke
 			(width 0)
@@ -16629,6 +16809,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 228.6) (xy 107.95 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f426960-e9ae-492e-8ec0-912cbea6ae65")
+	)
+	(wire
+		(pts
 			(xy 135.89 90.17) (xy 143.51 90.17)
 		)
 		(stroke
@@ -16669,7 +16859,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 220.98) (xy 115.57 220.98)
+			(xy 133.35 219.71) (xy 130.81 219.71)
 		)
 		(stroke
 			(width 0)
@@ -16849,16 +17039,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 223.52) (xy 38.1 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94453c1f-fef1-48a7-920a-6f017956b6c4")
-	)
-	(wire
-		(pts
 			(xy 222.25 156.21) (xy 222.25 157.48)
 		)
 		(stroke
@@ -16869,7 +17049,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 223.52) (xy 113.03 229.87)
+			(xy 128.27 222.25) (xy 128.27 228.6)
 		)
 		(stroke
 			(width 0)
@@ -16899,7 +17079,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 209.55) (xy 87.63 209.55)
+			(xy 99.06 208.28) (xy 102.87 208.28)
 		)
 		(stroke
 			(width 0)
@@ -16929,7 +17109,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 220.98) (xy 115.57 223.52)
+			(xy 130.81 219.71) (xy 130.81 222.25)
 		)
 		(stroke
 			(width 0)
@@ -16939,7 +17119,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 205.74) (xy 102.87 205.74)
+			(xy 46.99 208.28) (xy 46.99 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ae71f6-0baf-461e-8514-e6eccfabd1ee")
+	)
+	(wire
+		(pts
+			(xy 119.38 204.47) (xy 118.11 204.47)
 		)
 		(stroke
 			(width 0)
@@ -16999,16 +17189,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 229.87) (xy 92.71 229.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7cd759f-6c42-4259-94dd-26aa683d7a3b")
-	)
-	(wire
-		(pts
 			(xy 209.55 166.37) (xy 209.55 160.02)
 		)
 		(stroke
@@ -17039,7 +17219,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 200.66) (xy 88.9 200.66)
+			(xy 102.87 199.39) (xy 104.14 199.39)
 		)
 		(stroke
 			(width 0)
@@ -17079,7 +17259,7 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 233.68) (xy 104.14 233.68)
+			(xy 120.65 232.41) (xy 119.38 232.41)
 		)
 		(stroke
 			(width 0)
@@ -17149,7 +17329,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 223.52) (xy 115.57 223.52)
+			(xy 128.27 222.25) (xy 130.81 222.25)
 		)
 		(stroke
 			(width 0)
@@ -17279,16 +17459,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 215.9) (xy 38.1 209.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba8d7ba8-0f79-4de5-9890-d6b33c9fe10f")
-	)
-	(wire
-		(pts
 			(xy 229.87 196.85) (xy 231.14 196.85)
 		)
 		(stroke
@@ -17329,7 +17499,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 209.55) (xy 92.71 209.55)
+			(xy 102.87 208.28) (xy 107.95 208.28)
 		)
 		(stroke
 			(width 0)
@@ -17366,6 +17536,16 @@
 			(type default)
 		)
 		(uuid "c17c40ed-9956-4979-8401-1f0b326a500f")
+	)
+	(wire
+		(pts
+			(xy 39.37 228.6) (xy 46.99 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28c3b1b-b0c8-462f-a655-9008d7295bb3")
 	)
 	(wire
 		(pts
@@ -17419,7 +17599,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 215.9) (xy 115.57 215.9)
+			(xy 128.27 214.63) (xy 130.81 214.63)
 		)
 		(stroke
 			(width 0)
@@ -17469,7 +17649,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 223.52) (xy 118.11 223.52)
+			(xy 130.81 222.25) (xy 133.35 222.25)
 		)
 		(stroke
 			(width 0)
@@ -17479,7 +17659,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 209.55) (xy 113.03 209.55)
+			(xy 118.11 208.28) (xy 128.27 208.28)
 		)
 		(stroke
 			(width 0)
@@ -17519,7 +17699,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 229.87) (xy 38.1 229.87)
+			(xy 36.83 228.6) (xy 39.37 228.6)
 		)
 		(stroke
 			(width 0)
@@ -17556,6 +17736,16 @@
 			(type default)
 		)
 		(uuid "daa87a6d-66ac-4317-8b55-0820a384c812")
+	)
+	(wire
+		(pts
+			(xy 39.37 222.25) (xy 39.37 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbc299d2-f92a-4e6e-a539-9ec0e57ab55b")
 	)
 	(wire
 		(pts
@@ -17649,7 +17839,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 200.66) (xy 62.23 209.55)
+			(xy 77.47 199.39) (xy 77.47 208.28)
 		)
 		(stroke
 			(width 0)
@@ -17749,7 +17939,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 209.55) (xy 38.1 209.55)
+			(xy 36.83 208.28) (xy 39.37 208.28)
 		)
 		(stroke
 			(width 0)
@@ -17769,7 +17959,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 205.74) (xy 102.87 209.55)
+			(xy 118.11 204.47) (xy 118.11 208.28)
 		)
 		(stroke
 			(width 0)
@@ -17789,7 +17979,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 226.06) (xy 57.15 226.06)
+			(xy 64.77 224.79) (xy 72.39 224.79)
 		)
 		(stroke
 			(width 0)
@@ -17899,7 +18089,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 191.77) (xy 119.38 191.77)
+			(xy 137.16 190.5) (xy 134.62 190.5)
 		)
 		(stroke
 			(width 0)
@@ -17949,7 +18139,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 229.87) (xy 104.14 229.87)
+			(xy 107.95 228.6) (xy 119.38 228.6)
 		)
 		(stroke
 			(width 0)
@@ -17979,7 +18169,7 @@
 	)
 	(global_label "I_OUT_MEAS-"
 		(shape input)
-		(at 88.9 200.66 0)
+		(at 104.14 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -17989,7 +18179,7 @@
 		)
 		(uuid "013ae465-b8f2-402e-b2ce-e7f01fdec928")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 104.5247 200.66 0)
+			(at 119.7647 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17999,9 +18189,9 @@
 			)
 		)
 	)
-	(global_label "0V_IN"
+	(global_label "V_DC_RECT-"
 		(shape input)
-		(at 55.88 166.37 180)
+		(at 59.69 166.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18011,7 +18201,7 @@
 		)
 		(uuid "0ace58a7-0deb-4cc6-8a52-f3c9873ca7e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.6938 166.37 0)
+			(at 44.912 166.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18045,7 +18235,7 @@
 	)
 	(global_label "ANALOGUE_OV"
 		(shape input)
-		(at 64.77 217.17 0)
+		(at 80.01 215.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18055,7 +18245,7 @@
 		)
 		(uuid "26860520-9581-4d47-950d-36c0335d281c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.7577 217.17 0)
+			(at 95.9977 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18155,7 +18345,7 @@
 	)
 	(global_label "0V_IN"
 		(shape input)
-		(at 35.56 229.87 180)
+		(at 36.83 228.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18165,7 +18355,7 @@
 		)
 		(uuid "4fa13cd2-7b5c-41d5-b738-22b6df290e2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.3738 229.87 0)
+			(at 28.6438 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18177,7 +18367,7 @@
 	)
 	(global_label "PSU_V_OUT-"
 		(shape input)
-		(at 105.41 233.68 0)
+		(at 120.65 232.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18187,7 +18377,7 @@
 		)
 		(uuid "51f8ba28-a54b-4a3d-93b8-734cac0d4df0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.43 233.68 0)
+			(at 135.67 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18199,7 +18389,7 @@
 	)
 	(global_label "V_GATE"
 		(shape input)
-		(at 57.15 226.06 0)
+		(at 72.39 224.79 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18209,7 +18399,7 @@
 		)
 		(uuid "59c3381a-29bb-4d5c-8566-e41032167970")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.6666 226.06 0)
+			(at 81.9066 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18285,9 +18475,9 @@
 			)
 		)
 	)
-	(global_label "30V_IN"
+	(global_label "V_DC_RECT+"
 		(shape input)
-		(at 57.15 158.75 180)
+		(at 59.69 158.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18297,7 +18487,7 @@
 		)
 		(uuid "69663e88-cc5d-4967-bb11-2353f2e5e84b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.7543 158.75 0)
+			(at 44.912 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18309,7 +18499,7 @@
 	)
 	(global_label "ANALOGUE_OV"
 		(shape input)
-		(at 121.92 191.77 0)
+		(at 137.16 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18319,7 +18509,7 @@
 		)
 		(uuid "7318d4a7-5e9e-481c-9aab-1afdcb865f00")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.9077 191.77 0)
+			(at 153.1477 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18353,7 +18543,7 @@
 	)
 	(global_label "30V_IN"
 		(shape input)
-		(at 35.56 209.55 180)
+		(at 36.83 208.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18363,7 +18553,7 @@
 		)
 		(uuid "99b66a1e-40e8-4b56-a249-ff655200462b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.1643 209.55 0)
+			(at 27.4343 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18419,7 +18609,7 @@
 	)
 	(global_label "PSU_V_OUT+"
 		(shape input)
-		(at 104.14 205.74 0)
+		(at 119.38 204.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18429,7 +18619,7 @@
 		)
 		(uuid "b348c80e-d707-4c37-8aca-ed28f5c6a5b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.16 205.74 0)
+			(at 134.4 204.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18529,7 +18719,7 @@
 	)
 	(global_label "I_OUT_MEAS+"
 		(shape input)
-		(at 64.77 200.66 0)
+		(at 80.01 199.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18539,7 +18729,7 @@
 		)
 		(uuid "dbefa78f-2091-4c62-b5ad-fbb66834966c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 80.3947 200.66 0)
+			(at 95.6347 199.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19154,7 +19344,7 @@
 		(dnp no)
 		(uuid "0ed808bd-7c0f-46fc-9a5f-3ce97d540606")
 		(property "Reference" "C14"
-			(at 191.77 66.04 90)
+			(at 193.548 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19163,7 +19353,7 @@
 			)
 		)
 		(property "Value" "1μF_25V"
-			(at 194.564 68.834 90)
+			(at 195.834 68.834 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19388,7 +19578,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 119.38 193.04 0)
+		(at 134.62 191.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19396,7 +19586,7 @@
 		(dnp no)
 		(uuid "1208342c-5e0d-47f8-8baa-dadd7856823c")
 		(property "Reference" "#PWR03"
-			(at 119.38 199.39 0)
+			(at 134.62 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19405,7 +19595,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 198.12 0)
+			(at 134.62 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19413,7 +19603,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 193.04 0)
+			(at 134.62 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19422,7 +19612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 193.04 0)
+			(at 134.62 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19431,7 +19621,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 119.38 193.04 0)
+			(at 134.62 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19454,7 +19644,7 @@
 	(symbol
 		(lib_name "IRFP460_1")
 		(lib_id "m_MOSFET:IRFP460")
-		(at 46.99 212.09 90)
+		(at 62.23 210.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19463,7 +19653,7 @@
 		(fields_autoplaced yes)
 		(uuid "132750e6-cd7a-472e-94cd-7c5a011aee07")
 		(property "Reference" "Q1"
-			(at 46.99 203.2 90)
+			(at 62.23 201.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19471,7 +19661,7 @@
 			)
 		)
 		(property "Value" "IRFP460"
-			(at 46.99 205.74 90)
+			(at 62.23 204.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19479,7 +19669,7 @@
 			)
 		)
 		(property "Footprint" "m_MOSFET:TO546P1587X531X2511-3"
-			(at 33.274 212.09 0)
+			(at 48.514 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19489,7 +19679,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/91237/91237.pdf"
-			(at 46.99 212.09 0)
+			(at 62.23 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19498,7 +19688,7 @@
 			)
 		)
 		(property "Description" "Mosfet, n, To-247ac"
-			(at 30.988 211.582 0)
+			(at 46.228 210.312 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19508,7 +19698,7 @@
 			)
 		)
 		(property "MF" "Vishay"
-			(at 25.146 212.344 0)
+			(at 40.386 211.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19518,7 +19708,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "25.11mm"
-			(at 28.956 212.09 0)
+			(at 44.196 210.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19528,7 +19718,7 @@
 			)
 		)
 		(property "PACKAGE" "TO-247 Vishay Siliconix"
-			(at 36.068 211.328 0)
+			(at 51.308 210.058 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19538,7 +19728,7 @@
 			)
 		)
 		(property "PRICE" "None"
-			(at 60.452 211.836 0)
+			(at 75.692 210.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19548,7 +19738,7 @@
 			)
 		)
 		(property "STANDARD" "IPC-7351B"
-			(at 27.178 211.836 0)
+			(at 42.418 210.566 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19558,7 +19748,7 @@
 			)
 		)
 		(property "PARTREV" "A"
-			(at 65.786 213.868 0)
+			(at 81.026 212.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19568,7 +19758,7 @@
 			)
 		)
 		(property "AVAILABILITY" "Unavailable"
-			(at 62.738 213.868 0)
+			(at 77.978 212.598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19964,16 +20154,15 @@
 	(symbol
 		(lib_name "1017503_1")
 		(lib_id "m_Connectors:1017503")
-		(at 118.11 215.9 0)
+		(at 133.35 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1920d762-41d2-44e1-8fc6-fdbb0de9da1c")
 		(property "Reference" "J3"
-			(at 132.08 218.4399 0)
+			(at 140.462 210.566 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19982,7 +20171,7 @@
 			)
 		)
 		(property "Value" "1017503"
-			(at 132.08 220.9799 0)
+			(at 137.16 226.314 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -19991,7 +20180,7 @@
 			)
 		)
 		(property "Footprint" "m_Connectors:1017503"
-			(at 117.348 210.566 0)
+			(at 132.588 209.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20001,7 +20190,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-tdpt-25-2-sp-508-1017503?type=pdf"
-			(at 117.856 205.486 0)
+			(at 133.096 204.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20011,7 +20200,7 @@
 			)
 		)
 		(property "Description" "TDPT 2,5/ 2-SP-5,08 - Printed circuit board terminal, nominal current: 32 A, rated voltage (III/2): 400 V, nominal cross section: 2.5 mm<sup>2</sup>, number of potentials: 2, number of rows: 1, number of positions per row: 2, product range: TDPT 2,5/..-SP, pitch: 5.08 mm, connection method: Push-in spring connection, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, number of solder pins per potential: 2, type of packaging: p"
-			(at 118.11 215.9 0)
+			(at 133.35 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20020,7 +20209,7 @@
 			)
 		)
 		(property "Manufacturer" "Phoenix Contact"
-			(at 118.11 215.9 0)
+			(at 133.35 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20029,7 +20218,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1017503?qs=F5EMLAvA7ICurcWsoxF7Hw%3D%3D"
-			(at 118.11 215.9 0)
+			(at 133.35 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20038,7 +20227,7 @@
 			)
 		)
 		(property "Mouser Part Number" "651-1017503"
-			(at 118.11 215.9 0)
+			(at 133.35 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20047,7 +20236,7 @@
 			)
 		)
 		(property "Height" "19.2"
-			(at 118.11 215.9 0)
+			(at 133.35 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21523,16 +21712,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized")
-		(at 92.71 219.71 0)
+		(at 107.95 218.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3ee04bbc-bfb8-4b4e-a04d-d342a8d4864e")
 		(property "Reference" "C2"
-			(at 96.52 217.5509 0)
+			(at 114.808 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21540,8 +21728,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
-			(at 96.52 220.0909 0)
+		(property "Value" "1000uF -100V"
+			(at 110.49 221.488 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21550,7 +21738,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Radial_D18.0mm_H35.5mm_P7.50mm"
-			(at 93.6752 223.52 0)
+			(at 108.9152 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21559,7 +21747,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/28402/142rhs.pdf"
-			(at 92.71 219.71 0)
+			(at 107.95 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21568,7 +21756,7 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
-			(at 92.71 219.71 0)
+			(at 107.95 218.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21593,7 +21781,7 @@
 	)
 	(symbol
 		(lib_id "m_BridgeRectifier:KBJB1506_T0_00301")
-		(at 57.15 158.75 0)
+		(at 59.69 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21601,7 +21789,7 @@
 		(dnp no)
 		(uuid "3fac292a-9f33-4e09-8bce-1f9a48430a7c")
 		(property "Reference" "BR1"
-			(at 66.294 153.67 0)
+			(at 68.834 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21610,7 +21798,7 @@
 			)
 		)
 		(property "Value" "KBJB1506_T0_00301"
-			(at 58.674 169.672 0)
+			(at 61.214 169.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21619,7 +21807,7 @@
 			)
 		)
 		(property "Footprint" "m_BridgeRectifier:KBJB1506_T0_00301"
-			(at 76.2 253.67 0)
+			(at 78.74 253.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21628,8 +21816,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.panjit.com.tw/upload/datasheet/KBJB1506.pdf?fbclid=IwZXh0bgNhZW0CMTEAAR4OZ1Fo33rf7qdomQ3aAz3Y4ejb0yMDtPrprgTzLzOFng4Hasfgi1CcWfysow_aem_eSJzpmnXgLvNSM2pT6vx4g"
-			(at 76.2 353.67 0)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/3736/1/CEE607C40371A6BFD9C1770262E5D4DC611FEEF3FADAFA981B751D61BDD7762C.pdf"
+			(at 78.74 353.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21639,7 +21827,7 @@
 			)
 		)
 		(property "Description" "Bridge Rectifiers Glass Passivated Low Profile Bridge Rectifier 600V, 15A"
-			(at 57.15 158.75 0)
+			(at 59.69 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21648,7 +21836,7 @@
 			)
 		)
 		(property "Height" "12"
-			(at 76.2 553.67 0)
+			(at 78.74 553.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21658,7 +21846,7 @@
 			)
 		)
 		(property "Mouser Part Number" "241-KBJB1506T00301"
-			(at 76.2 653.67 0)
+			(at 78.74 653.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21668,7 +21856,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/KBJB1506_T0_00301?qs=VVKQmw408U971kSeRhdwTA%3D%3D"
-			(at 76.2 753.67 0)
+			(at 78.74 753.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21678,7 +21866,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "PANJIT"
-			(at 76.2 853.67 0)
+			(at 78.74 853.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21688,7 +21876,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "KBJB1506_T0_00301"
-			(at 76.2 953.67 0)
+			(at 78.74 953.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24248,8 +24436,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
-			(at 107.696 68.326 0)
+		(property "Value" "12000uF"
+			(at 106.68 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24257,7 +24445,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D18.0mm_H35.5mm_P7.50mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
 			(at 119.0752 71.12 0)
 			(effects
 				(font
@@ -24266,7 +24454,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.vishay.com/docs/28402/142rhs.pdf"
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41252.pdf"
 			(at 118.11 67.31 0)
 			(effects
 				(font
@@ -24276,6 +24464,24 @@
 			)
 		)
 		(property "Description" "Polarized capacitor"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " "871-B41252A6129M000"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser url" "https://www.mouser.fr/en/ProductDetail/TDK/B41252A6129M000?qs=sGAEpiMZZMvwFf0viD3Y3YZmIOvBM3jinpI03dEOPh4%3D"
 			(at 118.11 67.31 0)
 			(effects
 				(font
@@ -25355,75 +25561,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 38.1 219.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "912180a6-6b28-4adc-b697-3bbe27530bee")
-		(property "Reference" "C1"
-			(at 28.956 218.694 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 26.416 221.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D18.0mm_H35.5mm_P7.50mm"
-			(at 39.0652 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28402/142rhs.pdf"
-			(at 38.1 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 38.1 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c526a269-b5b1-4954-bd29-8e657a5947ca")
-		)
-		(pin "2"
-			(uuid "d1451707-7a7d-44d0-ab7f-ed74ac3b4a65")
-		)
-		(instances
-			(project "PowerSupply30V5A"
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+15V")
 		(at 199.39 63.5 0)
 		(unit 1)
@@ -26235,6 +26372,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 118.11 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5cc5234-4093-4d28-9178-4a0aafeea0c7")
+		(property "Reference" "C4"
+			(at 109.728 82.804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12000uF"
+			(at 106.68 84.836 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 119.0752 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41252.pdf"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " "871-B41252A6129M000"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser url" "https://www.mouser.fr/en/ProductDetail/TDK/B41252A6129M000?qs=sGAEpiMZZMvwFf0viD3Y3YZmIOvBM3jinpI03dEOPh4%3D"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31b45ea0-bc9d-45b0-bac5-f3e500993ab4")
+		)
+		(pin "2"
+			(uuid "0d832bd1-81f7-43a5-b462-3d538afa3ee3")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 288.29 107.95 0)
 		(unit 1)
@@ -27036,6 +27260,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 46.99 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c1802da4-5395-4d86-8be2-4b28af63ffca")
+		(property "Reference" "C1"
+			(at 51.816 217.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12000uF"
+			(at 49.53 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 47.9552 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41252.pdf"
+			(at 46.99 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 46.99 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " "871-B41252A6129M000"
+			(at 46.99 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser url" "https://www.mouser.fr/en/ProductDetail/TDK/B41252A6129M000?qs=sGAEpiMZZMvwFf0viD3Y3YZmIOvBM3jinpI03dEOPh4%3D"
+			(at 46.99 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82ad52a5-05b7-46cf-9db5-e5cf086ba866")
+		)
+		(pin "2"
+			(uuid "9d290557-326e-480b-9984-b6d2f04b2905")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 200.66 93.98 0)
 		(unit 1)
@@ -27289,7 +27600,7 @@
 	(symbol
 		(lib_name "10k_1206_0.25W_5%_5")
 		(lib_id "m_Resistor_SMD:10k_1206_0.25W_5%")
-		(at 49.53 229.87 90)
+		(at 64.77 228.6 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27297,7 +27608,7 @@
 		(dnp no)
 		(uuid "cc6cbc8c-02d4-4408-aa79-9d028f406560")
 		(property "Reference" "R1"
-			(at 46.228 221.488 0)
+			(at 61.468 220.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27306,7 +27617,7 @@
 			)
 		)
 		(property "Value" "10kΩ"
-			(at 48.768 223.266 0)
+			(at 64.008 221.996 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27315,7 +27626,7 @@
 			)
 		)
 		(property "Footprint" "m_Resistor_SMD:RESC3216X60N"
-			(at 145.72 215.9 0)
+			(at 160.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27325,7 +27636,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/20132/rca-sre3.pdf"
-			(at 245.72 215.9 0)
+			(at 260.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27335,7 +27646,7 @@
 			)
 		)
 		(property "Description" "10k_1206_0.25W_5%-Thick Film Resistors - SMD RCA1206-SR 200 10K 5% ET1 e3"
-			(at 53.086 229.87 0)
+			(at 68.326 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27344,7 +27655,7 @@
 			)
 		)
 		(property "Height" "0.6"
-			(at 445.72 215.9 0)
+			(at 460.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27354,7 +27665,7 @@
 			)
 		)
 		(property "Mouser Part Number" "RCA120610K0JNEASR"
-			(at 545.72 215.9 0)
+			(at 560.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27364,7 +27675,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 645.72 215.9 0)
+			(at 660.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27374,7 +27685,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Vishay"
-			(at 745.72 215.9 0)
+			(at 760.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27384,7 +27695,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "RCA120610K0JNEASR"
-			(at 845.72 215.9 0)
+			(at 860.96 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28147,7 +28458,7 @@
 	)
 	(symbol
 		(lib_id "m_Resistor_measurement:FCSL76R050DER")
-		(at 66.04 209.55 0)
+		(at 81.28 208.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28155,7 +28466,7 @@
 		(dnp no)
 		(uuid "d8b3fece-66dd-442c-83a2-514f3982be5d")
 		(property "Reference" "R2"
-			(at 75.438 203.962 0)
+			(at 90.678 202.692 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28163,7 +28474,7 @@
 			)
 		)
 		(property "Value" "FCSL76R050DER"
-			(at 74.93 206.248 0)
+			(at 90.17 204.978 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28171,7 +28482,7 @@
 			)
 		)
 		(property "Footprint" "m_Resistor_measurement:RESC3876X70N"
-			(at 80.01 305.74 0)
+			(at 95.25 304.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28181,7 +28492,7 @@
 			)
 		)
 		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/FCSL76R050DER.pdf"
-			(at 80.01 405.74 0)
+			(at 95.25 404.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28191,7 +28502,7 @@
 			)
 		)
 		(property "Description" "Current Sense Resistors - SMD 0.05 ohm 0.5% 3W"
-			(at 74.676 195.58 0)
+			(at 89.916 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28199,7 +28510,7 @@
 			)
 		)
 		(property "Height" "0.7"
-			(at 80.01 605.74 0)
+			(at 95.25 604.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28209,7 +28520,7 @@
 			)
 		)
 		(property "Mouser Part Number" "588-FCSL76R050DER"
-			(at 80.01 705.74 0)
+			(at 95.25 704.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28219,7 +28530,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=588-FCSL76R050DER"
-			(at 80.01 805.74 0)
+			(at 95.25 804.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28229,7 +28540,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Ohmite"
-			(at 80.01 905.74 0)
+			(at 95.25 904.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28239,7 +28550,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "FCSL76R050DER"
-			(at 80.01 1005.74 0)
+			(at 95.25 1004.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30272,75 +30583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 118.11 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f52f0128-9884-4d9d-97d2-308cd493d94e")
-		(property "Reference" "C4"
-			(at 110.236 82.296 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1000uF"
-			(at 107.442 84.328 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D18.0mm_H35.5mm_P7.50mm"
-			(at 119.0752 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/28402/142rhs.pdf"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4118ead-1e37-4e85-a64c-389eb688a25b")
-		)
-		(pin "2"
-			(uuid "f08f9ad3-8fde-4afd-83b5-4492f6fb9177")
-		)
-		(instances
-			(project "PowerSupply30V5A"
-				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
-					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "0805_1μF_25V_20%_6")
 		(lib_id "m_Capacitor_ceramic_SMD:0805_1μF_25V_20%")
 		(at 177.8 185.42 90)
@@ -30457,6 +30699,93 @@
 			(project ""
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 39.37 218.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f5e845b8-6d6f-462c-ac56-5969734283a5")
+		(property "Reference" "C23"
+			(at 30.988 217.424 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "12000uF"
+			(at 27.94 219.456 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D35.0mm_P10.00mm_SnapIn"
+			(at 40.3352 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.tdk-electronics.tdk.com/inf/20/30/db/aec/B41252.pdf"
+			(at 39.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 39.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser " "871-B41252A6129M000"
+			(at 39.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser url" "https://www.mouser.fr/en/ProductDetail/TDK/B41252A6129M000?qs=sGAEpiMZZMvwFf0viD3Y3YZmIOvBM3jinpI03dEOPh4%3D"
+			(at 39.37 218.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17a8af64-22ef-4d2e-9d96-fdb4024ecfe0")
+		)
+		(pin "2"
+			(uuid "d37c8764-f275-4a5d-bb15-2412fcffd8f7")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "C23")
 					(unit 1)
 				)
 			)
