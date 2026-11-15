@@ -1,4 +1,4 @@
-27276191066295814
+27277985236325571
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -108023,6 +108023,13 @@ Zener Diode
 0
 2
 2
+m_Diode_Zener
+SOT65P210X110-3N
+SC-70
+Zener Diode
+0
+3
+3
 m_Diode_Zener
 SOT95P230X110-3N
 -SOT23 (TO-236AB)
