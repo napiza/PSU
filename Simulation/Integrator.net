@@ -1,0 +1,40 @@
+* C:\Users\napinill\cernbox\WINDOWS\Desktop\PCB_DESIGN\HomeProject\PSU_Repository\Simulation\Integrator.asc
+V1 30V_unregulated 0 30
+M1 30V_unregulated N004 I_meas+ I_meas+ IPB055N03L
+R_load V_meas+ 0 5
+R4 N004 V_gate 10K
+R_sensing V_meas+ I_meas+ 50m
+V2 V_gate_unregulated I_meas+ 6
+R1 V_gate V_gate_unregulated 10K
+D1 V_gate I_control D
+V5 Vcc+ I_meas+ 12
+V6 Vcc- I_meas+ -12
+V8 V_ref I_meas+ PWL(0 0 0.5 5)
+C1 V_control N001 4.7n
+X§U1 N003 N001 Vcc+ Vcc- V_control level1 Avol=1Meg GBW=10Meg Vos=0 En=0 Enk=0 In=0 Ink=0 Rin=500Meg
+V4 I_ref I_meas+ PWL(0 0 0.5 1 1 0 4 5)
+D2 V_gate V_control D
+V_meas I_meas+ N002 SINE(2.5 2.5 10e3)
+R3 I_meas+ N001 100
+V_ref P001 I_meas+ 5
+R5 P001 N003 100k
+R6 N003 N002 100k
+.model D D
+.lib C:\Users\napinill\AppData\Local\LTspice\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Users\napinill\AppData\Local\LTspice\lib\cmp\standard.mos
+.tran 0 10 0 1E-4
+* V_control=10V; Diode does not conduct; 6V into the V_gate;MOSFET closed; 30V in the load
+* V_control=-10V; Diode conduct; -9.3V(10V-0.7) into the V_gate;MOSFET open;0V in the load
+* In R1, it drops difference voltage (-9.3)-6=-15V
+* With PULSE in V_control
+* With PWL ramp in V_control
+* Para este MOSFET: La region lineal esta entre 1.4-1.8V: Antes completamente abierto, despues, completamente cerrado\nLa pregunta: yo estoy jugando con la region lineal? 0 estoy encendiendo y apagando (como un calentador); En ese caso? Tengo una frecuencia fija? O no?\nPara esto, poner en lazo abierto control de voltaje
+.option gminsteps=0
+* CONCLUSION: It acts in the linear region of the MOSFET: MOSFET is not switching\nThe maximum voltage in V_diff is going to be 2.5V (So it does not saturate mosfet)\nVoltage in the output of the integrator just control dv/dt, does not saturate to voltage rate
+* To be done next: Add current loop
+* To be done next: Understand Analog 0V floating @ rail voltage
+.lib UniversalOpAmp1.lib
+.backanno
+.end

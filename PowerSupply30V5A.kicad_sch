@@ -15380,6 +15380,16 @@
 		)
 		(uuid "a68b6990-7f50-45d6-a06f-3517f34f1664")
 	)
+	(text "Design based on:\nhttps://community.element14.com/technologies/test-and-measurement/b/blog/posts/the-modular-bench-power-supply-the-essential-diy-build-for-every-ee-student-and-old-timer-alike"
+		(exclude_from_sim no)
+		(at 215.646 19.304 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "a713cd41-93d3-4d8e-88ce-2e39be343924")
+	)
 	(text "Voltage buffer for the references.\nI need low output impedance from the voltage sources,\nnot to add extra impedance and add voltage divider\n"
 		(exclude_from_sim no)
 		(at 367.03 171.704 0)
