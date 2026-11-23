@@ -14661,6 +14661,18 @@
 		(uuid 61a70fdd-a3d9-4222-ae45-53e39f59287f)
 	)
 	(rectangle
+		(start -134.62 0)
+		(end -74.93 10.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 888e7388-16d0-43c0-96f9-88cc7a94f26b)
+	)
+	(rectangle
 		(start 85.09 137.16)
 		(end 143.51 181.61)
 		(stroke
@@ -14776,6 +14788,17 @@
 		)
 		(uuid "0804e150-cf58-4d7a-846f-d13991df026d")
 	)
+	(text "00- First I need to understand it analytically\n01- After experiment if I need something specifically\n01- After PCB"
+		(exclude_from_sim no)
+		(at -105.156 5.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 0 132 1)
+			)
+		)
+		(uuid "099ed2fd-28d3-4f5d-a1e6-437af8eb6228")
+	)
 	(text "*Warning:P dissipated not allower for 15V and 12V LDO\n In order to dissipate this heat, 4 layers"
 		(exclude_from_sim no)
 		(at 438.404 110.744 0)
@@ -14808,6 +14831,16 @@
 			)
 		)
 		(uuid "0c5a177b-ea44-426a-bc71-b22a1091a837")
+	)
+	(text "1- Divide in 3 PCB\n2- Need to leave pads for tunning control loop "
+		(exclude_from_sim no)
+		(at -103.124 91.186 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0d4959cb-aedf-40c5-8bf2-63991e0f718c")
 	)
 	(text "Rated voltage (II/2)=630V (VRMS)"
 		(exclude_from_sim no)
@@ -14928,6 +14961,16 @@
 			)
 		)
 		(uuid "2665c178-f157-47aa-b2dd-de30a273e537")
+	)
+	(text "0- Understand integrator\n\n TO BE UNDERSTOOD+ EXPERIMENTED\n1- Integrator:\n	*DC feedback resistor value \n	*Mosfet conduction region with diode gate drive \n2- Why not theoretical integrator, why he does not have parallel DC resistor\n2- Zener in series?\n\n"
+		(exclude_from_sim no)
+		(at -101.854 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2843f374-37b9-435c-96d0-7e8805baa466")
 	)
 	(text "+15V: "
 		(exclude_from_sim no)
@@ -15882,6 +15925,12 @@
 		(uuid "2b6c40a9-109c-4313-bfa2-dbe0563dc4b7")
 	)
 	(junction
+		(at 99.06 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d970a99-ce13-4015-be5f-ae90ef8b0f2d")
+	)
+	(junction
 		(at 218.44 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -16030,6 +16079,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "996ad86a-4754-4279-9ef7-510858ace893")
+	)
+	(junction
+		(at 80.01 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99b6cf41-fba1-471d-91cf-c5ca0587ef6e")
 	)
 	(junction
 		(at 233.68 93.98)
@@ -16497,6 +16552,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 214.63) (xy 99.06 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d7fe606-f292-45a7-87e5-1f22162024a0")
+	)
+	(wire
+		(pts
 			(xy 218.44 81.28) (xy 220.98 81.28)
 		)
 		(stroke
@@ -16607,7 +16672,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 208.28) (xy 81.28 208.28)
+			(xy 77.47 208.28) (xy 80.01 208.28)
 		)
 		(stroke
 			(width 0)
@@ -16737,6 +16802,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 208.28) (xy 80.01 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d884a75-9de0-4b27-a3f1-0e2297efe07d")
+	)
+	(wire
+		(pts
 			(xy 198.12 175.26) (xy 199.39 175.26)
 		)
 		(stroke
@@ -16757,7 +16832,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 215.9) (xy 77.47 215.9)
+			(xy 81.28 220.98) (xy 77.47 220.98)
 		)
 		(stroke
 			(width 0)
@@ -16914,6 +16989,16 @@
 			(type default)
 		)
 		(uuid "3d67ed8a-1508-4301-8789-5646c9b691cb")
+	)
+	(wire
+		(pts
+			(xy 99.06 208.28) (xy 99.06 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e374938-a7a3-4fab-a5e7-1118b66fd855")
 	)
 	(wire
 		(pts
@@ -17107,7 +17192,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 208.28) (xy 77.47 215.9)
+			(xy 77.47 208.28) (xy 77.47 220.98)
 		)
 		(stroke
 			(width 0)
@@ -17324,6 +17409,16 @@
 			(type default)
 		)
 		(uuid "61c204fb-668e-4c4f-814b-bcb7e69f6010")
+	)
+	(wire
+		(pts
+			(xy 80.01 208.28) (xy 81.28 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62a2646b-6189-450b-8fc4-03e5ff2dce55")
 	)
 	(wire
 		(pts
@@ -18537,6 +18632,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 214.63) (xy 80.01 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1973982-80ca-4cc2-b793-96172d41505f")
+	)
+	(wire
+		(pts
 			(xy 54.61 86.36) (xy 55.88 86.36)
 		)
 		(stroke
@@ -19065,7 +19170,7 @@
 	)
 	(global_label "ANALOGUE_OV"
 		(shape input)
-		(at 80.01 215.9 0)
+		(at 81.28 220.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19075,7 +19180,7 @@
 		)
 		(uuid "26860520-9581-4d47-950d-36c0335d281c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.9977 215.9 0)
+			(at 97.2677 220.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29778,6 +29883,126 @@
 			(project ""
 				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Diode_200mA_1V_1")
+		(lib_id "m_Diode:Diode_200mA_1V")
+		(at 96.52 214.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da7182ca-82ee-47e7-bb2f-21a0ad7f072a")
+		(property "Reference" "D4"
+			(at 89.916 217.424 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4150W-E3-18"
+			(at 90.678 212.344 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "m_Diode:SOD3716X135N"
+			(at 85.09 117.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.at/datasheet/2/427/1n4150w-1767381.pdf"
+			(at 85.09 17.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diodes - General Purpose, Power, Switching 50 Volt 500mA 4ns"
+			(at 97.79 210.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.35"
+			(at 85.09 -182.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "78-1N4150W-E3-18"
+			(at 85.09 -282.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/1N4150W-E3-18?qs=uS%252BVSIFnvp6IK3PIwb%252B3SQ%3D%3D"
+			(at 85.09 -382.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 85.09 -482.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1N4150W-E3-18"
+			(at 85.09 -582.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00bf257e-d2f9-4a1a-a59e-f2fc4ca26a45")
+		)
+		(pin "2"
+			(uuid "8a841ec1-e38f-4e2f-af77-5127acbdc534")
+		)
+		(instances
+			(project "PowerSupply30V5A"
+				(path "/47083ad7-9fa0-4f9a-906f-7d13aa6ff8f4"
+					(reference "D4")
 					(unit 1)
 				)
 			)
