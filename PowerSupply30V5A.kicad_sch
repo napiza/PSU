@@ -14697,6 +14697,32 @@
 		(uuid aad48b1b-9e1e-47d7-819e-d1a474a5e503)
 	)
 	(rectangle
+		(start 224.79 166.37)
+		(end 248.92 190.5)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 20 21 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid bf64ba5a-1698-44de-b156-faba89ed5d67)
+	)
+	(rectangle
+		(start 101.6 147.32)
+		(end 111.76 161.29)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 255 20 21 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e9a5bf03-257d-41e3-ac21-b91afe41bfd2)
+	)
+	(rectangle
 		(start 185.42 134.62)
 		(end 195.58 154.94)
 		(stroke
@@ -14739,6 +14765,16 @@
 			)
 		)
 		(uuid "068317f8-cf89-4fcd-a79a-55dc998ffc6d")
+	)
+	(text "need to add space for parallel/series resistors in case I want to tune it, also jumpers to disable integrator. Think how i want to test it, and prepare it. "
+		(exclude_from_sim no)
+		(at -92.202 60.706 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0804e150-cf58-4d7a-846f-d13991df026d")
 	)
 	(text "*Warning:P dissipated not allower for 15V and 12V LDO\n In order to dissipate this heat, 4 layers"
 		(exclude_from_sim no)
@@ -15379,6 +15415,16 @@
 			)
 		)
 		(uuid "a68b6990-7f50-45d6-a06f-3517f34f1664")
+	)
+	(text "Design based on:\nhttps://community.element14.com/technologies/test-and-measurement/b/blog/posts/the-modular-bench-power-supply-the-essential-diy-build-for-every-ee-student-and-old-timer-alike"
+		(exclude_from_sim no)
+		(at 215.646 19.304 0)
+		(effects
+			(font
+				(size 0.508 0.508)
+			)
+		)
+		(uuid "a713cd41-93d3-4d8e-88ce-2e39be343924")
 	)
 	(text "Voltage buffer for the references.\nI need low output impedance from the voltage sources,\nnot to add extra impedance and add voltage divider\n"
 		(exclude_from_sim no)
