@@ -15,12 +15,21 @@ V4 N004 0 PULSE(0 10 2ms 1e-10 1e-10 1ms 0.002 3)
 R2 0 OUT 10k
 R7 OUT2 N002 10k
 C3 OUT3 N005 1.6e-9
-R8 N006 N007 100K
+R8 N006 N008 100K
 X§U1 N006 N005 +15V -15 OUT3 RH37C ;§pnba In+)In-)V+)V-)OUT
 R9 N005 0 20K
-Vin N007 0 PULSE(0 10 2ms 1e-10 1e-10 1ms 0.002 3)
+Vin N008 0 PULSE(0 2.5 2ms 1e-10 1e-10 1ms 0.002 3)
 R10 OUT3 N005 100
 C4 N006 0 1.6e-9
+D2 Vgate OUT3 D
+R5 Vgate N007 10K
+V5 N007 0 6V
+D1 Vgate2 OUT2 D
+R11 Vgate2 N010 10K
+V6 N009 0 12v
+D3 N010 N009 BZX84C6V2L
+.model D D
+.lib C:\Users\nagor\AppData\Local\LTspice\lib\cmp\standard.dio
 .tran 10m
 * Theoretical integrator
 * PSU integrator
@@ -28,6 +37,15 @@ C4 N006 0 1.6e-9
 * 2) Does it do it because does not want to invert output?\n   - How is the output of the differentiator (+- when above or bellow?)\n   (-) if meas > ref  ==> Diode conduct (Turn MOSFET OFF)\n   (+) if ref  > meas ==> Diode dont conduct (Turn MOSFET ON)\n3) Yes, is not to invert, but the behaviour is different
 * MARCO design
 * REDUCE vIN 1/10
+* @which current it can operate at that voltage? that is why the voltage it changes with current (is normal)
+* Vgate is going to be always the output of the integrator+0.6\nSo max 2.5+0.7 (Not in saturation)\nAt negative it will turn the gate of.\nIs actually centered!\nAt which voltage it start to turn the mosfet on?
+* NEXT: Close the loop
+* QUESTION: Is the control loop supposed to need to work with saturation \nor without?\nBecause I am not sure if with 2.5+0.7 I can turn the mosfet on? In the linear mode probably?
+* QUESTION: Why when I connect OUT2 it clamps at that exact voltage?
+* Does it conduct before Vth
+* Estoy integrando el error. Si el error no se reduce, a lo mejor quiero que se sature hasta llegar a V rail? Porque normalmente el error deberia de bajar\nY a lo mejor necesito un valor muy pequeño para las oscilaciones o el offset?
+* Es importante separar\nSaturacion del MOSFET no significa saturacion del controlador, no es lo mismo\nRegion lineal o de saturacion del MOSFET no es lo mismo que que sea una fuente conmutada o una fuente lineal, no es lo mismo\nNos interesa trabajar en la zona saturada del MOSFET, porque en esta region Id depende completamente de VGS, es una fuente de corriente\ncontrolada por tensión. Sin embargo, si fuera en la zona lineal, la Id también depende de Vgs, por lo tanto, es sensible a cualquier cambio\nen la carga o en la entrada.
+* Por lo tanto tengo definidas las caracteristicas de mi PSU:\n-Es una fuente lineal (no conmutada)\n-Mi MOSFET tiene que trabajar en la zona de saturación\n-Ahora la pregunta final, mi controlador tiene que saturar o no?\n   *Pregunta, evita el loop cerrado que el integrador sature?
 * Library below included based on ModelFile attribute of instance X§U3, X§U2, X§U1 (C:\Users\nagor\AppData\Local\LTspice\lib\sym\OpAmps\RH37C.asy)
 .lib LTC.lib
 .backanno

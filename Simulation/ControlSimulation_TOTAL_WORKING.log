@@ -1,0 +1,18 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\nagor\OneDrive\Escritorio\PCB_DESIGN\GitLabRepository\PSU\Simulation\ControlSimulation_TOTAL_WORKING.net
+Start Time: Fri Nov 27 18:35:39 2026
+Options:gminsteps=0
+solver = Normal
+Maximum thread count: 8
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 2.484 seconds.
+
+Files loaded:
+C:\Users\nagor\OneDrive\Escritorio\PCB_DESIGN\GitLabRepository\PSU\Simulation\ControlSimulation_TOTAL_WORKING.net
+C:\Users\nagor\AppData\Local\LTspice\lib\cmp\standard.dio
+C:\Users\nagor\AppData\Local\LTspice\lib\cmp\standard.mos
+C:\Users\nagor\AppData\Local\LTspice\lib\sub\UniversalOpAmp1.lib
+

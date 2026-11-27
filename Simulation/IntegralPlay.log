@@ -1,6 +1,6 @@
 LTspice 26.0.2 for Windows
 Circuit: C:\Users\nagor\OneDrive\Escritorio\PCB_DESIGN\GitLabRepository\PSU\Simulation\IntegralPlay.net
-Start Time: Mon Nov 23 22:32:15 2026
+Start Time: Sat Nov 28 00:19:31 2026
 solver = Normal
 Maximum thread count: 8
 tnom = 27
@@ -12,9 +12,10 @@ Gmin stepping failed to find operating point. Use".option gminsteps=0" to skip a
 Starting source stepping with srcstepmethod=0
 Source stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.396 seconds.
+Total elapsed time: 0.503 seconds.
 
 Files loaded:
 C:\Users\nagor\OneDrive\Escritorio\PCB_DESIGN\GitLabRepository\PSU\Simulation\IntegralPlay.net
+C:\Users\nagor\AppData\Local\LTspice\lib\cmp\standard.dio
 C:\Users\nagor\AppData\Local\LTspice\lib\sub\LTC.lib
 

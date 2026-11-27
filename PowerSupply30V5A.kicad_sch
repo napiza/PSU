@@ -14832,9 +14832,9 @@
 		)
 		(uuid "0c5a177b-ea44-426a-bc71-b22a1091a837")
 	)
-	(text "1- Divide in 3 PCB\n2- Need to leave pads for tunning control loop "
+	(text "1- Divide in 3 PCB\n2- Need to leave pads for tunning control loop \n3- Also I need to be able to plug only current/voltage loop, independently\n   in case they are fightinh between them."
 		(exclude_from_sim no)
-		(at -103.124 91.186 0)
+		(at -101.092 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
